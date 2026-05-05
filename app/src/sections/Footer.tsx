@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: 'Contato', href: '#contato' },
 ];
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511999999999&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
 
 export function Footer() {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -59,7 +59,7 @@ export function Footer() {
           <div>
             <h4 className="text-accent text-xs font-bold uppercase tracking-wider mb-4">Fale Conosco</h4>
             <ul className="flex flex-col gap-2">
-              <li className="text-white/70 text-sm">(11) 99999-9999</li>
+              <li className="text-white/70 text-sm">(11) 93233-2410</li>
               <li className="text-white/70 text-sm">contato@lekinhostur.com.br</li>
               <li className="text-white/70 text-sm">São Paulo - SP</li>
             </ul>

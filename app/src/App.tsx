@@ -7,6 +7,7 @@ import { SocialProof } from '@/sections/SocialProof';
 import { QuemSomos } from '@/sections/QuemSomos';
 import { LeadCapture } from '@/sections/LeadCapture';
 import { Footer } from '@/sections/Footer';
+import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <LeadCapture />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }

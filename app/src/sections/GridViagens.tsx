@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { client, urlFor } from '@/lib/sanity';
 
 const DESTINOS = [
   { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.jpg', data: '15 JAN' },
@@ -12,8 +14,12 @@ const DESTINOS = [
   { nome: 'Fretamento', img: '/onibus-frota.jpg', data: 'SOB DEMANDA' },
 ];
 
-function ViagemCard({ destino, index }: { destino: typeof DESTINOS[0]; index: number }) {
+function ViagemCard({ destino, index }: { destino: any; index: number }) {
   const { ref, isVisible } = useScrollReveal(0.1);
+
+  const imgSrc = typeof destino.img === 'string' 
+    ? destino.img 
+    : urlFor(destino.img).width(800).url();
 
   return (
     <div
@@ -24,7 +30,7 @@ function ViagemCard({ destino, index }: { destino: typeof DESTINOS[0]; index: nu
       style={{ animationDelay: `${index * 100}ms` }}
     >
       <img
-        src={destino.img}
+        src={imgSrc}
         alt={destino.nome}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
@@ -49,6 +55,22 @@ function ViagemCard({ destino, index }: { destino: typeof DESTINOS[0]; index: nu
 
 export function GridViagens() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
+  const [destinos, setDestinos] = useState<any[]>(DESTINOS);
+  
+  useEffect(() => {
+    async function fetchDestinos() {
+      try {
+        const query = '*[_type == "destino"] | order(order asc)';
+        const data = await client.fetch(query);
+        if (data && data.length > 0) {
+          setDestinos(data);
+        }
+      } catch (error) {
+        console.error("Erro ao buscar destinos no Sanity, usando fallback:", error);
+      }
+    }
+    fetchDestinos();
+  }, []);
 
   return (
     <section id="destinos" className="py-20 bg-white">
@@ -66,8 +88,8 @@ export function GridViagens() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {DESTINOS.map((destino, index) => (
-            <ViagemCard key={destino.nome} destino={destino} index={index} />
+          {destinos.map((destino, index) => (
+            <ViagemCard key={destino._id || destino.nome} destino={destino} index={index} />
           ))}
         </div>
       </div>

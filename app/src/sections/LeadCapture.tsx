@@ -84,7 +84,7 @@ export function LeadCapture() {
                 </div>
                 <div>
                   <p className="text-xs text-lekinhos-gray-medium uppercase font-semibold">WhatsApp</p>
-                  <p className="text-lekinhos-gray-dark font-medium">(11) 99999-9999</p>
+                  <p className="text-lekinhos-gray-dark font-medium">(11) 93233-2410</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -160,7 +160,7 @@ export function LeadCapture() {
                     value={formData.whatsapp}
                     onChange={(e) => setFormData({ ...formData, whatsapp: formatWhatsApp(e.target.value) })}
                     className={`w-full px-4 py-3 rounded-lg border ${errors.whatsapp ? 'border-red-400' : 'border-lekinhos-gray-light'} focus:border-lekinhos-blue focus:ring-2 focus:ring-lekinhos-blue/20 outline-none transition-all text-sm`}
-                    placeholder="(11) 99999-9999"
+                    placeholder="(11) 93233-2410"
                     maxLength={15}
                   />
                   {errors.whatsapp && <p className="text-red-500 text-xs mt-1">{errors.whatsapp}</p>}

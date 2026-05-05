@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
 import { CalendarDays, ArrowRight, Clock } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { client, urlFor } from '@/lib/sanity';
 
 const EXCURSOES = [
   { img: '/destino-porto-de-galinhas.jpg', data: '15 JAN 2026', titulo: 'Porto de Galinhas - 5 dias', status: 'Vagas abertas', statusColor: 'bg-green-100 text-green-700' },
@@ -9,10 +11,41 @@ const EXCURSOES = [
   { img: '/destino-natal.jpg', data: '20 JUN 2026', titulo: 'Natal e Pipa - 5 dias', status: 'Últimas vagas', statusColor: 'bg-accent/20 text-lekinhos-gray-dark' },
 ];
 
-const WHATSAPP_BASE = 'https://api.whatsapp.com/send?phone=5511999999999&text=';
+const WHATSAPP_BASE = 'https://api.whatsapp.com/send?phone=5511932332410&text=';
 
-function ExcursaoItem({ excursao, index }: { excursao: typeof EXCURSOES[0]; index: number }) {
+function getStatusColor(status: string) {
+  switch (status?.toLowerCase()) {
+    case 'abertas':
+    case 'vagas abertas':
+      return 'bg-green-100 text-green-700';
+    case 'ultimas':
+    case 'últimas vagas':
+      return 'bg-accent/20 text-lekinhos-gray-dark';
+    case 'esgotado':
+      return 'bg-red-100 text-red-700';
+    default:
+      return 'bg-gray-100 text-gray-700';
+  }
+}
+
+function formatStatus(status: string) {
+  switch (status?.toLowerCase()) {
+    case 'abertas': return 'Vagas abertas';
+    case 'ultimas': return 'Últimas vagas';
+    case 'esgotado': return 'Esgotado';
+    default: return status;
+  }
+}
+
+function ExcursaoItem({ excursao, index }: { excursao: any; index: number }) {
   const { ref, isVisible } = useScrollReveal(0.1);
+
+  const imgSrc = typeof excursao.img === 'string' 
+    ? excursao.img 
+    : excursao.img ? urlFor(excursao.img).width(200).url() : '/destino-porto-de-galinhas.jpg';
+    
+  const statusColor = excursao.statusColor || getStatusColor(excursao.status);
+  const statusText = excursao.statusColor ? excursao.status : formatStatus(excursao.status);
 
   return (
     <div
@@ -23,7 +56,7 @@ function ExcursaoItem({ excursao, index }: { excursao: typeof EXCURSOES[0]; inde
       style={{ animationDelay: `${index * 100}ms` }}
     >
       <img
-        src={excursao.img}
+        src={imgSrc}
         alt={excursao.titulo}
         className="w-full sm:w-20 h-20 rounded-xl object-cover flex-shrink-0"
       />
@@ -35,8 +68,8 @@ function ExcursaoItem({ excursao, index }: { excursao: typeof EXCURSOES[0]; inde
         <h3 className="font-display text-lg text-lekinhos-gray-dark">{excursao.titulo}</h3>
         <div className="flex items-center gap-2 mt-1">
           <Clock className="w-3.5 h-3.5 text-lekinhos-gray-medium" />
-          <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${excursao.statusColor}`}>
-            {excursao.status}
+          <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${statusColor}`}>
+            {statusText}
           </span>
         </div>
       </div>
@@ -55,6 +88,22 @@ function ExcursaoItem({ excursao, index }: { excursao: typeof EXCURSOES[0]; inde
 
 export function CalendarioExcursoes() {
   const { ref, isVisible } = useScrollReveal(0.1);
+  const [excursoes, setExcursoes] = useState<any[]>(EXCURSOES);
+
+  useEffect(() => {
+    async function fetchExcursoes() {
+      try {
+        const query = '*[_type == "excursao"] | order(order asc)';
+        const data = await client.fetch(query);
+        if (data && data.length > 0) {
+          setExcursoes(data);
+        }
+      } catch (error) {
+        console.error("Erro ao buscar excursões no Sanity, usando fallback:", error);
+      }
+    }
+    fetchExcursoes();
+  }, []);
 
   return (
     <section id="excursões" className="py-20 bg-white">
@@ -72,8 +121,8 @@ export function CalendarioExcursoes() {
         </div>
 
         <div className="flex flex-col gap-4">
-          {EXCURSOES.map((excursao, index) => (
-            <ExcursaoItem key={excursao.titulo} excursao={excursao} index={index} />
+          {excursoes.map((excursao, index) => (
+            <ExcursaoItem key={excursao._id || excursao.titulo} excursao={excursao} index={index} />
           ))}
         </div>
       </div>

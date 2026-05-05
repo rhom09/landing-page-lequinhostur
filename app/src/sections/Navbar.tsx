@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { label: 'Contato', href: '#contato' },
 ];
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511999999999&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
