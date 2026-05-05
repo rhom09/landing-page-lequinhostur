@@ -27,9 +27,6 @@ export function HeroSection() {
           Sua próxima viagem começa{' '}
           <span className="text-accent">aqui.</span>
         </h1>
-        <p className="text-white/90 text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto font-body">
-          +22.429 passageiros felizes · 54+ destinos pelo Brasil
-        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#excursões"
