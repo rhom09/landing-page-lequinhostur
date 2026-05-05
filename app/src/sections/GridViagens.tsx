@@ -19,7 +19,10 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
 
   const imgSrc = typeof destino.img === 'string' 
     ? destino.img 
-    : urlFor(destino.img).width(800).url();
+    : destino.img ? urlFor(destino.img).width(800).url() : '/destino-porto-de-galinhas.jpg';
+
+  const nome = destino.titulo || destino.nome;
+  const data = destino.data || 'SOB DEMANDA';
 
   return (
     <div
@@ -31,7 +34,7 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
     >
       <img
         src={imgSrc}
-        alt={destino.nome}
+        alt={nome}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
       {/* Gradient overlay */}
@@ -39,12 +42,12 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
 
       {/* Date badge */}
       <div className="absolute top-4 right-4 bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1.5 rounded-lg">
-        {destino.data}
+        {data}
       </div>
 
       {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-        <h3 className="font-display text-xl sm:text-2xl text-white text-shadow">{destino.nome}</h3>
+        <h3 className="font-display text-xl sm:text-2xl text-white text-shadow">{nome}</h3>
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-shrink-0 ml-2 transition-transform duration-300 group-hover:rotate-45">
           <ArrowUpRight className="w-5 h-5 text-lekinhos-blue" />
         </div>

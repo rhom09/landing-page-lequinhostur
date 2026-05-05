@@ -71,6 +71,12 @@ const destinoType = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'data',
+      title: 'Data/Mês da Viagem',
+      type: 'string',
+      description: 'Ex: "22 FEV" ou "SOB DEMANDA"',
+    }),
+    defineField({
       name: 'order',
       title: 'Ordem',
       type: 'number',
