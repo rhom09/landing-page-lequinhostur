@@ -1,12 +1,15 @@
 import { createClient } from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
-// TODO: O usuário precisará atualizar o projectId após rodar o 'npm create sanity@latest'
+// O usuário precisará atualizar o projectId após rodar o 'npm create sanity@latest'
+// Você pode colocar o ID direto aqui ou configurar no Vercel como VITE_SANITY_PROJECT_ID
+const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || 'id-do-projeto';
+
 export const client = createClient({
-  projectId: 'SEU_PROJECT_ID_AQUI', // Ex: '1abc2def'
+  projectId: projectId,
   dataset: 'production',
-  useCdn: true, // Use CDN para respostas mais rápidas, mas dados 'velhos' (em cache)
-  apiVersion: '2024-05-05', // Use a data de hoje para usar a versão mais recente da API
+  useCdn: true,
+  apiVersion: '2024-05-05',
 });
 
 const builder = imageUrlBuilder(client);
