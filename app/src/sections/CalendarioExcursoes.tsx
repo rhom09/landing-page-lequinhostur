@@ -16,13 +16,17 @@ const WHATSAPP_BASE = 'https://api.whatsapp.com/send?phone=5511932332410&text=';
 function getStatusColor(status: string) {
   switch (status?.toLowerCase()) {
     case 'abertas':
+    case 'vagas-abertas':
     case 'vagas abertas':
       return 'bg-green-100 text-green-700';
     case 'ultimas':
+    case 'ultimas-vagas':
     case 'últimas vagas':
       return 'bg-accent/20 text-lekinhos-gray-dark';
     case 'esgotado':
       return 'bg-red-100 text-red-700';
+    case 'em-andamento':
+      return 'bg-blue-100 text-blue-700';
     default:
       return 'bg-gray-100 text-gray-700';
   }
@@ -30,10 +34,18 @@ function getStatusColor(status: string) {
 
 function formatStatus(status: string) {
   switch (status?.toLowerCase()) {
-    case 'abertas': return 'Vagas abertas';
-    case 'ultimas': return 'Últimas vagas';
-    case 'esgotado': return 'Esgotado';
-    default: return status;
+    case 'abertas':
+    case 'vagas-abertas':
+      return 'Vagas abertas';
+    case 'ultimas':
+    case 'ultimas-vagas':
+      return 'Últimas vagas';
+    case 'esgotado':
+      return 'Esgotado';
+    case 'em-andamento':
+      return 'Em andamento';
+    default:
+      return status;
   }
 }
 

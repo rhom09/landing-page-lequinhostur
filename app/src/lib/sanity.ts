@@ -3,7 +3,7 @@ import imageUrlBuilder from '@sanity/image-url';
 
 // O usuário precisará atualizar o projectId após rodar o 'npm create sanity@latest'
 // Você pode colocar o ID direto aqui ou configurar no Vercel como VITE_SANITY_PROJECT_ID
-const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || 'id-do-projeto';
+const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || 'zv6ynzi7';
 
 export const client = createClient({
   projectId: projectId,
