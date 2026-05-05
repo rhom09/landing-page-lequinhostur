@@ -1,0 +1,76 @@
+import { ArrowUpRight } from 'lucide-react';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
+
+const DESTINOS = [
+  { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.jpg', data: '15 JAN' },
+  { nome: 'Campos do Jordão', img: '/destino-campos-do-jordao.jpg', data: '22 FEV' },
+  { nome: 'Aparecida do Norte', img: '/destino-aparecida.jpg', data: '08 MAR' },
+  { nome: 'Serra Gaúcha', img: '/destino-serra-gaucha.jpg', data: '05 ABR' },
+  { nome: 'Beto Carrero', img: '/destino-beto-carrero.jpg', data: '12 MAI' },
+  { nome: 'Natal', img: '/destino-natal.jpg', data: '20 JUN' },
+  { nome: 'Gramado', img: '/destino-gramado.jpg', data: '10 JUL' },
+  { nome: 'Fretamento', img: '/onibus-frota.jpg', data: 'SOB DEMANDA' },
+];
+
+function ViagemCard({ destino, index }: { destino: typeof DESTINOS[0]; index: number }) {
+  const { ref, isVisible } = useScrollReveal(0.1);
+
+  return (
+    <div
+      ref={ref}
+      className={`group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-card-hover ${
+        isVisible ? 'animate-fade-in-up' : 'opacity-0'
+      }`}
+      style={{ animationDelay: `${index * 100}ms` }}
+    >
+      <img
+        src={destino.img}
+        alt={destino.nome}
+        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+      {/* Date badge */}
+      <div className="absolute top-4 right-4 bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1.5 rounded-lg">
+        {destino.data}
+      </div>
+
+      {/* Title */}
+      <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
+        <h3 className="font-display text-xl sm:text-2xl text-white text-shadow">{destino.nome}</h3>
+        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-shrink-0 ml-2 transition-transform duration-300 group-hover:rotate-45">
+          <ArrowUpRight className="w-5 h-5 text-lekinhos-blue" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function GridViagens() {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
+
+  return (
+    <section id="destinos" className="py-20 bg-white">
+      <div className="max-w-[1200px] mx-auto px-6">
+        <div
+          ref={headerRef}
+          className={`text-center mb-12 ${headerVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+        >
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl text-lekinhos-gray-dark mb-4">
+            Destinos mais procurados
+          </h2>
+          <p className="text-lekinhos-gray-medium text-base sm:text-lg max-w-xl mx-auto">
+            Escolha seu próximo destino e embarque em uma experiência única
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {DESTINOS.map((destino, index) => (
+            <ViagemCard key={destino.nome} destino={destino} index={index} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
