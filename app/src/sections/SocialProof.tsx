@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
 import { Star, Users, MapPin, Calendar, CheckCircle } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { client } from '@/lib/sanity';
 
 const DEPOIMENTOS = [
   {
@@ -22,12 +24,22 @@ const DEPOIMENTOS = [
   },
 ];
 
-const ESTATISTICAS = [
-  { icone: Users, valor: '+22.429', label: 'passageiros felizes' },
-  { icone: MapPin, valor: '54+', label: 'destinos pelo Brasil' },
-  { icone: Calendar, valor: '12+', label: 'anos de experiência' },
-  { icone: CheckCircle, valor: '100%', label: 'viagens realizadas' },
+const ESTATISTICAS_FALLBACK = [
+  { icone: 'users', valor: '+22.429', label: 'passageiros felizes' },
+  { icone: 'map-pin', valor: '54+', label: 'destinos pelo Brasil' },
+  { icone: 'calendar', valor: '12+', label: 'anos de experiência' },
+  { icone: 'check-circle', valor: '100%', label: 'viagens realizadas' },
 ];
+
+const getIconComponent = (name: string) => {
+  switch (name) {
+    case 'users': return Users;
+    case 'map-pin': return MapPin;
+    case 'calendar': return Calendar;
+    case 'check-circle': return CheckCircle;
+    default: return Users;
+  }
+};
 
 function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[0]; index: number }) {
   const { ref, isVisible } = useScrollReveal(0.1);
@@ -64,6 +76,22 @@ function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[
 export function SocialProof() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
   const { ref: statsRef, isVisible: statsVisible } = useScrollReveal(0.1);
+  const [estatisticas, setEstatisticas] = useState<any[]>(ESTATISTICAS_FALLBACK);
+
+  useEffect(() => {
+    async function fetchEstatisticas() {
+      try {
+        const query = '*[_type == "estatistica"] | order(order asc)[0...4]';
+        const data = await client.fetch(query);
+        if (data && data.length > 0) {
+          setEstatisticas(data);
+        }
+      } catch (error) {
+        console.error("Erro ao buscar estatísticas no Sanity, usando fallback:", error);
+      }
+    }
+    fetchEstatisticas();
+  }, []);
 
   return (
     <section className="py-20 bg-lekinhos-blue">
@@ -87,13 +115,13 @@ export function SocialProof() {
           ref={statsRef}
           className={`grid grid-cols-2 sm:grid-cols-4 gap-6 border-t border-white/20 pt-12 ${statsVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
         >
-          {ESTATISTICAS.map((stat) => {
-            const Icon = stat.icone;
+          {estatisticas.map((stat, index) => {
+            const Icon = getIconComponent(stat.icone);
             return (
-              <div key={stat.label} className="text-center">
+              <div key={index} className="text-center">
                 <Icon className="w-6 h-6 text-accent mx-auto mb-2" />
                 <p className="font-display text-2xl sm:text-3xl text-accent mb-1">{stat.valor}</p>
-                <p className="text-white/80 text-xs sm:text-sm">{stat.label}</p>
+                <p className="text-white/80 text-xs sm:text-sm">{stat.rotulo || stat.label}</p>
               </div>
             );
           })}

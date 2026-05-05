@@ -1,14 +1,38 @@
+import { useState, useEffect } from 'react';
 import { MessageCircle, Calendar, MapPin } from 'lucide-react';
+import { client, urlFor } from '@/lib/sanity';
 
 const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
 
-const PROXIMAS_SAIDAS = [
+const PROXIMAS_SAIDAS_FALLBACK = [
   { data: '15 JAN', destino: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.jpg' },
   { data: '22 FEV', destino: 'Campos do Jordão', img: '/destino-campos-do-jordao.jpg' },
   { data: '08 MAR', destino: 'Aparecida do Norte', img: '/destino-aparecida.jpg' },
 ];
 
 export function HeroSection() {
+  const [proximasSaidas, setProximasSaidas] = useState<any[]>(PROXIMAS_SAIDAS_FALLBACK);
+
+  useEffect(() => {
+    async function fetchProximasSaidas() {
+      try {
+        const query = '*[_type == "proximaSaida"] | order(order asc)[0...3]';
+        const data = await client.fetch(query);
+        if (data && data.length > 0) {
+          const formattedData = data.map((item: any) => ({
+            data: item.data,
+            destino: item.titulo,
+            img: item.img ? urlFor(item.img).width(200).url() : '/onibus-frota.jpg',
+          }));
+          setProximasSaidas(formattedData);
+        }
+      } catch (error) {
+        console.error("Erro ao buscar proximas saídas no Sanity, usando fallback:", error);
+      }
+    }
+    fetchProximasSaidas();
+  }, []);
+
   return (
     <section id="hero" className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -56,7 +80,7 @@ export function HeroSection() {
             </span>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {PROXIMAS_SAIDAS.map((saida, index) => (
+            {proximasSaidas.map((saida, index) => (
               <div key={index} className="flex items-center gap-3">
                 <img
                   src={saida.img}

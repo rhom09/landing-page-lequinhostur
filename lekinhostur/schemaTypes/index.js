@@ -121,4 +121,76 @@ const destinoType = defineType({
   ],
 });
 
-export const schemaTypes = [excursaoType, destinoType]
+const proximaSaidaType = defineType({
+  name: 'proximaSaida',
+  title: 'Próximas Saídas',
+  type: 'document',
+  fields: [
+    defineField({
+      name: 'titulo',
+      title: 'Destino',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'img',
+      title: 'Imagem',
+      type: 'image',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'data',
+      title: 'Data (Ex: 15 JAN)',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'order',
+      title: 'Ordem',
+      type: 'number',
+      initialValue: 0,
+    }),
+  ],
+});
+
+const estatisticaType = defineType({
+  name: 'estatistica',
+  title: 'Estatísticas',
+  type: 'document',
+  fields: [
+    defineField({
+      name: 'icone',
+      title: 'Ícone',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Pessoas (Users)', value: 'users' },
+          { title: 'Local (Map Pin)', value: 'map-pin' },
+          { title: 'Calendário (Calendar)', value: 'calendar' },
+          { title: 'Sucesso (Check Circle)', value: 'check-circle' },
+        ],
+      },
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'valor',
+      title: 'Valor (Ex: +22.429)',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'rotulo',
+      title: 'Rótulo (Ex: passageiros felizes)',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'order',
+      title: 'Ordem',
+      type: 'number',
+      initialValue: 0,
+    }),
+  ],
+});
+
+export const schemaTypes = [excursaoType, destinoType, proximaSaidaType, estatisticaType]
