@@ -19,10 +19,11 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
 
   const imgSrc = typeof destino.img === 'string' 
     ? destino.img 
-    : destino.img ? urlFor(destino.img).width(800).url() : '/destino-porto-de-galinhas.jpg';
+    : destino.img ? urlFor(destino.img).width(800).url() : '/onibus-frota.jpg';
 
-  const nome = destino.titulo || destino.nome;
-  const data = destino.data || 'SOB DEMANDA';
+  // Tenta pegar 'titulo' (Sanity) ou 'nome' (Fallback)
+  const nome = destino.titulo || destino.nome || "Destino sem nome";
+  const dataViagem = destino.data || "Confira";
 
   return (
     <div
@@ -37,18 +38,22 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
         alt={nome}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+      {/* Gradient overlay - escurecido na base para destacar o nome branco */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
       {/* Date badge */}
-      <div className="absolute top-4 right-4 bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1.5 rounded-lg">
-        {data}
+      <div className="absolute top-4 right-4 bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1.5 rounded-lg z-10">
+        {dataViagem}
       </div>
 
-      {/* Title */}
-      <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-        <h3 className="font-display text-xl sm:text-2xl text-white text-shadow">{nome}</h3>
-        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-shrink-0 ml-2 transition-transform duration-300 group-hover:rotate-45">
+      {/* Title & Button Container */}
+      <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between z-10">
+        <div className="flex-1">
+          <h3 className="font-display text-2xl sm:text-3xl text-white text-shadow-lg leading-none uppercase">
+            {nome}
+          </h3>
+        </div>
+        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-shrink-0 ml-2 shadow-lg transition-transform duration-300 group-hover:rotate-45">
           <ArrowUpRight className="w-5 h-5 text-lekinhos-blue" />
         </div>
       </div>
