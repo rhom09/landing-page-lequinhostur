@@ -40,9 +40,8 @@ export function Navbar() {
     >
       <div className="max-w-[1200px] mx-auto px-6 h-[72px] flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 text-white">
-          <Bus className="w-7 h-7 text-accent" />
-          <span className="font-display text-xl tracking-wide">LEKINHOS TUR</span>
+        <a href="#" className="flex items-center">
+          <img src="/logo.png" alt="Lekinhos TUR" className="h-14 w-auto object-contain" />
         </a>
 
         {/* Desktop Menu */}

@@ -27,9 +27,8 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Logo + About */}
           <div>
-            <a href="#" className="flex items-center gap-2 text-white mb-4">
-              <Bus className="w-6 h-6 text-accent" />
-              <span className="font-display text-lg tracking-wide">LEKINHOS TUR</span>
+            <a href="#" className="flex items-center mb-4">
+              <img src="/logo.png" alt="Lekinhos TUR" className="h-12 w-auto object-contain" />
             </a>
             <p className="text-white/70 text-sm leading-relaxed">
               Sua agência de viagens especialista em excursões pelo Brasil.
