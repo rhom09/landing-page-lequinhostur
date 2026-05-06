@@ -17,7 +17,7 @@ function CategoriaItem({ cat, index }: { cat: typeof CATEGORIAS[0]; index: numbe
   return (
     <div
       ref={ref}
-      className={`flex flex-col items-center text-center group cursor-pointer transition-all duration-300 ${
+      className={`flex flex-col items-center text-center group cursor-default transition-all duration-300 ${
         isVisible ? 'animate-fade-in-up' : 'opacity-0'
       }`}
       style={{ animationDelay: `${index * 100}ms` }}
