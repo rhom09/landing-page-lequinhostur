@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
-const EMAIL_LINK = 'mailto:contato@lekinhostur.com.br';
+const EMAIL_LINK = 'mailto:lekinhostur.agencia@gmail.com';
 
 export function LeadCapture() {
   const { ref, isVisible } = useScrollReveal(0.1);
@@ -72,7 +72,7 @@ export function LeadCapture() {
               </div>
               <div className="text-center sm:text-left flex-grow">
                 <p className="text-xs text-lekinhos-blue font-bold uppercase mb-1">E-mail Corporativo</p>
-                <h3 className="text-xl font-bold text-lekinhos-gray-dark mb-1">contato@lekinhostur.com.br</h3>
+                <h3 className="text-xl font-bold text-lekinhos-gray-dark mb-1">lekinhostur.agencia@gmail.com</h3>
                 <p className="text-lekinhos-gray-medium text-sm">Enviar mensagem por e-mail</p>
               </div>
               <div className="bg-lekinhos-blue text-white px-6 py-2 rounded-full font-bold text-sm group-hover:bg-lekinhos-blue-dark transition-colors shadow-sm whitespace-nowrap">

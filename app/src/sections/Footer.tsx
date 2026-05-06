@@ -59,7 +59,7 @@ export function Footer() {
             <h4 className="text-accent text-xs font-bold uppercase tracking-wider mb-4">Fale Conosco</h4>
             <ul className="flex flex-col gap-2">
               <li className="text-white/70 text-sm">(11) 93233-2410</li>
-              <li className="text-white/70 text-sm">contato@lekinhostur.com.br</li>
+              <li className="text-white/70 text-sm">lekinhostur.agencia@gmail.com</li>
               <li className="text-white/70 text-sm">São Paulo - SP</li>
             </ul>
           </div>
@@ -69,14 +69,18 @@ export function Footer() {
             <h4 className="text-accent text-xs font-bold uppercase tracking-wider mb-4">Siga-nos</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/lekinhostur/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center text-white hover:bg-accent hover:border-accent hover:text-lekinhos-gray-dark transition-all duration-200"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/1BBUh35Eb8/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center text-white hover:bg-accent hover:border-accent hover:text-lekinhos-gray-dark transition-all duration-200"
                 aria-label="Facebook"
               >
