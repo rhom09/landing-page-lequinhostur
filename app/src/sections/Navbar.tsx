@@ -36,16 +36,16 @@ export function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-lekinhos-blue/95 backdrop-blur-md shadow-lg' : 'bg-lekinhos-blue'
+        scrolled ? 'bg-lekinhos-blue/95 backdrop-blur-md shadow-lg' : 'bg-[#1D55B5] lg:bg-lekinhos-blue'
       }`}
     >
-      <div className="max-w-[1200px] mx-auto px-0 lg:px-6 h-auto lg:h-[100px] flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto px-0 lg:px-6 h-[90px] lg:h-[100px] flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="w-full lg:hidden">
+        <a href="#" className="w-full lg:hidden h-full overflow-hidden flex items-center justify-center bg-[#1D55B5]">
           <img 
             src="/logo-mobile.png" 
             alt="Lekinhos TUR" 
-            className="w-full h-auto block" 
+            className="w-full h-full object-contain" 
           />
         </a>
         <a href="#" className="hidden lg:flex items-center">
