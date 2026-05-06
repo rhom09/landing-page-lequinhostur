@@ -47,7 +47,7 @@ export function HeroSection() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center pt-[96px] pb-8 lg:pb-[140px]">
+        <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center pt-[80px] lg:pt-[100px] pb-8 lg:pb-[140px]">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white text-shadow-lg leading-tight mb-6">
             Sua próxima viagem começa{' '}
             <span className="text-accent">aqui.</span>
