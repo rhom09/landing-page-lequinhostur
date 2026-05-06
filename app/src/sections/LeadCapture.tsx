@@ -1,59 +1,11 @@
-import { useState } from 'react';
-import { Phone, Mail, MapPin, Send, Check, User } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
-const DESTINOS_OPTIONS = [
-  'Porto de Galinhas',
-  'Campos do Jordão',
-  'Aparecida do Norte',
-  'Serra Gaúcha',
-  'Beto Carrero',
-  'Natal',
-  'Gramado',
-  'Fretamento / Outro',
-];
+const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+const EMAIL_LINK = 'mailto:contato@lekinhostur.com.br';
 
 export function LeadCapture() {
   const { ref, isVisible } = useScrollReveal(0.1);
-  const [formData, setFormData] = useState({ nome: '', email: '', whatsapp: '', destino: '' });
-  const [errors, setErrors] = useState<Record<string, string>>({});
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const validate = () => {
-    const newErrors: Record<string, string> = {};
-    if (!formData.nome.trim()) newErrors.nome = 'Nome é obrigatório';
-    if (!formData.email.trim()) {
-      newErrors.email = 'E-mail é obrigatório';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'E-mail inválido';
-    }
-    if (!formData.whatsapp.trim()) {
-      newErrors.whatsapp = 'WhatsApp é obrigatório';
-    } else if (formData.whatsapp.replace(/\D/g, '').length < 10) {
-      newErrors.whatsapp = 'Número incompleto';
-    }
-    if (!formData.destino) newErrors.destino = 'Selecione um destino';
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!validate()) return;
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 1500);
-  };
-
-  const formatWhatsApp = (value: string) => {
-    const digits = value.replace(/\D/g, '');
-    if (digits.length <= 2) return digits;
-    if (digits.length <= 7) return `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
-    return `(${digits.slice(0, 2)}) ${digits.slice(2, 7)}-${digits.slice(7, 11)}`;
-  };
 
   return (
     <section id="contato" className="py-20 bg-white relative overflow-hidden">
@@ -66,140 +18,67 @@ export function LeadCapture() {
       <div className="max-w-[1200px] mx-auto px-6 relative z-10">
         <div
           ref={ref}
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
         >
-          {/* Left - Contact Info */}
+          {/* Left - Contact Text */}
           <div>
-            <h2 className="font-display text-3xl sm:text-4xl text-lekinhos-gray-dark mb-4">
-              Solicite seu orçamento
+            <h2 className="font-display text-4xl sm:text-5xl text-lekinhos-gray-dark mb-6 leading-tight">
+              Solicite seu orçamento <span className="text-lekinhos-blue">direto pelo WhatsApp</span>
             </h2>
-            <p className="text-lekinhos-gray-medium text-base mb-10 max-w-md">
-              Preencha o formulário e nossa equipe entrará em contato em até 24h.
+            <p className="text-lekinhos-gray-medium text-lg mb-8 max-w-md">
+              Nossa equipe está pronta para te atender com agilidade e humanização. Clique no botão ao lado para iniciar sua próxima aventura!
             </p>
 
-            <div className="flex flex-col gap-5">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-lekinhos-blue-light flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-lekinhos-blue" />
+            <div className="flex flex-col gap-6">
+              <div className="flex items-center gap-4 group">
+                <div className="w-14 h-14 rounded-2xl bg-lekinhos-blue-light flex items-center justify-center transition-transform group-hover:scale-110">
+                  <MapPin className="w-6 h-6 text-lekinhos-blue" />
                 </div>
                 <div>
-                  <p className="text-xs text-lekinhos-gray-medium uppercase font-semibold">WhatsApp</p>
-                  <p className="text-lekinhos-gray-dark font-medium">(11) 93233-2410</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-lekinhos-blue-light flex items-center justify-center">
-                  <Mail className="w-5 h-5 text-lekinhos-blue" />
-                </div>
-                <div>
-                  <p className="text-xs text-lekinhos-gray-medium uppercase font-semibold">E-mail</p>
-                  <p className="text-lekinhos-gray-dark font-medium">contato@lekinhostur.com.br</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-lekinhos-blue-light flex items-center justify-center">
-                  <MapPin className="w-5 h-5 text-lekinhos-blue" />
-                </div>
-                <div>
-                  <p className="text-xs text-lekinhos-gray-medium uppercase font-semibold">Localização</p>
-                  <p className="text-lekinhos-gray-dark font-medium">São Paulo - SP</p>
+                  <p className="text-xs text-lekinhos-gray-medium uppercase font-bold tracking-wider">Sede Física</p>
+                  <p className="text-lekinhos-gray-dark font-semibold text-lg">São Paulo - SP</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right - Form */}
-          <div className="bg-lekinhos-off-white rounded-2xl p-6 sm:p-8 shadow-card">
-            {submitted ? (
-              <div className="text-center py-10">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Check className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="font-display text-2xl text-lekinhos-gray-dark mb-2">Orçamento solicitado!</h3>
-                <p className="text-lekinhos-gray-medium">Entraremos em contato em breve.</p>
+          {/* Right - Contact Cards */}
+          <div className="grid grid-cols-1 gap-4">
+            <a 
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-lekinhos-off-white hover:bg-white p-8 rounded-3xl border-2 border-transparent hover:border-accent shadow-card transition-all group flex flex-col sm:flex-row items-center gap-6"
+            >
+              <div className="w-16 h-16 rounded-full bg-[#25D366]/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <MessageCircle className="w-8 h-8 text-[#25D366]" />
               </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-                <div>
-                  <label className="flex items-center gap-2 text-sm font-medium text-lekinhos-gray-dark mb-1.5">
-                    <User className="w-4 h-4 text-lekinhos-gray-medium" />
-                    Nome completo
-                  </label>
-                  <input
-                    type="text"
-                    value={formData.nome}
-                    onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-                    className={`w-full px-4 py-3 rounded-lg border ${errors.nome ? 'border-red-400' : 'border-lekinhos-gray-light'} focus:border-lekinhos-blue focus:ring-2 focus:ring-lekinhos-blue/20 outline-none transition-all text-sm`}
-                    placeholder="Seu nome"
-                  />
-                  {errors.nome && <p className="text-red-500 text-xs mt-1">{errors.nome}</p>}
-                </div>
+              <div className="text-center sm:text-left flex-grow">
+                <p className="text-xs text-[#25D366] font-bold uppercase mb-1">Resposta Imediata</p>
+                <h3 className="text-xl font-bold text-lekinhos-gray-dark mb-1">(11) 93233-2410</h3>
+                <p className="text-lekinhos-gray-medium text-sm">Chamar no WhatsApp</p>
+              </div>
+              <div className="bg-accent text-lekinhos-gray-dark px-6 py-2 rounded-full font-bold text-sm group-hover:bg-accent-hover transition-colors shadow-sm whitespace-nowrap">
+                Falar agora
+              </div>
+            </a>
 
-                <div>
-                  <label className="flex items-center gap-2 text-sm font-medium text-lekinhos-gray-dark mb-1.5">
-                    <Mail className="w-4 h-4 text-lekinhos-gray-medium" />
-                    E-mail
-                  </label>
-                  <input
-                    type="email"
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className={`w-full px-4 py-3 rounded-lg border ${errors.email ? 'border-red-400' : 'border-lekinhos-gray-light'} focus:border-lekinhos-blue focus:ring-2 focus:ring-lekinhos-blue/20 outline-none transition-all text-sm`}
-                    placeholder="seu@email.com"
-                  />
-                  {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
-                </div>
-
-                <div>
-                  <label className="flex items-center gap-2 text-sm font-medium text-lekinhos-gray-dark mb-1.5">
-                    <Phone className="w-4 h-4 text-lekinhos-gray-medium" />
-                    WhatsApp
-                  </label>
-                  <input
-                    type="tel"
-                    value={formData.whatsapp}
-                    onChange={(e) => setFormData({ ...formData, whatsapp: formatWhatsApp(e.target.value) })}
-                    className={`w-full px-4 py-3 rounded-lg border ${errors.whatsapp ? 'border-red-400' : 'border-lekinhos-gray-light'} focus:border-lekinhos-blue focus:ring-2 focus:ring-lekinhos-blue/20 outline-none transition-all text-sm`}
-                    placeholder="(11) 93233-2410"
-                    maxLength={15}
-                  />
-                  {errors.whatsapp && <p className="text-red-500 text-xs mt-1">{errors.whatsapp}</p>}
-                </div>
-
-                <div>
-                  <label className="flex items-center gap-2 text-sm font-medium text-lekinhos-gray-dark mb-1.5">
-                    <MapPin className="w-4 h-4 text-lekinhos-gray-medium" />
-                    Destino de interesse
-                  </label>
-                  <select
-                    value={formData.destino}
-                    onChange={(e) => setFormData({ ...formData, destino: e.target.value })}
-                    className={`w-full px-4 py-3 rounded-lg border ${errors.destino ? 'border-red-400' : 'border-lekinhos-gray-light'} focus:border-lekinhos-blue focus:ring-2 focus:ring-lekinhos-blue/20 outline-none transition-all text-sm bg-white`}
-                  >
-                    <option value="">Selecione um destino</option>
-                    {DESTINOS_OPTIONS.map((opt) => (
-                      <option key={opt} value={opt}>{opt}</option>
-                    ))}
-                  </select>
-                  {errors.destino && <p className="text-red-500 text-xs mt-1">{errors.destino}</p>}
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full flex items-center justify-center gap-2 bg-accent text-lekinhos-gray-dark px-6 py-3.5 rounded-full font-semibold text-sm hover:bg-accent-hover transition-all duration-200 disabled:opacity-60 mt-2"
-                >
-                  {loading ? (
-                    <div className="w-5 h-5 border-2 border-lekinhos-gray-dark/30 border-t-lekinhos-gray-dark rounded-full animate-spin" />
-                  ) : (
-                    <>
-                      <Send className="w-4 h-4" />
-                      Solicitar orçamento
-                    </>
-                  )}
-                </button>
-              </form>
-            )}
+            <a 
+              href={EMAIL_LINK}
+              className="bg-lekinhos-off-white hover:bg-white p-8 rounded-3xl border-2 border-transparent hover:border-lekinhos-blue/20 shadow-card transition-all group flex flex-col sm:flex-row items-center gap-6"
+            >
+              <div className="w-16 h-16 rounded-full bg-lekinhos-blue/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <Mail className="w-8 h-8 text-lekinhos-blue" />
+              </div>
+              <div className="text-center sm:text-left flex-grow">
+                <p className="text-xs text-lekinhos-blue font-bold uppercase mb-1">E-mail Corporativo</p>
+                <h3 className="text-xl font-bold text-lekinhos-gray-dark mb-1">contato@lekinhostur.com.br</h3>
+                <p className="text-lekinhos-gray-medium text-sm">Enviar mensagem por e-mail</p>
+              </div>
+              <div className="bg-lekinhos-blue text-white px-6 py-2 rounded-full font-bold text-sm group-hover:bg-lekinhos-blue-dark transition-colors shadow-sm whitespace-nowrap">
+                Enviar e-mail
+              </div>
+            </a>
           </div>
         </div>
       </div>
