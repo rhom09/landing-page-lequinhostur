@@ -45,6 +45,22 @@ const excursaoType = defineType({
             validation: (Rule) => Rule.required(),
         }),
         defineField({
+            name: 'galeria',
+            title: 'Galeria de Fotos',
+            type: 'array',
+            of: [{
+                type: 'image',
+                fields: [
+                    defineField({
+                        name: 'alt',
+                        title: 'Texto Alternativo',
+                        type: 'string',
+                    }),
+                ],
+            }],
+            description: 'Fotos adicionais da excursão. Serão exibidas na galeria ao clicar na imagem.',
+        }),
+        defineField({
             name: 'order',
             title: 'Ordem',
             type: 'number',
