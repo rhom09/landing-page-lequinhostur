@@ -79,20 +79,29 @@ export function HeroSection() {
               PRÓXIMAS SAÍDAS CONFIRMADAS
             </span>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {proximasSaidas.map((saida, index) => (
-              <div key={index} className="flex items-center gap-3">
-                <img
-                  src={saida.img}
-                  alt={saida.destino}
-                  className="w-10 h-10 rounded-full object-cover flex-shrink-0"
-                />
-                <div className="min-w-0">
-                  <p className="text-xs font-bold text-accent">{saida.data}</p>
-                  <p className="text-sm text-lekinhos-gray-dark font-medium truncate flex items-center gap-1">
-                    <MapPin className="w-3 h-3 text-lekinhos-blue flex-shrink-0" />
-                    {saida.destino}
-                  </p>
+              <div 
+                key={index} 
+                className="flex items-start gap-3 group/item cursor-default"
+                title={saida.destino}
+              >
+                <div className="relative flex-shrink-0">
+                  <img
+                    src={saida.img}
+                    alt={saida.destino}
+                    className="w-11 h-11 rounded-full object-cover shadow-sm group-hover/item:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 rounded-full border-2 border-accent/0 group-hover/item:border-accent/50 transition-colors duration-300" />
+                </div>
+                <div className="min-w-0 pt-0.5">
+                  <p className="text-[10px] sm:text-xs font-bold text-accent uppercase tracking-wider mb-0.5">{saida.data}</p>
+                  <div className="flex items-start gap-1">
+                    <MapPin className="w-3 h-3 text-lekinhos-blue flex-shrink-0 mt-1 group-hover/item:animate-bounce" />
+                    <p className="text-xs sm:text-sm text-lekinhos-gray-dark font-semibold leading-snug line-clamp-2 group-hover/item:text-lekinhos-blue transition-colors duration-200">
+                      {saida.destino}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
