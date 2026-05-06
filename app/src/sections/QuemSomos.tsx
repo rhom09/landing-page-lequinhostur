@@ -1,4 +1,4 @@
-import { Bus, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Bus, ShieldCheck, Headphones, HeartHandshake } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 export function QuemSomos() {
@@ -36,7 +36,7 @@ export function QuemSomos() {
               um atendimento que faz a diferença.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-xs">
                 <div className="w-10 h-10 rounded-full bg-lekinhos-blue-light flex items-center justify-center flex-shrink-0">
                   <Bus className="w-5 h-5 text-lekinhos-blue" />
@@ -55,15 +55,25 @@ export function QuemSomos() {
                   <p className="text-lekinhos-gray-medium text-xs mt-0.5">Motoristas experientes e seguro viagem incluso</p>
                 </div>
               </div>
+              <div className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-xs">
+                <div className="w-10 h-10 rounded-full bg-lekinhos-blue-light flex items-center justify-center flex-shrink-0">
+                  <Headphones className="w-5 h-5 text-lekinhos-blue" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-lekinhos-gray-dark text-sm">Suporte ao viajante</h4>
+                  <p className="text-lekinhos-gray-medium text-xs mt-0.5">Acompanhamento durante toda a excursão</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-xs">
+                <div className="w-10 h-10 rounded-full bg-lekinhos-blue-light flex items-center justify-center flex-shrink-0">
+                  <HeartHandshake className="w-5 h-5 text-lekinhos-blue" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-lekinhos-gray-dark text-sm">Atendimento humano</h4>
+                  <p className="text-lekinhos-gray-medium text-xs mt-0.5">Tratamento personalizado, do embarque ao retorno</p>
+                </div>
+              </div>
             </div>
-
-            <a
-              href="#contato"
-              className="inline-flex items-center gap-2 bg-lekinhos-blue text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-lekinhos-blue-dark transition-all duration-200"
-            >
-              Conheça nossa frota
-              <ArrowRight className="w-4 h-4" />
-            </a>
           </div>
         </div>
       </div>
