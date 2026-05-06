@@ -26,9 +26,10 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
   const duracao = destino.duracao || destino.data || "Consulte opções";
 
   return (
-    <div
+    <a
+      href="#excursões"
       ref={ref}
-      className={`group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-card-hover ${
+      className={`block group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-card-hover ${
         isVisible ? 'animate-fade-in-up' : 'opacity-0'
       }`}
       style={{ animationDelay: `${index * 100}ms` }}
@@ -81,13 +82,8 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
             <span>{duracao}</span>
           </div>
         </div>
-        
-        {/* Arrow Button */}
-        <div className="w-10 h-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg transition-all duration-300 group-hover:bg-white/20 group-hover:scale-110">
-          <ArrowUpRight className="w-5 h-5 text-white transition-transform duration-300 group-hover:rotate-45" />
-        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
