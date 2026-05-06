@@ -8,10 +8,11 @@ import { QuemSomos } from '@/sections/QuemSomos';
 import { LeadCapture } from '@/sections/LeadCapture';
 import { Footer } from '@/sections/Footer';
 import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
+import { BottomNav } from '@/sections/BottomNav';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white font-body">
+    <div className="min-h-screen bg-white font-body pb-[80px] lg:pb-0">
       <Navbar />
       <main>
         <HeroSection />
@@ -24,6 +25,7 @@ function App() {
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <BottomNav />
     </div>
   );
 }
