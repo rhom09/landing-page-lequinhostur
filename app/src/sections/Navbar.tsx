@@ -41,7 +41,7 @@ export function Navbar() {
       <div className="max-w-[1200px] mx-auto px-6 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img src="/logo.png" alt="Lekinhos TUR" className="h-14 w-auto object-contain" />
+          <img src="/logo-nav.png" alt="Lekinhos TUR" className="h-20 w-auto object-contain" />
         </a>
 
         {/* Desktop Menu */}

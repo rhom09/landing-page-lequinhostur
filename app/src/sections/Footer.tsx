@@ -28,7 +28,7 @@ export function Footer() {
           {/* Logo + About */}
           <div>
             <a href="#" className="flex items-center mb-4">
-              <img src="/logo.png" alt="Lekinhos TUR" className="h-12 w-auto object-contain" />
+              <img src="/logo-footer.png" alt="Lekinhos TUR" className="h-16 w-auto object-contain" />
             </a>
             <p className="text-white/70 text-sm leading-relaxed">
               Sua agência de viagens especialista em excursões pelo Brasil.
