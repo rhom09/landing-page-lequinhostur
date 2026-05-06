@@ -39,13 +39,20 @@ export function Navbar() {
         scrolled ? 'bg-lekinhos-blue/95 backdrop-blur-md shadow-lg' : 'bg-lekinhos-blue'
       }`}
     >
-      <div className="max-w-[1200px] mx-auto px-6 h-[80px] lg:h-[100px] flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto px-0 lg:px-6 h-auto lg:h-[100px] flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center">
+        <a href="#" className="w-full lg:hidden">
+          <img 
+            src="/logo-mobile.png" 
+            alt="Lekinhos TUR" 
+            className="w-full h-auto block" 
+          />
+        </a>
+        <a href="#" className="hidden lg:flex items-center">
           <img 
             src="/logo-nav.png" 
             alt="Lekinhos TUR" 
-            className="h-14 lg:h-20 w-auto object-contain transition-transform" 
+            className="h-20 w-auto object-contain transition-transform" 
             style={{ imageRendering: 'auto' }}
           />
         </a>
