@@ -54,7 +54,7 @@ function ExcursaoItem({ excursao, index }: { excursao: any; index: number }) {
 
   const imgSrc = typeof excursao.img === 'string' 
     ? excursao.img 
-    : excursao.img ? urlFor(excursao.img).width(200).url() : '/destino-porto-de-galinhas.jpg';
+    : excursao.img ? urlFor(excursao.img).width(300).url() : '/destino-porto-de-galinhas.jpg';
     
   const statusColor = excursao.statusColor || getStatusColor(excursao.status);
   const statusText = excursao.statusColor ? excursao.status : formatStatus(excursao.status);
@@ -62,16 +62,18 @@ function ExcursaoItem({ excursao, index }: { excursao: any; index: number }) {
   return (
     <div
       ref={ref}
-      className={`flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-white rounded-xl border border-lekinhos-gray-light transition-all duration-300 hover:shadow-card hover:border-lekinhos-blue/20 ${
+      className={`flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-white rounded-xl border border-lekinhos-gray-light transition-all duration-300 hover:shadow-card hover:border-lekinhos-blue/20 group ${
         isVisible ? 'animate-fade-in-up' : 'opacity-0'
       }`}
       style={{ animationDelay: `${index * 100}ms` }}
     >
-      <img
-        src={imgSrc}
-        alt={excursao.titulo}
-        className="w-full sm:w-20 h-20 rounded-xl object-cover flex-shrink-0"
-      />
+      <div className="w-full sm:w-24 h-24 rounded-xl overflow-hidden flex-shrink-0">
+        <img
+          src={imgSrc}
+          alt={excursao.titulo}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1">
           <CalendarDays className="w-4 h-4 text-accent" />
