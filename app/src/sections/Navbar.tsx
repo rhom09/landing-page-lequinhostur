@@ -26,7 +26,7 @@ export function Navbar() {
     e.preventDefault();
     const target = document.querySelector(href);
     if (target) {
-      const offset = 72;
+      const offset = 96;
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: 'smooth' });
     }
@@ -38,7 +38,7 @@ export function Navbar() {
         scrolled ? 'bg-lekinhos-blue/95 backdrop-blur-md shadow-lg' : 'bg-lekinhos-blue'
       }`}
     >
-      <div className="max-w-[1200px] mx-auto px-6 h-[72px] flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto px-6 h-[96px] flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img src="/logo-nav.png" alt="Lekinhos TUR" className="h-20 w-auto object-contain" />

@@ -7,7 +7,7 @@ export function BottomNav() {
     e.preventDefault();
     const target = document.querySelector(href);
     if (target) {
-      const offset = 72;
+      const offset = 96;
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: 'smooth' });
     }
