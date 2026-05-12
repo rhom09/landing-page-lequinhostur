@@ -12,7 +12,7 @@ Veja: .planning/PROJECT.md (atualizado em 11/05/2026)
 Fase: 3 de 4 (Análise & Base de SEO)
 Plano: TBD
 Status: Em andamento
-Última atividade: 12/05/2026 — Auditoria TypeScript concluída, criação da branch `dev` e estabilização do ambiente de homologação.
+Última atividade: 12/05/2026 — Merge de `dev` para `main` concluído e deploy em produção realizado. Ambiente de homologação sincronizado.
 
 Progresso: [██████████] 100% (Fase 1)
 Progresso: [██████████] 100% (Fase 2)
