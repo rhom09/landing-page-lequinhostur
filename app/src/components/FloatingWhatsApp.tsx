@@ -1,6 +1,6 @@
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+import { WHATSAPP_LINK } from '../constants/contacts';
 
 export function FloatingWhatsApp() {
   return (
