@@ -12,11 +12,11 @@ Veja: .planning/PROJECT.md (atualizado em 11/05/2026)
 Fase: 3 de 4 (Análise & Base de SEO)
 Plano: TBD
 Status: Em andamento
-Última atividade: 11/05/2026 — Conclusão da Fase 2 (Performance) e transição para Fase 3 (SEO).
+Última atividade: 12/05/2026 — Auditoria TypeScript concluída, criação da branch `dev` e estabilização do ambiente de homologação.
 
 Progresso: [██████████] 100% (Fase 1)
 Progresso: [██████████] 100% (Fase 2)
-Progresso: [░░░░░░░░░░] 0% (Fase 3)
+Progresso: [▓░░░░░░░░░] 10% (Fase 3)
 
 ## Métricas de Performance
 
@@ -45,6 +45,8 @@ Progresso: [░░░░░░░░░░] 0% (Fase 3)
 - [Fase 2]: Uso do formato WebP como padrão para todos os assets estáticos.
 - [Fase 2]: Adoção de Lazy Loading para seções abaixo da dobra (fold) e Suspense para componentes pesados.
 - [Fase 2]: Centralização da lógica de imagens no componente `OptimizedImage`.
+- [Auditoria TS]: Implementação de Tipagem Estrita (`import type`) e hook `useScrollReveal` genérico.
+- [Estratégia]: Uso da branch `dev` para homologação antes do merge em `main` (produção).
 
 ### Pendências (Todos)
 
@@ -52,7 +54,7 @@ Nenhuma por enquanto.
 
 ### Impedimentos/Preocupações
 
-Nenhum por enquanto.
+- **CORS do Sanity**: A branch de homologação (`dev`) não exibirá dados dinâmicos até que o domínio `https://*.vercel.app` seja adicionado manualmente ao painel do Sanity pelo usuário. Isso impede a visualização completa do conteúdo dinâmico no ambiente de preview.
 
 ## Itens Adiados
 
@@ -62,6 +64,6 @@ Nenhum por enquanto.
 
 ## Continuidade da Sessão
 
-Última sessão: 11/05/2026 19:45
-Parou em: Inicialização do GSD completa
+Última sessão: 12/05/2026 17:45
+Parou em: Auditoria TypeScript e criação da branch dev concluídas.
 Arquivo de retomada: Nenhum

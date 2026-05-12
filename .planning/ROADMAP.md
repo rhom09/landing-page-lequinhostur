@@ -8,6 +8,7 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
 
 - [x] **Fase 1: Refatoração & Dívida Técnica** - Centralização, limpeza de dependências e tipagem.
 - [x] **Fase 2: Otimização de Performance & Assets** - Otimização de imagens e tempos de resposta.
+- [x] **Fase de Estabilização: Auditoria TypeScript** - Correção de tipos e limpeza de código.
 - [ ] **Fase 3: Análise & Base de SEO** - Estabelecer bases para SEO.
 
 ## Detalhes das Fases
@@ -30,7 +31,16 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
   1. Assets pesados (como logo-mobile.png) otimizados para WebP e dimensões adequadas.
   2. Carregamento visual melhorado (Score Lighthouse Mobile 90+).
   3. Implementação de Code Splitting para seções pesadas.
-**Planos**: Em planejamento (02-01-PLAN.md)
+**Planos**: Concluído (02-01-PLAN.md)
+
+### Fase de Estabilização: Auditoria TypeScript
+**Objetivo**: Garantir que o código esteja livre de erros de tipagem e sem imports desnecessários.
+**Depende de**: Fase 2
+**Critérios de Sucesso**:
+  1. Zero erros no `tsc --noEmit`.
+  2. Build de produção concluído sem warnings de imports não utilizados.
+  3. Hook `useScrollReveal` suportando múltiplos tipos de elementos HTML.
+**Planos**: Concluído
 
 ### Fase 3: Análise & Base de SEO
 **Objetivo**: Construir uma base amigável para motores de busca.
@@ -50,4 +60,5 @@ As fases executam em ordem numérica: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Refatoração | 1/1 | Concluído | 11/05/2026 |
 | 2. Otimização | 1/1 | Concluído | 11/05/2026 |
-| 3. Base de SEO | 0/0 | Em andamento | - |
+| Auditoria TS | 1/1 | Concluído | 12/05/2026 |
+| 3. Base de SEO | 0/1 | Iniciado | - |

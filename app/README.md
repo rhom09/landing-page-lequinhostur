@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+# LekinhosTUR - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é a Landing Page oficial da **LekinhosTUR**, desenvolvida com foco em alta performance, conversão via WhatsApp e gerenciamento dinâmico de conteúdo via Sanity CMS.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/)
+- **CMS**: [Sanity.io](https://www.sanity.io/)
+- **Performance**: Assets em WebP, Lazy Loading, Code Splitting e Otimização de Imagens.
+- **Homologação**: Branch `dev` com Preview Deploy na Vercel.
 
-## React Compiler
+## 🛠️ Configuração e Execução
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Instalar dependências**:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Executar em modo desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+3. **Gerar build de produção**:
+   ```bash
+   npm run build
+   ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+4. **Visualizar build (Preview)**:
+   ```bash
+   npm run preview
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📈 Estratégia de Desenvolvimento
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Este projeto utiliza uma estratégia de duas branches principais:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **`main`**: Reflete o estado atual de produção. Apenas código estável e testado deve ser mesclado aqui.
+- **`dev`**: Branch de homologação. Todas as novas funcionalidades e correções passam por aqui primeiro para testes na Vercel.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ⚠️ Importante: Conexão com Sanity (CORS)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Para que os dados do Sanity apareçam corretamente na versão de homologação (`dev`), é necessário adicionar o domínio de preview da Vercel no painel do Sanity:
+1. Vá para [manage.sanity.io](https://manage.sanity.io)
+2. Selecione o projeto `zv6ynzi7`
+3. Vá em **API > CORS Origins**
+4. Adicione `https://*.vercel.app` (habilitando credenciais).
+
+## ⚡ Otimizações Implementadas
+
+- **Imagens Otimizadas**: Uso do componente `<OptimizedImage />` que gerencia automaticamente `loading="lazy"`, `fetchpriority` e formatos modernos.
+- **Bundle Enxuto**: Remoção de mais de 50 componentes de UI não utilizados para reduzir o tempo de carregamento.
+- **Tipagem Estrita**: Auditoria completa de TypeScript para evitar erros em produção.
+- **Análise Visual**: Plugin `rollup-plugin-visualizer` habilitado para monitorar o tamanho do bundle.
+
+## 📂 Estrutura do Projeto
+
+- `src/components/ui/`: Componentes base (shadcn otimizado).
+- `src/sections/`: Seções da Landing Page.
+- `src/constants/`: Constantes globais (como links de WhatsApp).
+- `src/hooks/`: Hooks customizados (ex: `useScrollReveal`).
+- `src/lib/`: Configurações de bibliotecas (Sanity client).
+- `src/types/`: Definições de tipos TypeScript.
+
+---
+*Desenvolvido com foco em excelência e conversão.*
