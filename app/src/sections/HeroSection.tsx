@@ -2,27 +2,36 @@ import { useState, useEffect } from 'react';
 import { MessageCircle, Calendar, MapPin } from 'lucide-react';
 import { client, urlFor } from '@/lib/sanity';
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+import { WHATSAPP_LINK } from '../constants/contacts';
+import { OptimizedImage } from '@/components/common/OptimizedImage';
 
-const PROXIMAS_SAIDAS_FALLBACK = [
-  { data: '15 JAN', destino: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.jpg' },
-  { data: '22 FEV', destino: 'Campos do Jordão', img: '/destino-campos-do-jordao.jpg' },
-  { data: '08 MAR', destino: 'Aparecida do Norte', img: '/destino-aparecida.jpg' },
+import type { ProximaSaida } from '@/types/sanity';
+
+const PROXIMAS_SAIDAS_FALLBACK: FormattedSaida[] = [
+  { data: '15 JAN', destino: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.webp' },
+  { data: '22 FEV', destino: 'Campos do Jordão', img: '/destino-campos-do-jordao.webp' },
+  { data: '08 MAR', destino: 'Aparecida do Norte', img: '/destino-aparecida.webp' },
 ];
 
+interface FormattedSaida {
+  data: string;
+  destino: string;
+  img: string;
+}
+
 export function HeroSection() {
-  const [proximasSaidas, setProximasSaidas] = useState<any[]>(PROXIMAS_SAIDAS_FALLBACK);
+  const [proximasSaidas, setProximasSaidas] = useState<FormattedSaida[]>(PROXIMAS_SAIDAS_FALLBACK);
 
   useEffect(() => {
     async function fetchProximasSaidas() {
       try {
         const query = '*[_type == "proximaSaida"] | order(order asc)[0...3]';
-        const data = await client.fetch(query);
+        const data: ProximaSaida[] = await client.fetch(query);
         if (data && data.length > 0) {
-          const formattedData = data.map((item: any) => ({
+          const formattedData: FormattedSaida[] = data.map((item) => ({
             data: item.data,
             destino: item.titulo,
-            img: item.img ? urlFor(item.img).width(200).url() : '/onibus-frota.jpg',
+            img: item.img ? urlFor(item.img).width(200).url() : '/onibus-frota.webp',
           }));
           setProximasSaidas(formattedData);
         }
@@ -38,10 +47,11 @@ export function HeroSection() {
       {/* Background Image + Overlay Content */}
       <div className="relative min-h-[70vh] lg:min-h-[100vh] flex items-center justify-center">
         <div className="absolute inset-0">
-          <img
-            src="/hero-bus.jpg"
+          <OptimizedImage
+            src="/hero-bus.webp"
             alt="Ônibus de turismo em estrada cênica"
             className="w-full h-full object-cover"
+            priority={true}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
         </div>
@@ -88,7 +98,7 @@ export function HeroSection() {
                   title={saida.destino}
                 >
                   <div className="relative flex-shrink-0">
-                    <img
+                    <OptimizedImage
                       src={saida.img}
                       alt={saida.destino}
                       className="w-11 h-11 rounded-full object-cover shadow-sm group-hover/item:scale-110 transition-transform duration-300"
@@ -127,7 +137,7 @@ export function HeroSection() {
                 title={saida.destino}
               >
                 <div className="relative flex-shrink-0">
-                  <img
+                  <OptimizedImage
                     src={saida.img}
                     alt={saida.destino}
                     className="w-11 h-11 rounded-full object-cover shadow-sm"

@@ -1,25 +1,24 @@
 import { useState, useEffect } from 'react';
-import { ArrowUpRight, CalendarDays } from 'lucide-react';
+import { CalendarDays } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
-import { client, urlFor } from '@/lib/sanity';
+import { client } from '@/lib/sanity';
+import type { Destino } from '@/types/sanity';
 
 const DESTINOS = [
-  { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.jpg', data: '15 JAN', badge_mes: 'JAN', badge_dia: '15', badge_semana: 'SEG' },
-  { nome: 'Campos do Jordão', img: '/destino-campos-do-jordao.jpg', data: '22 FEV', badge_mes: 'FEV', badge_dia: '22', badge_semana: 'QUI' },
-  { nome: 'Aparecida do Norte', img: '/destino-aparecida.jpg', data: '08 MAR', badge_mes: 'MAR', badge_dia: '08', badge_semana: 'DOM' },
-  { nome: 'Serra Gaúcha', img: '/destino-serra-gaucha.jpg', data: '05 ABR', badge_mes: 'ABR', badge_dia: '05', badge_semana: 'DOM' },
-  { nome: 'Beto Carrero', img: '/destino-beto-carrero.jpg', data: '12 MAI', badge_mes: 'MAI', badge_dia: '12', badge_semana: 'TER' },
-  { nome: 'Natal', img: '/destino-natal.jpg', data: '20 JUN', badge_mes: 'JUN', badge_dia: '20', badge_semana: 'SÁB' },
-  { nome: 'Gramado', img: '/destino-gramado.jpg', data: '10 JUL', badge_mes: 'JUL', badge_dia: '10', badge_semana: 'SEX' },
-  { nome: 'Fretamento', img: '/onibus-frota.jpg', data: 'SOB DEMANDA', tag: 'SOB DEMANDA' },
+  { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.webp', data: '15 JAN', badge_mes: 'JAN', badge_dia: '15', badge_semana: 'SEG' },
+  { nome: 'Campos do Jordão', img: '/destino-campos-do-jordao.webp', data: '22 FEV', badge_mes: 'FEV', badge_dia: '22', badge_semana: 'QUI' },
+  { nome: 'Aparecida do Norte', img: '/destino-aparecida.webp', data: '08 MAR', badge_mes: 'MAR', badge_dia: '08', badge_semana: 'DOM' },
+  { nome: 'Serra Gaúcha', img: '/destino-serra-gaucha.webp', data: '05 ABR', badge_mes: 'ABR', badge_dia: '05', badge_semana: 'DOM' },
+  { nome: 'Beto Carrero', img: '/destino-beto-carrero.webp', data: '12 MAI', badge_mes: 'MAI', badge_dia: '12', badge_semana: 'TER' },
+  { nome: 'Natal', img: '/destino-natal.webp', data: '20 JUN', badge_mes: 'JUN', badge_dia: '20', badge_semana: 'SÁB' },
+  { nome: 'Gramado', img: '/destino-gramado.webp', data: '10 JUL', badge_mes: 'JUL', badge_dia: '10', badge_semana: 'SEX' },
+  { nome: 'Fretamento', img: '/onibus-frota.webp', data: 'SOB DEMANDA', tag: 'SOB DEMANDA' },
 ];
 
-function ViagemCard({ destino, index }: { destino: any; index: number }) {
-  const { ref, isVisible } = useScrollReveal(0.1);
+import { OptimizedImage } from '@/components/common/OptimizedImage';
 
-  const imgSrc = typeof destino.img === 'string' 
-    ? destino.img 
-    : destino.img ? urlFor(destino.img).width(800).url() : '/onibus-frota.jpg';
+function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
+  const { ref, isVisible } = useScrollReveal<HTMLAnchorElement>(0.1);
 
   // Tenta pegar 'titulo' (Sanity) ou 'nome' (Fallback)
   const nome = destino.titulo || destino.nome || "Destino sem nome";
@@ -34,9 +33,10 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
       }`}
       style={{ animationDelay: `${index * 100}ms` }}
     >
-      <img
-        src={imgSrc}
+      <OptimizedImage
+        src={destino.img || '/onibus-frota.webp'}
         alt={nome}
+        width={600}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
       {/* Gradient overlay - mais alto para garantir leitura do texto */}
@@ -89,7 +89,7 @@ function ViagemCard({ destino, index }: { destino: any; index: number }) {
 
 export function GridViagens() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
-  const [destinos, setDestinos] = useState<any[]>(DESTINOS);
+  const [destinos, setDestinos] = useState<Destino[]>(DESTINOS);
   
   useEffect(() => {
     async function fetchDestinos() {

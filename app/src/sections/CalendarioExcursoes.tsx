@@ -3,6 +3,7 @@ import { CalendarDays, ArrowRight, Clock, Images } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { client, urlFor } from '@/lib/sanity';
 import { GaleriaLightbox } from '@/components/GaleriaLightbox';
+import type { Excursao, SanityImage } from '@/types/sanity';
 
 const EXCURSOES = [
   {
@@ -67,7 +68,7 @@ const EXCURSOES = [
   },
 ];
 
-const WHATSAPP_BASE = 'https://api.whatsapp.com/send?phone=5511932332410&text=';
+import { WHATSAPP_BASE } from '../constants/contacts';
 
 function getStatusColor(status: string) {
   switch (status?.toLowerCase()) {
@@ -105,14 +106,14 @@ function formatStatus(status: string) {
   }
 }
 
-function buildGalleryUrls(excursao: any): string[] {
+function buildGalleryUrls(excursao: Excursao): string[] {
   // Sanity data with galeria field
   if (excursao.galeria && Array.isArray(excursao.galeria) && excursao.galeria.length > 0) {
     const mainImg = typeof excursao.img === 'string'
       ? excursao.img
       : excursao.img ? urlFor(excursao.img).width(1200).url() : '';
 
-    const galeriaUrls = excursao.galeria.map((item: any) =>
+    const galeriaUrls = excursao.galeria.map((item: SanityImage | string) =>
       typeof item === 'string' ? item : urlFor(item).width(1200).url()
     );
 
@@ -131,12 +132,14 @@ function buildGalleryUrls(excursao: any): string[] {
   return mainImg ? [mainImg] : [];
 }
 
+import { OptimizedImage } from '../components/common/OptimizedImage';
+
 function ExcursaoItem({
   excursao,
   index,
   onOpenGallery,
 }: {
-  excursao: any;
+  excursao: Excursao;
   index: number;
   onOpenGallery: (images: string[], title: string) => void;
 }) {
@@ -174,7 +177,7 @@ function ExcursaoItem({
         aria-label={`Ver fotos de ${excursao.titulo}`}
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleImageClick(); } }}
       >
-        <img
+        <OptimizedImage
           src={imgSrc}
           alt={excursao.titulo}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -218,7 +221,7 @@ function ExcursaoItem({
 
 export function CalendarioExcursoes() {
   const { ref, isVisible } = useScrollReveal(0.1);
-  const [excursoes, setExcursoes] = useState<any[]>(EXCURSOES);
+  const [excursoes, setExcursoes] = useState<Excursao[]>(EXCURSOES);
 
   // Gallery lightbox state
   const [galleryOpen, setGalleryOpen] = useState(false);

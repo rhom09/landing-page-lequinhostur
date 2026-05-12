@@ -2,25 +2,27 @@ import { useState, useEffect } from 'react';
 import { Star, Users, MapPin, Calendar, CheckCircle } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { client } from '@/lib/sanity';
+import { OptimizedImage } from '@/components/common/OptimizedImage';
+import type { Estatistica } from '@/types/sanity';
 
 const DEPOIMENTOS = [
   {
     texto: 'A viagem para Porto de Galinhas foi incrível! O ônibus super confortável, motorista experiente e a organização impecável. Já estou planejando a próxima!',
     autor: 'Maria Silva',
     destino: 'Porto de Galinhas',
-    avatar: '/destino-porto-de-galinhas.jpg',
+    avatar: '/destino-porto-de-galinhas.webp',
   },
   {
     texto: 'Levei minha família para Campos do Jordão e foi uma experiência memorável. A Lekinhos cuidou de cada detalhe, desde a hospedagem até os passeios. Recomendo!',
     autor: 'João Pereira',
     destino: 'Campos do Jordão',
-    avatar: '/destino-campos-do-jordao.jpg',
+    avatar: '/destino-campos-do-jordao.webp',
   },
   {
     texto: 'Fretamento para o evento da empresa foi perfeito. Pontualidade, segurança e atendimento de primeira. A Lekinhos é nossa parceira oficial de viagens.',
     autor: 'Ana Costa',
     destino: 'Fretamento Corporativo',
-    avatar: '/onibus-frota.jpg',
+    avatar: '/onibus-frota.webp',
   },
 ];
 
@@ -59,9 +61,11 @@ function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[
         "{depoimento.texto}"
       </p>
       <div className="flex items-center gap-3">
-        <img
+        <OptimizedImage
           src={depoimento.avatar}
           alt={depoimento.autor}
+          width={48}
+          height={48}
           className="w-12 h-12 rounded-full object-cover"
         />
         <div>
@@ -76,7 +80,7 @@ function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[
 export function SocialProof() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
   const { ref: statsRef, isVisible: statsVisible } = useScrollReveal(0.1);
-  const [estatisticas, setEstatisticas] = useState<any[]>(ESTATISTICAS_FALLBACK);
+  const [estatisticas, setEstatisticas] = useState<Estatistica[]>(ESTATISTICAS_FALLBACK);
 
   useEffect(() => {
     async function fetchEstatisticas() {

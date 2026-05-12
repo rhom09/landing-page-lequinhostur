@@ -1,5 +1,6 @@
 import { Bus, ShieldCheck, Headphones, HeartHandshake } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { OptimizedImage } from '../components/common/OptimizedImage';
 
 export function QuemSomos() {
   const { ref, isVisible } = useScrollReveal(0.1);
@@ -13,7 +14,7 @@ export function QuemSomos() {
         >
           {/* Image */}
           <div className="relative">
-            <img
+            <OptimizedImage
               src="/onibus-frota.jpg"
               alt="Ônibus da frota Lekinhos TUR"
               className="w-full rounded-2xl shadow-lg object-cover aspect-video"

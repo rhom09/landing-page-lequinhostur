@@ -1,4 +1,4 @@
-import { Bus, Instagram, Facebook, MessageCircle, ArrowUpRight } from 'lucide-react';
+import { Instagram, Facebook, MessageCircle, ArrowUpRight } from 'lucide-react';
 
 const NAV_LINKS = [
   { label: 'Destinos', href: '#destinos' },
@@ -8,7 +8,8 @@ const NAV_LINKS = [
   { label: 'Contato', href: '#contato' },
 ];
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+import { OptimizedImage } from '../components/common/OptimizedImage';
+import { WHATSAPP_LINK } from '../constants/contacts';
 
 export function Footer() {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -29,7 +30,12 @@ export function Footer() {
           {/* Logo + About */}
           <div>
             <a href="#" className="flex items-center mb-4">
-              <img src="/logo-footer.png" alt="Lekinhos TUR" className="h-16 w-auto object-contain" />
+              <OptimizedImage 
+                src="/logo-footer.webp" 
+                alt="Lekinhos TUR" 
+                className="h-16 w-auto object-contain"
+                priority={false}
+              />
             </a>
             <p className="text-white/70 text-sm leading-relaxed">
               Sua agência de viagens especialista em excursões pelo Brasil.
