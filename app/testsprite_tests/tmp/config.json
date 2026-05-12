@@ -1,0 +1,17 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3004",
+  "executionArgs": {
+    "projectName": "app",
+    "projectPath": "c:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app",
+    "testIds": [],
+    "additionalInstruction": "Testar o fluxo completo de navegação, carregamento de dados do Sanity e cliques nos links de WhatsApp.",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user--ouyXBkQNKMDBmpw3cDLXn75YEC6N8HCejIHf-AZpW8DobUtOv9lEpRbCdYRXqCimwOwBJjPkz5P6T1vtXPJ9AbiYg25odAD5sD6XswOaHl_5NCIJX9gZnEfLIMLTRFilg8"
+    }
+  },
+  "serverPort": 56167
+}

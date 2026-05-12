@@ -1,0 +1,312 @@
+[
+  {
+    "id": "TC001",
+    "title": "Use the floating WhatsApp button from the landing page",
+    "description": "Verifies a visitor can start a WhatsApp conversation immediately from anywhere on the page using the floating contact button.",
+    "category": "WhatsApp Contact",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating WhatsApp button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a WhatsApp conversation opens with a prefilled contact message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the landing page remains accessible behind the contact action"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Open the excursions calendar and reserve a trip",
+    "description": "Verifies a visitor can reach the excursions calendar, open a trip’s details, and launch WhatsApp with the trip reservation message prefilled.",
+    "category": "Excursions Calendar",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "action",
+        "description": "Click the details control for an upcoming excursion"
+      },
+      {
+        "type": "action",
+        "description": "Click the WhatsApp reservation link for that excursion"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a WhatsApp conversation opens with a prefilled trip reservation message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the selected excursion details are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Reserve an excursion directly from the calendar list",
+    "description": "Verifies a visitor can use the calendar list to start a WhatsApp reservation with the excursion message prefilled.",
+    "category": "Excursions Calendar",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "action",
+        "description": "Click a WhatsApp reservation link for an upcoming excursion"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a WhatsApp conversation opens with a prefilled excursion message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify upcoming excursions are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Browse the gallery and view a photo in the lightbox",
+    "description": "Verifies a visitor can open a gallery photo, view it in the lightbox, and browse between images before closing it.",
+    "category": "Gallery",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the gallery section"
+      },
+      {
+        "type": "action",
+        "description": "Click a travel photo"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to the next photo in the lightbox"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to the previous photo in the lightbox"
+      },
+      {
+        "type": "action",
+        "description": "Close the lightbox"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the gallery section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the lightbox is closed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Show fallback excursions when CMS content is unavailable",
+    "description": "Verifies the page still shows bookable excursions from fallback static content and preserves the reservation CTA when Sanity data is not present.",
+    "category": "Excursions Calendar",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify excursions are displayed from fallback content"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify reservation actions are available for the displayed excursions"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Open an excursion’s details from the calendar",
+    "description": "Verifies a visitor can open an excursion card and see more information before deciding to reserve.",
+    "category": "Excursions Calendar",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "action",
+        "description": "Click the details control for an upcoming excursion"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the excursion details are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the calendar remains visible on the page"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Open WhatsApp from the contact section",
+    "description": "Verifies a visitor can scroll to the contact section and launch WhatsApp from a reservation call-to-action there.",
+    "category": "WhatsApp Contact",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the contact section"
+      },
+      {
+        "type": "action",
+        "description": "Click a reservation call-to-action in the contact section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a WhatsApp conversation opens with a prefilled contact message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact section is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC008",
+    "title": "Keep gallery interaction usable while browsing images",
+    "description": "Verifies the gallery lightbox can be opened and closed cleanly without blocking the page after repeated image browsing interactions.",
+    "category": "Gallery",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the gallery section"
+      },
+      {
+        "type": "action",
+        "description": "Click a travel photo"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to the next photo in the lightbox"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to the next photo in the lightbox"
+      },
+      {
+        "type": "action",
+        "description": "Close the lightbox"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the lightbox is closed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the gallery section remains accessible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC009",
+    "title": "Reach the main sections in the expected page order",
+    "description": "Verifies the landing page presents the key sections in the expected single-page flow from excursions to gallery to contact.",
+    "category": "WhatsApp Contact",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the gallery section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the contact section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the excursions calendar is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the gallery section and contact section are displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC010",
+    "title": "Keep the reservation action available with long excursion text",
+    "description": "Verifies unusually long excursion names or descriptions do not prevent the calendar from showing excursions and reservation actions.",
+    "category": "Excursions Calendar",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the calendar section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify excursion cards are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify reservation actions remain available"
+      }
+    ],
+    "priority": "Low"
+  }
+]

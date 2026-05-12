@@ -1,0 +1,50 @@
+version: "2"
+type: frontend
+tech_stack:
+  - React
+  - Vite
+  - Tailwind CSS
+  - Lucide React
+  - Sanity Client
+  - Framer Motion
+routes:
+  - path: /
+    file: src/App.tsx
+    auth_required: false
+    description: Main Landing Page
+features:
+  - name: Excursions Calendar
+    description: Dynamic listing of available trips fetched from Sanity CMS
+    files:
+      - src/sections/CalendarioExcursoes.tsx
+      - src/lib/sanity.ts
+    entry_route: /
+    user_interactions:
+      - Scroll to Calendar section
+      - View upcoming excursions
+      - Click "Ver Detalhes" or WhatsApp link
+    api_calls:
+      - method: GET
+        endpoint: Sanity GROQ Query
+    auth_required: false
+  - name: Gallery
+    description: Image showcase of previous trips with Lightbox
+    files:
+      - src/sections/Galeria.tsx
+    entry_route: /
+    user_interactions:
+      - Scroll to Gallery section
+      - Click on an image to open Lightbox
+      - Navigate through images in the Lightbox
+    auth_required: false
+  - name: WhatsApp Contact
+    description: Floating button and section links to WhatsApp for conversion
+    files:
+      - src/components/WhatsAppButton.tsx
+      - src/constants/contacts.ts
+    entry_route: /
+    user_interactions:
+      - Click on floating WhatsApp button
+      - Click on "Reservar Agora" buttons
+    auth_required: false
+known_limitations: []
