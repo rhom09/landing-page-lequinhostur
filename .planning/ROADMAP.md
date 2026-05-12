@@ -1,52 +1,53 @@
 # Roadmap: LekinhosTUR
 
-## Overview
+## Visão Geral
 
 Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield) para focar primeiramente em estabilidade, performance e resolução de dívida técnica antes de evoluir para novas funcionalidades.
 
-## Phases
+## Fases
 
-- [ ] **Phase 1: Refactoring & Tech Debt** - Centralização, limpeza de dependências e tipagem.
-- [ ] **Phase 2: Performance & Assets Optimization** - Otimização de imagens e tempos de resposta.
-- [ ] **Phase 3: SEO Analysis & Foundation** - Estabelecer bases para SEO.
+- [x] **Fase 1: Refatoração & Dívida Técnica** - Centralização, limpeza de dependências e tipagem.
+- [x] **Fase 2: Otimização de Performance & Assets** - Otimização de imagens e tempos de resposta.
+- [ ] **Fase 3: Análise & Base de SEO** - Estabelecer bases para SEO.
 
-## Phase Details
+## Detalhes das Fases
 
-### Phase 1: Refactoring & Tech Debt
-**Goal**: Limpar o código, organizar dependências e centralizar pontos de manutenção.
-**Depends on**: Nothing
-**Requirements**: REQ-01, REQ-03
-**Success Criteria** (what must be TRUE):
-  1. A URL do WhatsApp deve estar centralizada em um único arquivo `constants.ts`.
+### Fase 1: Refatoração & Dívida Técnica
+**Objetivo**: Limpar o código, organizar dependências e centralizar pontos de manutenção.
+**Depende de**: Nada
+**Requisitos**: REQ-01, REQ-03
+**Critérios de Sucesso** (o que deve ser VERDADE):
+  1. A URL do WhatsApp deve estar centralizada em um único arquivo `constants/contacts.ts`.
   2. Tipagens `any` no consumo de dados do Sanity devem estar substituídas por tipos explícitos.
   3. Pacotes não utilizados (ex: excessos do shadcn-ui) removidos do bundle.
-**Plans**: TBD
+**Planos**: Concluído
 
-### Phase 2: Performance & Assets Optimization
-**Goal**: Reduzir tamanho de bundle e assets visuais (imagens).
-**Depends on**: Phase 1
-**Requirements**: REQ-02
-**Success Criteria** (what must be TRUE):
-  1. Imagem de logo pesada otimizada para o formato WebP e dimensões adequadas.
-  2. Carregamento visual melhorado (First Contentful Paint mais rápido).
-**Plans**: TBD
+### Fase 2: Otimização de Performance & Assets
+**Objetivo**: Reduzir tamanho de bundle e assets visuais (imagens).
+**Depende de**: Fase 1
+**Requisitos**: REQ-02
+**Critérios de Sucesso** (o que deve ser VERDADE):
+  1. Assets pesados (como logo-mobile.png) otimizados para WebP e dimensões adequadas.
+  2. Carregamento visual melhorado (Score Lighthouse Mobile 90+).
+  3. Implementação de Code Splitting para seções pesadas.
+**Planos**: Em planejamento (02-01-PLAN.md)
 
-### Phase 3: SEO Analysis & Foundation
-**Goal**: Construir uma base amigável para motores de busca.
-**Depends on**: Phase 2
-**Requirements**: REQ-04
-**Success Criteria** (what must be TRUE):
+### Fase 3: Análise & Base de SEO
+**Objetivo**: Construir uma base amigável para motores de busca.
+**Depende de**: Fase 2
+**Requisitos**: REQ-04
+**Critérios de Sucesso** (o que deve ser VERDADE):
   1. Meta tags dinâmicas implementadas com `react-helmet` ou similar.
   2. Relatório de decisão gerado sobre manter SPA ou migrar para SSR/SSG (Next.js).
-**Plans**: TBD
+**Planos**: TBD
 
-## Progress
+## Progresso
 
-**Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
+**Ordem de Execução:**
+As fases executam em ordem numérica: 1 → 2 → 3
 
-| Phase | Plans Complete | Status | Completed |
+| Fase | Planos Concluídos | Status | Concluído em |
 |-------|----------------|--------|-----------|
-| 1. Refactoring | 0/0 | Not started | - |
-| 2. Optimization | 0/0 | Not started | - |
-| 3. SEO Foundation | 0/0 | Not started | - |
+| 1. Refatoração | 1/1 | Concluído | 11/05/2026 |
+| 2. Otimização | 1/1 | Concluído | 11/05/2026 |
+| 3. Base de SEO | 0/0 | Em andamento | - |

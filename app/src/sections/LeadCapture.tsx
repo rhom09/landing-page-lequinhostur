@@ -1,7 +1,7 @@
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, MessageCircle } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+import { WHATSAPP_LINK } from '../constants/contacts';
 const EMAIL_LINK = 'mailto:lekinhostur.agencia@gmail.com';
 
 export function LeadCapture() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Bus, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const NAV_LINKS = [
   { label: 'Destinos', href: '#destinos' },
@@ -9,7 +9,8 @@ const NAV_LINKS = [
   { label: 'Contato', href: '#contato' },
 ];
 
-const WHATSAPP_LINK = 'https://api.whatsapp.com/send?phone=5511932332410&text=Olá! Gostaria de mais informações sobre as viagens da Lekinhos TUR.';
+import { WHATSAPP_LINK } from '../constants/contacts';
+import { OptimizedImage } from '@/components/common/OptimizedImage';
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -42,18 +43,19 @@ export function Navbar() {
       <div className="max-w-[1200px] mx-auto px-0 lg:px-6 h-[90px] lg:h-[100px] flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="w-full lg:hidden h-full overflow-hidden flex items-center justify-center bg-[#1D55B5]">
-          <img 
-            src="/logo-mobile.png" 
+          <OptimizedImage 
+            src="/logo-mobile.webp" 
             alt="Lekinhos TUR" 
             className="w-full h-full object-contain" 
+            priority={true}
           />
         </a>
         <a href="#" className="hidden lg:flex items-center">
-          <img 
-            src="/logo-nav.png" 
+          <OptimizedImage 
+            src="/logo-nav.webp" 
             alt="Lekinhos TUR" 
             className="h-20 w-auto object-contain transition-transform" 
-            style={{ imageRendering: 'auto' }}
+            priority={true}
           />
         </a>
 
