@@ -9,7 +9,7 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
 - [x] **Fase 1: Refatoração & Dívida Técnica** - Centralização, limpeza de dependências e tipagem.
 - [x] **Fase 2: Otimização de Performance & Assets** - Otimização de imagens e tempos de resposta.
 - [x] **Fase de Estabilização: Auditoria TypeScript** - Correção de tipos e limpeza de código.
-- [ ] **Fase 3: Análise & Base de SEO** - Estabelecer bases para SEO.
+- [x] **Fase 3: Análise & Base de SEO** - Estabelecer bases para SEO.
 
 ## Detalhes das Fases
 
@@ -47,9 +47,9 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
 **Depende de**: Fase 2
 **Requisitos**: REQ-04
 **Critérios de Sucesso** (o que deve ser VERDADE):
-  1. Meta tags dinâmicas implementadas com `react-helmet` ou similar.
-  2. Relatório de decisão gerado sobre manter SPA ou migrar para SSR/SSG (Next.js).
-**Planos**: TBD
+  1. Meta tags otimizadas e implementadas diretamente no `index.html`.
+  2. Relatório de decisão gerado sobre manter SPA ou migrar para SSR/SSG (Next.js) - Decidido manter SPA e focar em JSON-LD + Sitemap.
+**Planos**: Concluído (03-01-PLAN.md)
 
 ## Progresso
 
@@ -61,4 +61,4 @@ As fases executam em ordem numérica: 1 → 2 → 3
 | 1. Refatoração | 1/1 | Concluído | 11/05/2026 |
 | 2. Otimização | 1/1 | Concluído | 11/05/2026 |
 | Auditoria TS | 1/1 | Concluído | 12/05/2026 |
-| 3. Base de SEO | 0/1 | Iniciado | - |
+| 3. Base de SEO | 1/1 | Concluído | 12/05/2026 |
