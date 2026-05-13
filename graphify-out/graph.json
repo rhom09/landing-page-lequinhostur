@@ -1,0 +1,5618 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "translate_gsd.py",
+      "file_type": "code",
+      "source_file": "translate_gsd.py",
+      "source_location": "L1",
+      "id": "translate_gsd_py",
+      "community": 16,
+      "norm_label": "translate_gsd.py"
+    },
+    {
+      "label": "translate_description()",
+      "file_type": "code",
+      "source_file": "translate_gsd.py",
+      "source_location": "L15",
+      "id": "landing_page_lekinhostur_translate_gsd_translate_description",
+      "community": 16,
+      "norm_label": "translate_description()"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "app/eslint.config.js",
+      "source_location": "L1",
+      "id": "app_eslint_config_js",
+      "community": 29,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "app/postcss.config.js",
+      "source_location": "L1",
+      "id": "app_postcss_config_js",
+      "community": 30,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "app/tailwind.config.js",
+      "source_location": "L1",
+      "id": "app_tailwind_config_js",
+      "community": 31,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "app/vite.config.ts",
+      "source_location": "L1",
+      "id": "app_vite_config_ts",
+      "community": 32,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "optimize-images.py",
+      "file_type": "code",
+      "source_file": "app/scripts/optimize-images.py",
+      "source_location": "L1",
+      "id": "app_scripts_optimize_images_py",
+      "community": 17,
+      "norm_label": "optimize-images.py"
+    },
+    {
+      "label": "optimize_images()",
+      "file_type": "code",
+      "source_file": "app/scripts/optimize-images.py",
+      "source_location": "L4",
+      "id": "scripts_optimize_images_optimize_images",
+      "community": 17,
+      "norm_label": "optimize_images()"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L1",
+      "id": "app_src_app_tsx",
+      "community": 1,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "CalendarioExcursoes",
+      "file_type": "code",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L13",
+      "id": "src_app_calendarioexcursoes",
+      "community": 1,
+      "norm_label": "calendarioexcursoes"
+    },
+    {
+      "label": "SocialProof",
+      "file_type": "code",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L14",
+      "id": "src_app_socialproof",
+      "community": 1,
+      "norm_label": "socialproof"
+    },
+    {
+      "label": "SectionFallback()",
+      "file_type": "code",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L16",
+      "id": "src_app_sectionfallback",
+      "community": 1,
+      "norm_label": "sectionfallback()"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L20",
+      "id": "src_app_app",
+      "community": 1,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "app/src/main.tsx",
+      "source_location": "L1",
+      "id": "app_src_main_tsx",
+      "community": 1,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "FloatingWhatsApp.tsx",
+      "file_type": "code",
+      "source_file": "app/src/components/FloatingWhatsApp.tsx",
+      "source_location": "L1",
+      "id": "app_src_components_floatingwhatsapp_tsx",
+      "community": 1,
+      "norm_label": "floatingwhatsapp.tsx"
+    },
+    {
+      "label": "FloatingWhatsApp()",
+      "file_type": "code",
+      "source_file": "app/src/components/FloatingWhatsApp.tsx",
+      "source_location": "L5",
+      "id": "components_floatingwhatsapp_floatingwhatsapp",
+      "community": 1,
+      "norm_label": "floatingwhatsapp()"
+    },
+    {
+      "label": "GaleriaLightbox.tsx",
+      "file_type": "code",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L1",
+      "id": "app_src_components_galerialightbox_tsx",
+      "community": 0,
+      "norm_label": "galerialightbox.tsx"
+    },
+    {
+      "label": "GaleriaLightboxProps",
+      "file_type": "code",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L4",
+      "id": "components_galerialightbox_galerialightboxprops",
+      "community": 0,
+      "norm_label": "galerialightboxprops"
+    },
+    {
+      "label": "GaleriaLightbox()",
+      "file_type": "code",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L12",
+      "id": "components_galerialightbox_galerialightbox",
+      "community": 0,
+      "norm_label": "galerialightbox()"
+    },
+    {
+      "label": "MobileSwipeHint()",
+      "file_type": "code",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L316",
+      "id": "components_galerialightbox_mobileswipehint",
+      "community": 0,
+      "norm_label": "mobileswipehint()"
+    },
+    {
+      "label": "OptimizedImage.tsx",
+      "file_type": "code",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L1",
+      "id": "app_src_components_common_optimizedimage_tsx",
+      "community": 0,
+      "norm_label": "optimizedimage.tsx"
+    },
+    {
+      "label": "OptimizedImageProps",
+      "file_type": "code",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L5",
+      "id": "common_optimizedimage_optimizedimageprops",
+      "community": 0,
+      "norm_label": "optimizedimageprops"
+    },
+    {
+      "label": "OptimizedImage()",
+      "file_type": "code",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L21",
+      "id": "common_optimizedimage_optimizedimage",
+      "community": 0,
+      "norm_label": "optimizedimage()"
+    },
+    {
+      "label": "contacts.ts",
+      "file_type": "code",
+      "source_file": "app/src/constants/contacts.ts",
+      "source_location": "L1",
+      "id": "app_src_constants_contacts_ts",
+      "community": 1,
+      "norm_label": "contacts.ts"
+    },
+    {
+      "label": "use-mobile.ts",
+      "file_type": "code",
+      "source_file": "app/src/hooks/use-mobile.ts",
+      "source_location": "L1",
+      "id": "app_src_hooks_use_mobile_ts",
+      "community": 18,
+      "norm_label": "use-mobile.ts"
+    },
+    {
+      "label": "useIsMobile()",
+      "file_type": "code",
+      "source_file": "app/src/hooks/use-mobile.ts",
+      "source_location": "L5",
+      "id": "hooks_use_mobile_useismobile",
+      "community": 18,
+      "norm_label": "useismobile()"
+    },
+    {
+      "label": "useScrollReveal.ts",
+      "file_type": "code",
+      "source_file": "app/src/hooks/useScrollReveal.ts",
+      "source_location": "L1",
+      "id": "app_src_hooks_usescrollreveal_ts",
+      "community": 1,
+      "norm_label": "usescrollreveal.ts"
+    },
+    {
+      "label": "useScrollReveal()",
+      "file_type": "code",
+      "source_file": "app/src/hooks/useScrollReveal.ts",
+      "source_location": "L3",
+      "id": "hooks_usescrollreveal_usescrollreveal",
+      "community": 1,
+      "norm_label": "usescrollreveal()"
+    },
+    {
+      "label": "sanity.ts",
+      "file_type": "code",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L1",
+      "id": "app_src_lib_sanity_ts",
+      "community": 0,
+      "norm_label": "sanity.ts"
+    },
+    {
+      "label": "client",
+      "file_type": "code",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L8",
+      "id": "lib_sanity_client",
+      "community": 0,
+      "norm_label": "client"
+    },
+    {
+      "label": "builder",
+      "file_type": "code",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L15",
+      "id": "lib_sanity_builder",
+      "community": 0,
+      "norm_label": "builder"
+    },
+    {
+      "label": "SanityImageSource",
+      "file_type": "code",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L17",
+      "id": "lib_sanity_sanityimagesource",
+      "community": 0,
+      "norm_label": "sanityimagesource"
+    },
+    {
+      "label": "urlFor()",
+      "file_type": "code",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L19",
+      "id": "lib_sanity_urlfor",
+      "community": 0,
+      "norm_label": "urlfor()"
+    },
+    {
+      "label": "BottomNav.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/BottomNav.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_bottomnav_tsx",
+      "community": 1,
+      "norm_label": "bottomnav.tsx"
+    },
+    {
+      "label": "BottomNav()",
+      "file_type": "code",
+      "source_file": "app/src/sections/BottomNav.tsx",
+      "source_location": "L5",
+      "id": "sections_bottomnav_bottomnav",
+      "community": 1,
+      "norm_label": "bottomnav()"
+    },
+    {
+      "label": "CalendarioExcursoes.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_calendarioexcursoes_tsx",
+      "community": 0,
+      "norm_label": "calendarioexcursoes.tsx"
+    },
+    {
+      "label": "EXCURSOES",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L8",
+      "id": "sections_calendarioexcursoes_excursoes",
+      "community": 0,
+      "norm_label": "excursoes"
+    },
+    {
+      "label": "getStatusColor()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L73",
+      "id": "sections_calendarioexcursoes_getstatuscolor",
+      "community": 0,
+      "norm_label": "getstatuscolor()"
+    },
+    {
+      "label": "formatStatus()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L92",
+      "id": "sections_calendarioexcursoes_formatstatus",
+      "community": 0,
+      "norm_label": "formatstatus()"
+    },
+    {
+      "label": "buildGalleryUrls()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L109",
+      "id": "sections_calendarioexcursoes_buildgalleryurls",
+      "community": 0,
+      "norm_label": "buildgalleryurls()"
+    },
+    {
+      "label": "ExcursaoItem()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L137",
+      "id": "sections_calendarioexcursoes_excursaoitem",
+      "community": 0,
+      "norm_label": "excursaoitem()"
+    },
+    {
+      "label": "CalendarioExcursoes()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L222",
+      "id": "sections_calendarioexcursoes_calendarioexcursoes",
+      "community": 1,
+      "norm_label": "calendarioexcursoes()"
+    },
+    {
+      "label": "CategoriasAventura.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_categoriasaventura_tsx",
+      "community": 1,
+      "norm_label": "categoriasaventura.tsx"
+    },
+    {
+      "label": "CATEGORIAS",
+      "file_type": "code",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L4",
+      "id": "sections_categoriasaventura_categorias",
+      "community": 1,
+      "norm_label": "categorias"
+    },
+    {
+      "label": "CategoriaItem()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L13",
+      "id": "sections_categoriasaventura_categoriaitem",
+      "community": 1,
+      "norm_label": "categoriaitem()"
+    },
+    {
+      "label": "CategoriasAventura()",
+      "file_type": "code",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L34",
+      "id": "sections_categoriasaventura_categoriasaventura",
+      "community": 1,
+      "norm_label": "categoriasaventura()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_footer_tsx",
+      "community": 1,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "NAV_LINKS",
+      "file_type": "code",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L3",
+      "id": "sections_footer_nav_links",
+      "community": 1,
+      "norm_label": "nav_links"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L14",
+      "id": "sections_footer_footer",
+      "community": 1,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "GridViagens.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_gridviagens_tsx",
+      "community": 1,
+      "norm_label": "gridviagens.tsx"
+    },
+    {
+      "label": "DESTINOS",
+      "file_type": "code",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L7",
+      "id": "sections_gridviagens_destinos",
+      "community": 1,
+      "norm_label": "destinos"
+    },
+    {
+      "label": "ViagemCard()",
+      "file_type": "code",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L20",
+      "id": "sections_gridviagens_viagemcard",
+      "community": 1,
+      "norm_label": "viagemcard()"
+    },
+    {
+      "label": "GridViagens()",
+      "file_type": "code",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L90",
+      "id": "sections_gridviagens_gridviagens",
+      "community": 1,
+      "norm_label": "gridviagens()"
+    },
+    {
+      "label": "HeroSection.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_herosection_tsx",
+      "community": 0,
+      "norm_label": "herosection.tsx"
+    },
+    {
+      "label": "PROXIMAS_SAIDAS_FALLBACK",
+      "file_type": "code",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L10",
+      "id": "sections_herosection_proximas_saidas_fallback",
+      "community": 0,
+      "norm_label": "proximas_saidas_fallback"
+    },
+    {
+      "label": "FormattedSaida",
+      "file_type": "code",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L16",
+      "id": "sections_herosection_formattedsaida",
+      "community": 0,
+      "norm_label": "formattedsaida"
+    },
+    {
+      "label": "HeroSection()",
+      "file_type": "code",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L22",
+      "id": "sections_herosection_herosection",
+      "community": 0,
+      "norm_label": "herosection()"
+    },
+    {
+      "label": "LeadCapture.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_leadcapture_tsx",
+      "community": 1,
+      "norm_label": "leadcapture.tsx"
+    },
+    {
+      "label": "LeadCapture()",
+      "file_type": "code",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L7",
+      "id": "sections_leadcapture_leadcapture",
+      "community": 1,
+      "norm_label": "leadcapture()"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_navbar_tsx",
+      "community": 1,
+      "norm_label": "navbar.tsx"
+    },
+    {
+      "label": "NAV_LINKS",
+      "file_type": "code",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L4",
+      "id": "sections_navbar_nav_links",
+      "community": 1,
+      "norm_label": "nav_links"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L15",
+      "id": "sections_navbar_navbar",
+      "community": 1,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "QuemSomos.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_quemsomos_tsx",
+      "community": 1,
+      "norm_label": "quemsomos.tsx"
+    },
+    {
+      "label": "QuemSomos()",
+      "file_type": "code",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L5",
+      "id": "sections_quemsomos_quemsomos",
+      "community": 1,
+      "norm_label": "quemsomos()"
+    },
+    {
+      "label": "SocialProof.tsx",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L1",
+      "id": "app_src_sections_socialproof_tsx",
+      "community": 0,
+      "norm_label": "socialproof.tsx"
+    },
+    {
+      "label": "DEPOIMENTOS",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L8",
+      "id": "sections_socialproof_depoimentos",
+      "community": 0,
+      "norm_label": "depoimentos"
+    },
+    {
+      "label": "ESTATISTICAS_FALLBACK",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L29",
+      "id": "sections_socialproof_estatisticas_fallback",
+      "community": 0,
+      "norm_label": "estatisticas_fallback"
+    },
+    {
+      "label": "getIconComponent()",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L36",
+      "id": "sections_socialproof_geticoncomponent",
+      "community": 0,
+      "norm_label": "geticoncomponent()"
+    },
+    {
+      "label": "DepoimentoCard()",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L46",
+      "id": "sections_socialproof_depoimentocard",
+      "community": 0,
+      "norm_label": "depoimentocard()"
+    },
+    {
+      "label": "SocialProof()",
+      "file_type": "code",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L80",
+      "id": "sections_socialproof_socialproof",
+      "community": 0,
+      "norm_label": "socialproof()"
+    },
+    {
+      "label": "sanity.ts",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L1",
+      "id": "app_src_types_sanity_ts",
+      "community": 0,
+      "norm_label": "sanity.ts"
+    },
+    {
+      "label": "SanityImage",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L1",
+      "id": "types_sanity_sanityimage",
+      "community": 0,
+      "norm_label": "sanityimage"
+    },
+    {
+      "label": "ProximaSaida",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L9",
+      "id": "types_sanity_proximasaida",
+      "community": 0,
+      "norm_label": "proximasaida"
+    },
+    {
+      "label": "Estatistica",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L17",
+      "id": "types_sanity_estatistica",
+      "community": 0,
+      "norm_label": "estatistica"
+    },
+    {
+      "label": "Excursao",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L26",
+      "id": "types_sanity_excursao",
+      "community": 0,
+      "norm_label": "excursao"
+    },
+    {
+      "label": "Destino",
+      "file_type": "code",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L37",
+      "id": "types_sanity_destino",
+      "community": 0,
+      "norm_label": "destino"
+    },
+    {
+      "label": "TC001_Use_the_floating_WhatsApp_button_from_the_landing_page.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC001_Use_the_floating_WhatsApp_button_from_the_landing_page.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc001_use_the_floating_whatsapp_button_from_the_landing_page_py",
+      "community": 19,
+      "norm_label": "tc001_use_the_floating_whatsapp_button_from_the_landing_page.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC001_Use_the_floating_WhatsApp_button_from_the_landing_page.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc001_use_the_floating_whatsapp_button_from_the_landing_page_run_test",
+      "community": 19,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC003_Reserve_an_excursion_directly_from_the_calendar_list.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC003_Reserve_an_excursion_directly_from_the_calendar_list.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc003_reserve_an_excursion_directly_from_the_calendar_list_py",
+      "community": 20,
+      "norm_label": "tc003_reserve_an_excursion_directly_from_the_calendar_list.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC003_Reserve_an_excursion_directly_from_the_calendar_list.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc003_reserve_an_excursion_directly_from_the_calendar_list_run_test",
+      "community": 20,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC004_Browse_the_gallery_and_view_a_photo_in_the_lightbox.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC004_Browse_the_gallery_and_view_a_photo_in_the_lightbox.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox_py",
+      "community": 21,
+      "norm_label": "tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC004_Browse_the_gallery_and_view_a_photo_in_the_lightbox.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox_run_test",
+      "community": 21,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC005_Show_fallback_excursions_when_CMS_content_is_unavailable.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC005_Show_fallback_excursions_when_CMS_content_is_unavailable.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc005_show_fallback_excursions_when_cms_content_is_unavailable_py",
+      "community": 22,
+      "norm_label": "tc005_show_fallback_excursions_when_cms_content_is_unavailable.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC005_Show_fallback_excursions_when_CMS_content_is_unavailable.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc005_show_fallback_excursions_when_cms_content_is_unavailable_run_test",
+      "community": 22,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC006_Open_an_excursions_details_from_the_calendar.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC006_Open_an_excursions_details_from_the_calendar.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc006_open_an_excursions_details_from_the_calendar_py",
+      "community": 23,
+      "norm_label": "tc006_open_an_excursions_details_from_the_calendar.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC006_Open_an_excursions_details_from_the_calendar.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc006_open_an_excursions_details_from_the_calendar_run_test",
+      "community": 23,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC007_Open_WhatsApp_from_the_contact_section.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC007_Open_WhatsApp_from_the_contact_section.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc007_open_whatsapp_from_the_contact_section_py",
+      "community": 24,
+      "norm_label": "tc007_open_whatsapp_from_the_contact_section.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC007_Open_WhatsApp_from_the_contact_section.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc007_open_whatsapp_from_the_contact_section_run_test",
+      "community": 24,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC008_Keep_gallery_interaction_usable_while_browsing_images.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC008_Keep_gallery_interaction_usable_while_browsing_images.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc008_keep_gallery_interaction_usable_while_browsing_images_py",
+      "community": 25,
+      "norm_label": "tc008_keep_gallery_interaction_usable_while_browsing_images.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC008_Keep_gallery_interaction_usable_while_browsing_images.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc008_keep_gallery_interaction_usable_while_browsing_images_run_test",
+      "community": 25,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC009_Reach_the_main_sections_in_the_expected_page_order.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC009_Reach_the_main_sections_in_the_expected_page_order.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc009_reach_the_main_sections_in_the_expected_page_order_py",
+      "community": 26,
+      "norm_label": "tc009_reach_the_main_sections_in_the_expected_page_order.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC009_Reach_the_main_sections_in_the_expected_page_order.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc009_reach_the_main_sections_in_the_expected_page_order_run_test",
+      "community": 26,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "TC010_Keep_the_reservation_action_available_with_long_excursion_text.py",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC010_Keep_the_reservation_action_available_with_long_excursion_text.py",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tc010_keep_the_reservation_action_available_with_long_excursion_text_py",
+      "community": 27,
+      "norm_label": "tc010_keep_the_reservation_action_available_with_long_excursion_text.py"
+    },
+    {
+      "label": "run_test()",
+      "file_type": "code",
+      "source_file": "app/testsprite_tests/TC010_Keep_the_reservation_action_available_with_long_excursion_text.py",
+      "source_location": "L6",
+      "id": "testsprite_tests_tc010_keep_the_reservation_action_available_with_long_excursion_text_run_test",
+      "community": 27,
+      "norm_label": "run_test()"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "lekinhostur/eslint.config.mjs",
+      "source_location": "L1",
+      "id": "lekinhostur_eslint_config_mjs",
+      "community": 33,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "sanity.cli.js",
+      "file_type": "code",
+      "source_file": "lekinhostur/sanity.cli.js",
+      "source_location": "L1",
+      "id": "lekinhostur_sanity_cli_js",
+      "community": 34,
+      "norm_label": "sanity.cli.js"
+    },
+    {
+      "label": "sanity.config.js",
+      "file_type": "code",
+      "source_file": "lekinhostur/sanity.config.js",
+      "source_location": "L1",
+      "id": "lekinhostur_sanity_config_js",
+      "community": 14,
+      "norm_label": "sanity.config.js"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L1",
+      "id": "lekinhostur_schematypes_index_js",
+      "community": 14,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "excursaoType",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L3",
+      "id": "schematypes_index_excursaotype",
+      "community": 14,
+      "norm_label": "excursaotype"
+    },
+    {
+      "label": "destinoType",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L72",
+      "id": "schematypes_index_destinotype",
+      "community": 14,
+      "norm_label": "destinotype"
+    },
+    {
+      "label": "proximaSaidaType",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L140",
+      "id": "schematypes_index_proximasaidatype",
+      "community": 14,
+      "norm_label": "proximasaidatype"
+    },
+    {
+      "label": "estatisticaType",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L172",
+      "id": "schematypes_index_estatisticatype",
+      "community": 14,
+      "norm_label": "estatisticatype"
+    },
+    {
+      "label": "schemaTypes",
+      "file_type": "code",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L212",
+      "id": "schematypes_index_schematypes",
+      "community": 14,
+      "norm_label": "schematypes"
+    },
+    {
+      "label": "info.md",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L1",
+      "id": "app_info_md",
+      "community": 15,
+      "norm_label": "info.md"
+    },
+    {
+      "label": "Informa\u00e7\u00f5es T\u00e9cnicas da Aplica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L1",
+      "id": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "community": 15,
+      "norm_label": "informacoes tecnicas da aplicacao"
+    },
+    {
+      "label": "Ambiente",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L3",
+      "id": "app_info_ambiente",
+      "community": 15,
+      "norm_label": "ambiente"
+    },
+    {
+      "label": "Otimiza\u00e7\u00e3o de Componentes",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L9",
+      "id": "app_info_otimiza\u00e7\u00e3o_de_componentes",
+      "community": 15,
+      "norm_label": "otimizacao de componentes"
+    },
+    {
+      "label": "Componentes Ativos (Core):",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L12",
+      "id": "app_info_componentes_ativos_core",
+      "community": 15,
+      "norm_label": "componentes ativos (core):"
+    },
+    {
+      "label": "Estrutura de Diret\u00f3rios",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L15",
+      "id": "app_info_estrutura_de_diret\u00f3rios",
+      "community": 15,
+      "norm_label": "estrutura de diretorios"
+    },
+    {
+      "label": "Performance",
+      "file_type": "document",
+      "source_file": "app/info.md",
+      "source_location": "L22",
+      "id": "app_info_performance",
+      "community": 15,
+      "norm_label": "performance"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "id": "app_readme_md",
+      "community": 7,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "LekinhosTUR - Landing Page",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "id": "app_readme_lekinhostur_landing_page",
+      "community": 7,
+      "norm_label": "lekinhostur - landing page"
+    },
+    {
+      "label": "\ud83d\ude80 Tecnologias Utilizadas",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L5",
+      "id": "app_readme_tecnologias_utilizadas",
+      "community": 7,
+      "norm_label": "\ud83d\ude80 tecnologias utilizadas"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f Configura\u00e7\u00e3o e Execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L13",
+      "id": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "community": 7,
+      "norm_label": "\ud83d\udee0\ufe0f configuracao e execucao"
+    },
+    {
+      "label": "code:bash (npm install)",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L16",
+      "id": "app_readme_codeblock_1",
+      "community": 7,
+      "norm_label": "code:bash (npm install)"
+    },
+    {
+      "label": "code:bash (npm run dev)",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L21",
+      "id": "app_readme_codeblock_2",
+      "community": 7,
+      "norm_label": "code:bash (npm run dev)"
+    },
+    {
+      "label": "code:bash (npm run build)",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L26",
+      "id": "app_readme_codeblock_3",
+      "community": 7,
+      "norm_label": "code:bash (npm run build)"
+    },
+    {
+      "label": "code:bash (npm run preview)",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L31",
+      "id": "app_readme_codeblock_4",
+      "community": 7,
+      "norm_label": "code:bash (npm run preview)"
+    },
+    {
+      "label": "\ud83d\udcc8 Estrat\u00e9gia de Desenvolvimento",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L35",
+      "id": "app_readme_estrat\u00e9gia_de_desenvolvimento",
+      "community": 7,
+      "norm_label": "\ud83d\udcc8 estrategia de desenvolvimento"
+    },
+    {
+      "label": "\u26a0\ufe0f Importante: Conex\u00e3o com Sanity (CORS)",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L42",
+      "id": "app_readme_importante_conex\u00e3o_com_sanity_cors",
+      "community": 7,
+      "norm_label": "\u26a0\ufe0f importante: conexao com sanity (cors)"
+    },
+    {
+      "label": "\u26a1 Otimiza\u00e7\u00f5es Implementadas",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L50",
+      "id": "app_readme_otimiza\u00e7\u00f5es_implementadas",
+      "community": 7,
+      "norm_label": "\u26a1 otimizacoes implementadas"
+    },
+    {
+      "label": "\ud83d\udcc2 Estrutura do Projeto",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L57",
+      "id": "app_readme_estrutura_do_projeto",
+      "community": 7,
+      "norm_label": "\ud83d\udcc2 estrutura do projeto"
+    },
+    {
+      "label": "raw_report.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_raw_report_md",
+      "community": 5,
+      "norm_label": "raw_report.md"
+    },
+    {
+      "label": "TestSprite AI Testing Report(MCP)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L2",
+      "id": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "community": 5,
+      "norm_label": "testsprite ai testing report(mcp)"
+    },
+    {
+      "label": "1\ufe0f\u20e3 Document Metadata",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L6",
+      "id": "tmp_raw_report_1_document_metadata",
+      "community": 5,
+      "norm_label": "1\ufe0f\u20e3 document metadata"
+    },
+    {
+      "label": "2\ufe0f\u20e3 Requirement Validation Summary",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L13",
+      "id": "tmp_raw_report_2_requirement_validation_summary",
+      "community": 5,
+      "norm_label": "2\ufe0f\u20e3 requirement validation summary"
+    },
+    {
+      "label": "Test TC001 Use the floating WhatsApp button from the landing page",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L15",
+      "id": "tmp_raw_report_test_tc001_use_the_floating_whatsapp_button_from_the_landing_page",
+      "community": 5,
+      "norm_label": "test tc001 use the floating whatsapp button from the landing page"
+    },
+    {
+      "label": "Test TC002 Open the excursions calendar and reserve a trip",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L22",
+      "id": "tmp_raw_report_test_tc002_open_the_excursions_calendar_and_reserve_a_trip",
+      "community": 5,
+      "norm_label": "test tc002 open the excursions calendar and reserve a trip"
+    },
+    {
+      "label": "Test TC003 Reserve an excursion directly from the calendar list",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L30",
+      "id": "tmp_raw_report_test_tc003_reserve_an_excursion_directly_from_the_calendar_list",
+      "community": 5,
+      "norm_label": "test tc003 reserve an excursion directly from the calendar list"
+    },
+    {
+      "label": "Test TC004 Browse the gallery and view a photo in the lightbox",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L37",
+      "id": "tmp_raw_report_test_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox",
+      "community": 5,
+      "norm_label": "test tc004 browse the gallery and view a photo in the lightbox"
+    },
+    {
+      "label": "Test TC005 Show fallback excursions when CMS content is unavailable",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L44",
+      "id": "tmp_raw_report_test_tc005_show_fallback_excursions_when_cms_content_is_unavailable",
+      "community": 5,
+      "norm_label": "test tc005 show fallback excursions when cms content is unavailable"
+    },
+    {
+      "label": "Test TC006 Open an excursion\u2019s details from the calendar",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L51",
+      "id": "tmp_raw_report_test_tc006_open_an_excursion_s_details_from_the_calendar",
+      "community": 5,
+      "norm_label": "test tc006 open an excursion\u2019s details from the calendar"
+    },
+    {
+      "label": "Test TC007 Open WhatsApp from the contact section",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L66",
+      "id": "tmp_raw_report_test_tc007_open_whatsapp_from_the_contact_section",
+      "community": 5,
+      "norm_label": "test tc007 open whatsapp from the contact section"
+    },
+    {
+      "label": "Test TC008 Keep gallery interaction usable while browsing images",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L73",
+      "id": "tmp_raw_report_test_tc008_keep_gallery_interaction_usable_while_browsing_images",
+      "community": 5,
+      "norm_label": "test tc008 keep gallery interaction usable while browsing images"
+    },
+    {
+      "label": "Test TC009 Reach the main sections in the expected page order",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L80",
+      "id": "tmp_raw_report_test_tc009_reach_the_main_sections_in_the_expected_page_order",
+      "community": 5,
+      "norm_label": "test tc009 reach the main sections in the expected page order"
+    },
+    {
+      "label": "Test TC010 Keep the reservation action available with long excursion text",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L87",
+      "id": "tmp_raw_report_test_tc010_keep_the_reservation_action_available_with_long_excursion_text",
+      "community": 5,
+      "norm_label": "test tc010 keep the reservation action available with long excursion text"
+    },
+    {
+      "label": "3\ufe0f\u20e3 Coverage & Matching Metrics",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L95",
+      "id": "tmp_raw_report_3_coverage_matching_metrics",
+      "community": 5,
+      "norm_label": "3\ufe0f\u20e3 coverage & matching metrics"
+    },
+    {
+      "label": "4\ufe0f\u20e3 Key Gaps / Risks",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L105",
+      "id": "tmp_raw_report_4_key_gaps_risks",
+      "community": 5,
+      "norm_label": "4\ufe0f\u20e3 key gaps / risks"
+    },
+    {
+      "label": "ARCHITECTURE.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_architecture_md",
+      "community": 2,
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "Arquitetura \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "prd_files_architecture_arquitetura_lekinhostur",
+      "community": 2,
+      "norm_label": "arquitetura \u2014 lekinhostur"
+    },
+    {
+      "label": "Vis\u00e3o Geral",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L7",
+      "id": "prd_files_architecture_vis\u00e3o_geral",
+      "community": 2,
+      "norm_label": "visao geral"
+    },
+    {
+      "label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L9",
+      "id": "prd_files_architecture_codeblock_1",
+      "community": 2,
+      "norm_label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)"
+    },
+    {
+      "label": "Tipo de Aplica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L29",
+      "id": "prd_files_architecture_tipo_de_aplica\u00e7\u00e3o",
+      "community": 2,
+      "norm_label": "tipo de aplicacao"
+    },
+    {
+      "label": "Padr\u00e3o Arquitetural",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L35",
+      "id": "prd_files_architecture_padr\u00e3o_arquitetural",
+      "community": 2,
+      "norm_label": "padrao arquitetural"
+    },
+    {
+      "label": "Frontend: Section-Based Architecture",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L37",
+      "id": "prd_files_architecture_frontend_section_based_architecture",
+      "community": 2,
+      "norm_label": "frontend: section-based architecture"
+    },
+    {
+      "label": "code:block2 (App.tsx (Compositor))",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L41",
+      "id": "prd_files_architecture_codeblock_2",
+      "community": 2,
+      "norm_label": "code:block2 (app.tsx (compositor))"
+    },
+    {
+      "label": "Data Flow",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L57",
+      "id": "prd_files_architecture_data_flow",
+      "community": 2,
+      "norm_label": "data flow"
+    },
+    {
+      "label": "code:block3 (Sanity CMS (Cloud) \u2500\u2500\u2500\u2500 GROQ Query \u2500\u2500\u2500\u2500\u25ba React Component)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L59",
+      "id": "prd_files_architecture_codeblock_3",
+      "community": 2,
+      "norm_label": "code:block3 (sanity cms (cloud) \u2500\u2500\u2500\u2500 groq query \u2500\u2500\u2500\u2500\u25ba react component)"
+    },
+    {
+      "label": "Camadas da Aplica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L73",
+      "id": "prd_files_architecture_camadas_da_aplica\u00e7\u00e3o",
+      "community": 2,
+      "norm_label": "camadas da aplicacao"
+    },
+    {
+      "label": "Decis\u00f5es Arquiteturais Not\u00e1veis",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L90",
+      "id": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "community": 2,
+      "norm_label": "decisoes arquiteturais notaveis"
+    },
+    {
+      "label": "1. Sem SSR/SSG",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L92",
+      "id": "prd_files_architecture_1_sem_ssr_ssg",
+      "community": 2,
+      "norm_label": "1. sem ssr/ssg"
+    },
+    {
+      "label": "2. Dados Duplicados",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L95",
+      "id": "prd_files_architecture_2_dados_duplicados",
+      "community": 2,
+      "norm_label": "2. dados duplicados"
+    },
+    {
+      "label": "3. Monorepo Sem Workspace Manager",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L98",
+      "id": "prd_files_architecture_3_monorepo_sem_workspace_manager",
+      "community": 2,
+      "norm_label": "3. monorepo sem workspace manager"
+    },
+    {
+      "label": "4. Biblioteca UI Over-provisioned",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L101",
+      "id": "prd_files_architecture_4_biblioteca_ui_over_provisioned",
+      "community": 2,
+      "norm_label": "4. biblioteca ui over-provisioned"
+    },
+    {
+      "label": "5. WhatsApp como CTA Principal",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L104",
+      "id": "prd_files_architecture_5_whatsapp_como_cta_principal",
+      "community": 2,
+      "norm_label": "5. whatsapp como cta principal"
+    },
+    {
+      "label": "Fluxo de Navega\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L109",
+      "id": "prd_files_architecture_fluxo_de_navega\u00e7\u00e3o",
+      "community": 2,
+      "norm_label": "fluxo de navegacao"
+    },
+    {
+      "label": "code:block4 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L111",
+      "id": "prd_files_architecture_codeblock_4",
+      "community": 2,
+      "norm_label": "code:block4 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)"
+    },
+    {
+      "label": "CONCERNS.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_concerns_md",
+      "community": 3,
+      "norm_label": "concerns.md"
+    },
+    {
+      "label": "Preocupa\u00e7\u00f5es e D\u00edvida T\u00e9cnica \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L1",
+      "id": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "community": 3,
+      "norm_label": "preocupacoes e divida tecnica \u2014 lekinhostur"
+    },
+    {
+      "label": "\ud83d\udd34 Cr\u00edtico",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L7",
+      "id": "prd_files_concerns_cr\u00edtico",
+      "community": 3,
+      "norm_label": "\ud83d\udd34 critico"
+    },
+    {
+      "label": "1. SEO \u2014 Client-Side Rendering",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L9",
+      "id": "prd_files_concerns_1_seo_client_side_rendering",
+      "community": 3,
+      "norm_label": "1. seo \u2014 client-side rendering"
+    },
+    {
+      "label": "2. Imagens N\u00e3o Otimizadas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L15",
+      "id": "prd_files_concerns_2_imagens_n\u00e3o_otimizadas",
+      "community": 3,
+      "norm_label": "2. imagens nao otimizadas"
+    },
+    {
+      "label": "3. Sem HTTPS/CSP Headers",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L24",
+      "id": "prd_files_concerns_3_sem_https_csp_headers",
+      "community": 3,
+      "norm_label": "3. sem https/csp headers"
+    },
+    {
+      "label": "\ud83d\udfe1 Importante",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L29",
+      "id": "prd_files_concerns_importante",
+      "community": 3,
+      "norm_label": "\ud83d\udfe1 importante"
+    },
+    {
+      "label": "4. WhatsApp Link Duplicado",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L31",
+      "id": "prd_files_concerns_4_whatsapp_link_duplicado",
+      "community": 3,
+      "norm_label": "4. whatsapp link duplicado"
+    },
+    {
+      "label": "5. Tipagem `any` Excessiva",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L36",
+      "id": "prd_files_concerns_5_tipagem_any_excessiva",
+      "community": 3,
+      "norm_label": "5. tipagem `any` excessiva"
+    },
+    {
+      "label": "code:typescript (const [excursoes, setExcursoes] = useState<any[]>(EXCURSOES))",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L38",
+      "id": "prd_files_concerns_codeblock_1",
+      "community": 3,
+      "norm_label": "code:typescript (const [excursoes, setexcursoes] = usestate<any[]>(excursoes))"
+    },
+    {
+      "label": "6. Depend\u00eancias N\u00e3o Utilizadas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L43",
+      "id": "prd_files_concerns_6_depend\u00eancias_n\u00e3o_utilizadas",
+      "community": 3,
+      "norm_label": "6. dependencias nao utilizadas"
+    },
+    {
+      "label": "7. Dados Duplicados (Fallback Hardcoded)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L48",
+      "id": "prd_files_concerns_7_dados_duplicados_fallback_hardcoded",
+      "community": 3,
+      "norm_label": "7. dados duplicados (fallback hardcoded)"
+    },
+    {
+      "label": "8. P\u00e1gina Home.tsx Vestigial",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L53",
+      "id": "prd_files_concerns_8_p\u00e1gina_home_tsx_vestigial",
+      "community": 3,
+      "norm_label": "8. pagina home.tsx vestigial"
+    },
+    {
+      "label": "\ud83d\udfe2 Menor",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L58",
+      "id": "prd_files_concerns_menor",
+      "community": 3,
+      "norm_label": "\ud83d\udfe2 menor"
+    },
+    {
+      "label": "9. Acessibilidade Parcial",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L60",
+      "id": "prd_files_concerns_9_acessibilidade_parcial",
+      "community": 3,
+      "norm_label": "9. acessibilidade parcial"
+    },
+    {
+      "label": "10. Sem Analytics",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L68",
+      "id": "prd_files_concerns_10_sem_analytics",
+      "community": 3,
+      "norm_label": "10. sem analytics"
+    },
+    {
+      "label": "11. Sem Meta Tags Din\u00e2micas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L71",
+      "id": "prd_files_concerns_11_sem_meta_tags_din\u00e2micas",
+      "community": 3,
+      "norm_label": "11. sem meta tags dinamicas"
+    },
+    {
+      "label": "12. Scroll Navigation Duplicada",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L74",
+      "id": "prd_files_concerns_12_scroll_navigation_duplicada",
+      "community": 3,
+      "norm_label": "12. scroll navigation duplicada"
+    },
+    {
+      "label": "Resumo de Risco",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L79",
+      "id": "prd_files_concerns_resumo_de_risco",
+      "community": 3,
+      "norm_label": "resumo de risco"
+    },
+    {
+      "label": "CONVENTIONS.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_conventions_md",
+      "community": 6,
+      "norm_label": "conventions.md"
+    },
+    {
+      "label": "Conven\u00e7\u00f5es de C\u00f3digo \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L1",
+      "id": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "community": 6,
+      "norm_label": "convencoes de codigo \u2014 lekinhostur"
+    },
+    {
+      "label": "Linguagem e Estilo",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L7",
+      "id": "prd_files_conventions_linguagem_e_estilo",
+      "community": 6,
+      "norm_label": "linguagem e estilo"
+    },
+    {
+      "label": "Padr\u00f5es React",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L13",
+      "id": "prd_files_conventions_padr\u00f5es_react",
+      "community": 6,
+      "norm_label": "padroes react"
+    },
+    {
+      "label": "Componentes",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L15",
+      "id": "prd_files_conventions_componentes",
+      "community": 6,
+      "norm_label": "componentes"
+    },
+    {
+      "label": "Estado e Efeitos",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L21",
+      "id": "prd_files_conventions_estado_e_efeitos",
+      "community": 6,
+      "norm_label": "estado e efeitos"
+    },
+    {
+      "label": "Hooks Customizados",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L26",
+      "id": "prd_files_conventions_hooks_customizados",
+      "community": 6,
+      "norm_label": "hooks customizados"
+    },
+    {
+      "label": "Estiliza\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L30",
+      "id": "prd_files_conventions_estiliza\u00e7\u00e3o",
+      "community": 6,
+      "norm_label": "estilizacao"
+    },
+    {
+      "label": "Padr\u00e3o de Anima\u00e7\u00e3o de Entrada",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L38",
+      "id": "prd_files_conventions_padr\u00e3o_de_anima\u00e7\u00e3o_de_entrada",
+      "community": 6,
+      "norm_label": "padrao de animacao de entrada"
+    },
+    {
+      "label": "code:tsx (const { ref, isVisible } = useScrollReveal(0.1);)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L39",
+      "id": "prd_files_conventions_codeblock_1",
+      "community": 6,
+      "norm_label": "code:tsx (const { ref, isvisible } = usescrollreveal(0.1);)"
+    },
+    {
+      "label": "Sanity CMS",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L46",
+      "id": "prd_files_conventions_sanity_cms",
+      "community": 6,
+      "norm_label": "sanity cms"
+    },
+    {
+      "label": "Schemas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L48",
+      "id": "prd_files_conventions_schemas",
+      "community": 6,
+      "norm_label": "schemas"
+    },
+    {
+      "label": "Nomenclatura de Schemas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L54",
+      "id": "prd_files_conventions_nomenclatura_de_schemas",
+      "community": 6,
+      "norm_label": "nomenclatura de schemas"
+    },
+    {
+      "label": "Organiza\u00e7\u00e3o de Imports",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L60",
+      "id": "prd_files_conventions_organiza\u00e7\u00e3o_de_imports",
+      "community": 6,
+      "norm_label": "organizacao de imports"
+    },
+    {
+      "label": "Constantes",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L69",
+      "id": "prd_files_conventions_constantes",
+      "community": 6,
+      "norm_label": "constantes"
+    },
+    {
+      "label": "INTEGRATIONS.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_integrations_md",
+      "community": 4,
+      "norm_label": "integrations.md"
+    },
+    {
+      "label": "Integra\u00e7\u00f5es \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L1",
+      "id": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "community": 4,
+      "norm_label": "integracoes \u2014 lekinhostur"
+    },
+    {
+      "label": "1. Sanity CMS (Headless CMS)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L7",
+      "id": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "community": 4,
+      "norm_label": "1. sanity cms (headless cms)"
+    },
+    {
+      "label": "Tipo de Integra\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L9",
+      "id": "prd_files_integrations_tipo_de_integra\u00e7\u00e3o",
+      "community": 4,
+      "norm_label": "tipo de integracao"
+    },
+    {
+      "label": "Configura\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L12",
+      "id": "prd_files_integrations_configura\u00e7\u00e3o",
+      "community": 4,
+      "norm_label": "configuracao"
+    },
+    {
+      "label": "Schemas Gerenciados (4 tipos)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L19",
+      "id": "prd_files_integrations_schemas_gerenciados_4_tipos",
+      "community": 4,
+      "norm_label": "schemas gerenciados (4 tipos)"
+    },
+    {
+      "label": "Padr\u00e3o de Fetching",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L27",
+      "id": "prd_files_integrations_padr\u00e3o_de_fetching",
+      "community": 4,
+      "norm_label": "padrao de fetching"
+    },
+    {
+      "label": "code:typescript (// Padr\u00e3o repetido em 4 componentes)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L34",
+      "id": "prd_files_integrations_codeblock_1",
+      "community": 4,
+      "norm_label": "code:typescript (// padrao repetido em 4 componentes)"
+    },
+    {
+      "label": "Queries GROQ Utilizadas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L44",
+      "id": "prd_files_integrations_queries_groq_utilizadas",
+      "community": 4,
+      "norm_label": "queries groq utilizadas"
+    },
+    {
+      "label": "2. WhatsApp Business API (Deep Links)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L54",
+      "id": "prd_files_integrations_2_whatsapp_business_api_deep_links",
+      "community": 4,
+      "norm_label": "2. whatsapp business api (deep links)"
+    },
+    {
+      "label": "Tipo de Integra\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L56",
+      "id": "prd_files_integrations_tipo_de_integra\u00e7\u00e3o_56",
+      "community": 4,
+      "norm_label": "tipo de integracao"
+    },
+    {
+      "label": "Configura\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L59",
+      "id": "prd_files_integrations_configura\u00e7\u00e3o_59",
+      "community": 4,
+      "norm_label": "configuracao"
+    },
+    {
+      "label": "Pontos de Entrada",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L63",
+      "id": "prd_files_integrations_pontos_de_entrada",
+      "community": 4,
+      "norm_label": "pontos de entrada"
+    },
+    {
+      "label": "3. Redes Sociais (Links Est\u00e1ticos)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L78",
+      "id": "prd_files_integrations_3_redes_sociais_links_est\u00e1ticos",
+      "community": 4,
+      "norm_label": "3. redes sociais (links estaticos)"
+    },
+    {
+      "label": "4. E-mail (Mailto)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L87",
+      "id": "prd_files_integrations_4_e_mail_mailto",
+      "community": 4,
+      "norm_label": "4. e-mail (mailto)"
+    },
+    {
+      "label": "5. Google Fonts (CDN Externo)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L95",
+      "id": "prd_files_integrations_5_google_fonts_cdn_externo",
+      "community": 4,
+      "norm_label": "5. google fonts (cdn externo)"
+    },
+    {
+      "label": "Integra\u00e7\u00f5es Ausentes (Potenciais Futuras)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L103",
+      "id": "prd_files_integrations_integra\u00e7\u00f5es_ausentes_potenciais_futuras",
+      "community": 4,
+      "norm_label": "integracoes ausentes (potenciais futuras)"
+    },
+    {
+      "label": "PROJECT.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_project_md",
+      "community": 8,
+      "norm_label": "project.md"
+    },
+    {
+      "label": "LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L1",
+      "id": "prd_files_project_lekinhostur",
+      "community": 8,
+      "norm_label": "lekinhostur"
+    },
+    {
+      "label": "O Que \u00c9 Este Projeto",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L3",
+      "id": "prd_files_project_o_que_\u00e9_este_projeto",
+      "community": 8,
+      "norm_label": "o que e este projeto"
+    },
+    {
+      "label": "Valor Central",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L7",
+      "id": "prd_files_project_valor_central",
+      "community": 8,
+      "norm_label": "valor central"
+    },
+    {
+      "label": "Requisitos",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L11",
+      "id": "prd_files_project_requisitos",
+      "community": 8,
+      "norm_label": "requisitos"
+    },
+    {
+      "label": "Validados",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L13",
+      "id": "prd_files_project_validados",
+      "community": 8,
+      "norm_label": "validados"
+    },
+    {
+      "label": "Ativos",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L21",
+      "id": "prd_files_project_ativos",
+      "community": 8,
+      "norm_label": "ativos"
+    },
+    {
+      "label": "Fora de Escopo",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L29",
+      "id": "prd_files_project_fora_de_escopo",
+      "community": 8,
+      "norm_label": "fora de escopo"
+    },
+    {
+      "label": "Contexto",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L34",
+      "id": "prd_files_project_contexto",
+      "community": 8,
+      "norm_label": "contexto"
+    },
+    {
+      "label": "Restri\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L38",
+      "id": "prd_files_project_restri\u00e7\u00f5es",
+      "community": 8,
+      "norm_label": "restricoes"
+    },
+    {
+      "label": "Decis\u00f5es Chave",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L44",
+      "id": "prd_files_project_decis\u00f5es_chave",
+      "community": 8,
+      "norm_label": "decisoes chave"
+    },
+    {
+      "label": "ROADMAP.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_roadmap_md",
+      "community": 10,
+      "norm_label": "roadmap.md"
+    },
+    {
+      "label": "Roadmap: LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L1",
+      "id": "prd_files_roadmap_roadmap_lekinhostur",
+      "community": 10,
+      "norm_label": "roadmap: lekinhostur"
+    },
+    {
+      "label": "Vis\u00e3o Geral",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L3",
+      "id": "prd_files_roadmap_vis\u00e3o_geral",
+      "community": 10,
+      "norm_label": "visao geral"
+    },
+    {
+      "label": "Fases",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L7",
+      "id": "prd_files_roadmap_fases",
+      "community": 10,
+      "norm_label": "fases"
+    },
+    {
+      "label": "Detalhes das Fases",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L14",
+      "id": "prd_files_roadmap_detalhes_das_fases",
+      "community": 10,
+      "norm_label": "detalhes das fases"
+    },
+    {
+      "label": "Fase 1: Refatora\u00e7\u00e3o & D\u00edvida T\u00e9cnica",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L16",
+      "id": "prd_files_roadmap_fase_1_refatora\u00e7\u00e3o_d\u00edvida_t\u00e9cnica",
+      "community": 10,
+      "norm_label": "fase 1: refatoracao & divida tecnica"
+    },
+    {
+      "label": "Fase 2: Otimiza\u00e7\u00e3o de Performance & Assets",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L26",
+      "id": "prd_files_roadmap_fase_2_otimiza\u00e7\u00e3o_de_performance_assets",
+      "community": 10,
+      "norm_label": "fase 2: otimizacao de performance & assets"
+    },
+    {
+      "label": "Fase de Estabiliza\u00e7\u00e3o: Auditoria TypeScript",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L36",
+      "id": "prd_files_roadmap_fase_de_estabiliza\u00e7\u00e3o_auditoria_typescript",
+      "community": 10,
+      "norm_label": "fase de estabilizacao: auditoria typescript"
+    },
+    {
+      "label": "Fase 3: An\u00e1lise & Base de SEO",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L45",
+      "id": "prd_files_roadmap_fase_3_an\u00e1lise_base_de_seo",
+      "community": 10,
+      "norm_label": "fase 3: analise & base de seo"
+    },
+    {
+      "label": "Progresso",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L54",
+      "id": "prd_files_roadmap_progresso",
+      "community": 10,
+      "norm_label": "progresso"
+    },
+    {
+      "label": "STACK.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_stack_md",
+      "community": 11,
+      "norm_label": "stack.md"
+    },
+    {
+      "label": "Stack Tecnol\u00f3gico \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L1",
+      "id": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "community": 11,
+      "norm_label": "stack tecnologico \u2014 lekinhostur"
+    },
+    {
+      "label": "Resumo Executivo",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L7",
+      "id": "prd_files_stack_resumo_executivo",
+      "community": 11,
+      "norm_label": "resumo executivo"
+    },
+    {
+      "label": "Frontend (`app/`)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L17",
+      "id": "prd_files_stack_frontend_app",
+      "community": 11,
+      "norm_label": "frontend (`app/`)"
+    },
+    {
+      "label": "Tipografia",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L38",
+      "id": "prd_files_stack_tipografia",
+      "community": 11,
+      "norm_label": "tipografia"
+    },
+    {
+      "label": "Paleta de Cores Principal",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L42",
+      "id": "prd_files_stack_paleta_de_cores_principal",
+      "community": 11,
+      "norm_label": "paleta de cores principal"
+    },
+    {
+      "label": "CMS \u2014 Sanity Studio (`lekinhostur/`)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L53",
+      "id": "prd_files_stack_cms_sanity_studio_lekinhostur",
+      "community": 11,
+      "norm_label": "cms \u2014 sanity studio (`lekinhostur/`)"
+    },
+    {
+      "label": "Credenciais do Projeto",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L64",
+      "id": "prd_files_stack_credenciais_do_projeto",
+      "community": 11,
+      "norm_label": "credenciais do projeto"
+    },
+    {
+      "label": "Infraestrutura e Deploy",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L71",
+      "id": "prd_files_stack_infraestrutura_e_deploy",
+      "community": 11,
+      "norm_label": "infraestrutura e deploy"
+    },
+    {
+      "label": "Depend\u00eancias Cr\u00edticas N\u00c3O Utilizadas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L83",
+      "id": "prd_files_stack_depend\u00eancias_cr\u00edticas_n\u00e3o_utilizadas",
+      "community": 11,
+      "norm_label": "dependencias criticas nao utilizadas"
+    },
+    {
+      "label": "STATE.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_state_md",
+      "community": 9,
+      "norm_label": "state.md"
+    },
+    {
+      "label": "Estado do Projeto",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L1",
+      "id": "prd_files_state_estado_do_projeto",
+      "community": 9,
+      "norm_label": "estado do projeto"
+    },
+    {
+      "label": "Refer\u00eancia do Projeto",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L3",
+      "id": "prd_files_state_refer\u00eancia_do_projeto",
+      "community": 9,
+      "norm_label": "referencia do projeto"
+    },
+    {
+      "label": "Posi\u00e7\u00e3o Atual",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L10",
+      "id": "prd_files_state_posi\u00e7\u00e3o_atual",
+      "community": 9,
+      "norm_label": "posicao atual"
+    },
+    {
+      "label": "M\u00e9tricas de Performance",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L21",
+      "id": "prd_files_state_m\u00e9tricas_de_performance",
+      "community": 9,
+      "norm_label": "metricas de performance"
+    },
+    {
+      "label": "Contexto Acumulado",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L40",
+      "id": "prd_files_state_contexto_acumulado",
+      "community": 9,
+      "norm_label": "contexto acumulado"
+    },
+    {
+      "label": "Decis\u00f5es",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L42",
+      "id": "prd_files_state_decis\u00f5es",
+      "community": 9,
+      "norm_label": "decisoes"
+    },
+    {
+      "label": "Pend\u00eancias (Todos)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L51",
+      "id": "prd_files_state_pend\u00eancias_todos",
+      "community": 9,
+      "norm_label": "pendencias (todos)"
+    },
+    {
+      "label": "Impedimentos/Preocupa\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L55",
+      "id": "prd_files_state_impedimentos_preocupa\u00e7\u00f5es",
+      "community": 9,
+      "norm_label": "impedimentos/preocupacoes"
+    },
+    {
+      "label": "Itens Adiados",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L59",
+      "id": "prd_files_state_itens_adiados",
+      "community": 9,
+      "norm_label": "itens adiados"
+    },
+    {
+      "label": "Continuidade da Sess\u00e3o",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L65",
+      "id": "prd_files_state_continuidade_da_sess\u00e3o",
+      "community": 9,
+      "norm_label": "continuidade da sessao"
+    },
+    {
+      "label": "STRUCTURE.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_structure_md",
+      "community": 12,
+      "norm_label": "structure.md"
+    },
+    {
+      "label": "Estrutura de Arquivos \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L1",
+      "id": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "community": 12,
+      "norm_label": "estrutura de arquivos \u2014 lekinhostur"
+    },
+    {
+      "label": "\u00c1rvore Principal",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L7",
+      "id": "prd_files_structure_\u00e1rvore_principal",
+      "community": 12,
+      "norm_label": "arvore principal"
+    },
+    {
+      "label": "code:block1 (Landing Page LekinhosTUR/)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L9",
+      "id": "prd_files_structure_codeblock_1",
+      "community": 12,
+      "norm_label": "code:block1 (landing page lekinhostur/)"
+    },
+    {
+      "label": "Se\u00e7\u00f5es (`src/sections/`)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L36",
+      "id": "prd_files_structure_se\u00e7\u00f5es_src_sections",
+      "community": 12,
+      "norm_label": "secoes (`src/sections/`)"
+    },
+    {
+      "label": "Depend\u00eancias entre Arquivos",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L51",
+      "id": "prd_files_structure_depend\u00eancias_entre_arquivos",
+      "community": 12,
+      "norm_label": "dependencias entre arquivos"
+    },
+    {
+      "label": "code:block2 (main.tsx \u2192 App.tsx)",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L53",
+      "id": "prd_files_structure_codeblock_2",
+      "community": 12,
+      "norm_label": "code:block2 (main.tsx \u2192 app.tsx)"
+    },
+    {
+      "label": "M\u00e9tricas",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L68",
+      "id": "prd_files_structure_m\u00e9tricas",
+      "community": 12,
+      "norm_label": "metricas"
+    },
+    {
+      "label": "TESTING.md",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L1",
+      "id": "app_testsprite_tests_tmp_prd_files_testing_md",
+      "community": 13,
+      "norm_label": "testing.md"
+    },
+    {
+      "label": "Testes \u2014 LekinhosTUR",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L1",
+      "id": "prd_files_testing_testes_lekinhostur",
+      "community": 13,
+      "norm_label": "testes \u2014 lekinhostur"
+    },
+    {
+      "label": "Estado Atual",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L7",
+      "id": "prd_files_testing_estado_atual",
+      "community": 13,
+      "norm_label": "estado atual"
+    },
+    {
+      "label": "Recomenda\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L18",
+      "id": "prd_files_testing_recomenda\u00e7\u00f5es",
+      "community": 13,
+      "norm_label": "recomendacoes"
+    },
+    {
+      "label": "Prioridade Alta",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L20",
+      "id": "prd_files_testing_prioridade_alta",
+      "community": 13,
+      "norm_label": "prioridade alta"
+    },
+    {
+      "label": "Prioridade M\u00e9dia",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L25",
+      "id": "prd_files_testing_prioridade_m\u00e9dia",
+      "community": 13,
+      "norm_label": "prioridade media"
+    },
+    {
+      "label": "Prioridade Baixa",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L32",
+      "id": "prd_files_testing_prioridade_baixa",
+      "community": 13,
+      "norm_label": "prioridade baixa"
+    },
+    {
+      "label": "Cobertura Estimada",
+      "file_type": "document",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L38",
+      "id": "prd_files_testing_cobertura_estimada",
+      "community": 13,
+      "norm_label": "cobertura estimada"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "lekinhostur/README.md",
+      "source_location": "L1",
+      "id": "lekinhostur_readme_md",
+      "community": 28,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Sanity Clean Content Studio",
+      "file_type": "document",
+      "source_file": "lekinhostur/README.md",
+      "source_location": "L1",
+      "id": "lekinhostur_readme_sanity_clean_content_studio",
+      "community": 28,
+      "norm_label": "sanity clean content studio"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "translate_gsd.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "translate_gsd_py",
+      "target": "landing_page_lekinhostur_translate_gsd_translate_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/scripts/optimize-images.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_scripts_optimize_images_py",
+      "target": "scripts_optimize_images_optimize_images",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_navbar_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_herosection_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_herosection_herosection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_gridviagens_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_gridviagens_gridviagens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_categoriasaventura_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_categoriasaventura_categoriasaventura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_quemsomos_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_quemsomos_quemsomos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_leadcapture_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_leadcapture_leadcapture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_footer_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_components_floatingwhatsapp_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "components_floatingwhatsapp_floatingwhatsapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "app_src_sections_bottomnav_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "sections_bottomnav_bottomnav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "src_app_calendarioexcursoes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "src_app_socialproof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "src_app_sectionfallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_src_app_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_main_tsx",
+      "target": "app_src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/FloatingWhatsApp.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_components_floatingwhatsapp_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/FloatingWhatsApp.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_components_floatingwhatsapp_tsx",
+      "target": "components_floatingwhatsapp_floatingwhatsapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_components_galerialightbox_tsx",
+      "target": "components_galerialightbox_galerialightboxprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_src_components_galerialightbox_tsx",
+      "target": "components_galerialightbox_galerialightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/GaleriaLightbox.tsx",
+      "source_location": "L316",
+      "weight": 1.0,
+      "source": "app_src_components_galerialightbox_tsx",
+      "target": "components_galerialightbox_mobileswipehint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_components_galerialightbox_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "components_galerialightbox_galerialightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "app_src_lib_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "lib_sanity_urlfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "app_src_types_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "types_sanity_sanityimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "common_optimizedimage_optimizedimageprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_src_components_common_optimizedimage_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_src_sections_footer_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_src_sections_navbar_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_quemsomos_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "app_src_components_common_optimizedimage_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_src_sections_footer_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_src_sections_navbar_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_quemsomos_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "common_optimizedimage_optimizedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/components/common/OptimizedImage.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "common_optimizedimage_optimizedimage",
+      "target": "lib_sanity_urlfor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/BottomNav.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_bottomnav_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_src_sections_footer_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_leadcapture_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_src_sections_navbar_tsx",
+      "target": "app_src_constants_contacts_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/hooks/use-mobile.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_hooks_use_mobile_ts",
+      "target": "hooks_use_mobile_useismobile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/hooks/useScrollReveal.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_hooks_usescrollreveal_ts",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_categoriasaventura_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_leadcapture_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_quemsomos_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "app_src_hooks_usescrollreveal_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_categoriasaventura_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_leadcapture_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_src_sections_quemsomos_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_excursaoitem",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_calendarioexcursoes",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "sections_categoriasaventura_categoriaitem",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "sections_categoriasaventura_categoriasaventura",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "sections_gridviagens_viagemcard",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "sections_gridviagens_gridviagens",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "sections_leadcapture_leadcapture",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "sections_quemsomos_quemsomos",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "sections_socialproof_depoimentocard",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "sections_socialproof_socialproof",
+      "target": "hooks_usescrollreveal_usescrollreveal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_lib_sanity_ts",
+      "target": "lib_sanity_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_src_lib_sanity_ts",
+      "target": "lib_sanity_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_src_lib_sanity_ts",
+      "target": "lib_sanity_sanityimagesource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/sanity.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "app_src_lib_sanity_ts",
+      "target": "lib_sanity_urlfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_lib_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "app_src_lib_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "app_src_lib_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "app_src_lib_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "lib_sanity_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "lib_sanity_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "lib_sanity_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "lib_sanity_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "lib_sanity_urlfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "lib_sanity_urlfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_buildgalleryurls",
+      "target": "lib_sanity_urlfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_excursaoitem",
+      "target": "lib_sanity_urlfor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/BottomNav.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_bottomnav_tsx",
+      "target": "sections_bottomnav_bottomnav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "app_src_types_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "types_sanity_excursao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "types_sanity_sanityimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_excursoes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_getstatuscolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_formatstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_buildgalleryurls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_excursaoitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "app_src_sections_calendarioexcursoes_tsx",
+      "target": "sections_calendarioexcursoes_calendarioexcursoes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_excursaoitem",
+      "target": "sections_calendarioexcursoes_getstatuscolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_excursaoitem",
+      "target": "sections_calendarioexcursoes_formatstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CalendarioExcursoes.tsx",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "sections_calendarioexcursoes_excursaoitem",
+      "target": "sections_calendarioexcursoes_buildgalleryurls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_categoriasaventura_tsx",
+      "target": "sections_categoriasaventura_categorias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_src_sections_categoriasaventura_tsx",
+      "target": "sections_categoriasaventura_categoriaitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/CategoriasAventura.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "app_src_sections_categoriasaventura_tsx",
+      "target": "sections_categoriasaventura_categoriasaventura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_src_sections_footer_tsx",
+      "target": "sections_footer_nav_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Footer.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_src_sections_footer_tsx",
+      "target": "sections_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "app_src_types_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "types_sanity_destino",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "sections_gridviagens_destinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "sections_gridviagens_viagemcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/GridViagens.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "app_src_sections_gridviagens_tsx",
+      "target": "sections_gridviagens_gridviagens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "app_src_types_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "types_sanity_proximasaida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "sections_herosection_proximas_saidas_fallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "sections_herosection_formattedsaida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/HeroSection.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "app_src_sections_herosection_tsx",
+      "target": "sections_herosection_herosection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/LeadCapture.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_src_sections_leadcapture_tsx",
+      "target": "sections_leadcapture_leadcapture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_src_sections_navbar_tsx",
+      "target": "sections_navbar_nav_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/Navbar.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_src_sections_navbar_tsx",
+      "target": "sections_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/QuemSomos.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_src_sections_quemsomos_tsx",
+      "target": "sections_quemsomos_quemsomos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "app_src_types_sanity_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "types_sanity_estatistica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "sections_socialproof_depoimentos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "sections_socialproof_estatisticas_fallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "sections_socialproof_geticoncomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "sections_socialproof_depoimentocard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/sections/SocialProof.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "app_src_sections_socialproof_tsx",
+      "target": "sections_socialproof_socialproof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_src_types_sanity_ts",
+      "target": "types_sanity_sanityimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_src_types_sanity_ts",
+      "target": "types_sanity_proximasaida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "app_src_types_sanity_ts",
+      "target": "types_sanity_estatistica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "app_src_types_sanity_ts",
+      "target": "types_sanity_excursao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/types/sanity.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "app_src_types_sanity_ts",
+      "target": "types_sanity_destino",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC001_Use_the_floating_WhatsApp_button_from_the_landing_page.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc001_use_the_floating_whatsapp_button_from_the_landing_page_py",
+      "target": "testsprite_tests_tc001_use_the_floating_whatsapp_button_from_the_landing_page_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC003_Reserve_an_excursion_directly_from_the_calendar_list.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc003_reserve_an_excursion_directly_from_the_calendar_list_py",
+      "target": "testsprite_tests_tc003_reserve_an_excursion_directly_from_the_calendar_list_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC004_Browse_the_gallery_and_view_a_photo_in_the_lightbox.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox_py",
+      "target": "testsprite_tests_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC005_Show_fallback_excursions_when_CMS_content_is_unavailable.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc005_show_fallback_excursions_when_cms_content_is_unavailable_py",
+      "target": "testsprite_tests_tc005_show_fallback_excursions_when_cms_content_is_unavailable_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC006_Open_an_excursions_details_from_the_calendar.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc006_open_an_excursions_details_from_the_calendar_py",
+      "target": "testsprite_tests_tc006_open_an_excursions_details_from_the_calendar_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC007_Open_WhatsApp_from_the_contact_section.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc007_open_whatsapp_from_the_contact_section_py",
+      "target": "testsprite_tests_tc007_open_whatsapp_from_the_contact_section_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC008_Keep_gallery_interaction_usable_while_browsing_images.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc008_keep_gallery_interaction_usable_while_browsing_images_py",
+      "target": "testsprite_tests_tc008_keep_gallery_interaction_usable_while_browsing_images_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC009_Reach_the_main_sections_in_the_expected_page_order.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc009_reach_the_main_sections_in_the_expected_page_order_py",
+      "target": "testsprite_tests_tc009_reach_the_main_sections_in_the_expected_page_order_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/TC010_Keep_the_reservation_action_available_with_long_excursion_text.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tc010_keep_the_reservation_action_available_with_long_excursion_text_py",
+      "target": "testsprite_tests_tc010_keep_the_reservation_action_available_with_long_excursion_text_run_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/sanity.config.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lekinhostur_sanity_config_js",
+      "target": "lekinhostur_schematypes_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/sanity.config.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lekinhostur_sanity_config_js",
+      "target": "schematypes_index_schematypes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "lekinhostur_schematypes_index_js",
+      "target": "schematypes_index_excursaotype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "lekinhostur_schematypes_index_js",
+      "target": "schematypes_index_destinotype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "lekinhostur_schematypes_index_js",
+      "target": "schematypes_index_proximasaidatype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "lekinhostur_schematypes_index_js",
+      "target": "schematypes_index_estatisticatype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/schemaTypes/index.js",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "lekinhostur_schematypes_index_js",
+      "target": "schematypes_index_schematypes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_info_md",
+      "target": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "target": "app_info_ambiente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "target": "app_info_otimiza\u00e7\u00e3o_de_componentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "target": "app_info_estrutura_de_diret\u00f3rios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "app_info_informa\u00e7\u00f5es_t\u00e9cnicas_da_aplica\u00e7\u00e3o",
+      "target": "app_info_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/info.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_info_otimiza\u00e7\u00e3o_de_componentes",
+      "target": "app_info_componentes_ativos_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_readme_md",
+      "target": "app_readme_lekinhostur_landing_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_readme_lekinhostur_landing_page",
+      "target": "app_readme_tecnologias_utilizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_readme_lekinhostur_landing_page",
+      "target": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "app_readme_lekinhostur_landing_page",
+      "target": "app_readme_estrat\u00e9gia_de_desenvolvimento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "app_readme_lekinhostur_landing_page",
+      "target": "app_readme_otimiza\u00e7\u00f5es_implementadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "app_readme_lekinhostur_landing_page",
+      "target": "app_readme_estrutura_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "target": "app_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "target": "app_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "target": "app_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "app_readme_configura\u00e7\u00e3o_e_execu\u00e7\u00e3o",
+      "target": "app_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "app_readme_estrat\u00e9gia_de_desenvolvimento",
+      "target": "app_readme_importante_conex\u00e3o_com_sanity_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_raw_report_md",
+      "target": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "target": "tmp_raw_report_1_document_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "target": "tmp_raw_report_2_requirement_validation_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "target": "tmp_raw_report_3_coverage_matching_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "tmp_raw_report_testsprite_ai_testing_report_mcp",
+      "target": "tmp_raw_report_4_key_gaps_risks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc001_use_the_floating_whatsapp_button_from_the_landing_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc002_open_the_excursions_calendar_and_reserve_a_trip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc003_reserve_an_excursion_directly_from_the_calendar_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc004_browse_the_gallery_and_view_a_photo_in_the_lightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc005_show_fallback_excursions_when_cms_content_is_unavailable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc006_open_an_excursion_s_details_from_the_calendar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc007_open_whatsapp_from_the_contact_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc008_keep_gallery_interaction_usable_while_browsing_images",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc009_reach_the_main_sections_in_the_expected_page_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/raw_report.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "tmp_raw_report_2_requirement_validation_summary",
+      "target": "tmp_raw_report_test_tc010_keep_the_reservation_action_available_with_long_excursion_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_architecture_md",
+      "target": "prd_files_architecture_arquitetura_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_vis\u00e3o_geral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_tipo_de_aplica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_padr\u00e3o_arquitetural",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_camadas_da_aplica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "prd_files_architecture_arquitetura_lekinhostur",
+      "target": "prd_files_architecture_fluxo_de_navega\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "prd_files_architecture_vis\u00e3o_geral",
+      "target": "prd_files_architecture_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "prd_files_architecture_padr\u00e3o_arquitetural",
+      "target": "prd_files_architecture_frontend_section_based_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "prd_files_architecture_padr\u00e3o_arquitetural",
+      "target": "prd_files_architecture_data_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "prd_files_architecture_frontend_section_based_architecture",
+      "target": "prd_files_architecture_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "prd_files_architecture_data_flow",
+      "target": "prd_files_architecture_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "target": "prd_files_architecture_1_sem_ssr_ssg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "target": "prd_files_architecture_2_dados_duplicados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "target": "prd_files_architecture_3_monorepo_sem_workspace_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "target": "prd_files_architecture_4_biblioteca_ui_over_provisioned",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "prd_files_architecture_decis\u00f5es_arquiteturais_not\u00e1veis",
+      "target": "prd_files_architecture_5_whatsapp_como_cta_principal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ARCHITECTURE.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "prd_files_architecture_fluxo_de_navega\u00e7\u00e3o",
+      "target": "prd_files_architecture_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_concerns_md",
+      "target": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "target": "prd_files_concerns_cr\u00edtico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "target": "prd_files_concerns_importante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "target": "prd_files_concerns_menor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "prd_files_concerns_preocupa\u00e7\u00f5es_e_d\u00edvida_t\u00e9cnica_lekinhostur",
+      "target": "prd_files_concerns_resumo_de_risco",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "prd_files_concerns_cr\u00edtico",
+      "target": "prd_files_concerns_1_seo_client_side_rendering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "prd_files_concerns_cr\u00edtico",
+      "target": "prd_files_concerns_2_imagens_n\u00e3o_otimizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "prd_files_concerns_cr\u00edtico",
+      "target": "prd_files_concerns_3_sem_https_csp_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "prd_files_concerns_importante",
+      "target": "prd_files_concerns_4_whatsapp_link_duplicado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "prd_files_concerns_importante",
+      "target": "prd_files_concerns_5_tipagem_any_excessiva",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "prd_files_concerns_importante",
+      "target": "prd_files_concerns_6_depend\u00eancias_n\u00e3o_utilizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "prd_files_concerns_importante",
+      "target": "prd_files_concerns_7_dados_duplicados_fallback_hardcoded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "prd_files_concerns_importante",
+      "target": "prd_files_concerns_8_p\u00e1gina_home_tsx_vestigial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "prd_files_concerns_5_tipagem_any_excessiva",
+      "target": "prd_files_concerns_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "prd_files_concerns_menor",
+      "target": "prd_files_concerns_9_acessibilidade_parcial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "prd_files_concerns_menor",
+      "target": "prd_files_concerns_10_sem_analytics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "prd_files_concerns_menor",
+      "target": "prd_files_concerns_11_sem_meta_tags_din\u00e2micas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONCERNS.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "prd_files_concerns_menor",
+      "target": "prd_files_concerns_12_scroll_navigation_duplicada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_conventions_md",
+      "target": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_linguagem_e_estilo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_padr\u00f5es_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_estiliza\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_sanity_cms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_organiza\u00e7\u00e3o_de_imports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "prd_files_conventions_conven\u00e7\u00f5es_de_c\u00f3digo_lekinhostur",
+      "target": "prd_files_conventions_constantes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "prd_files_conventions_padr\u00f5es_react",
+      "target": "prd_files_conventions_componentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "prd_files_conventions_padr\u00f5es_react",
+      "target": "prd_files_conventions_estado_e_efeitos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "prd_files_conventions_padr\u00f5es_react",
+      "target": "prd_files_conventions_hooks_customizados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "prd_files_conventions_estiliza\u00e7\u00e3o",
+      "target": "prd_files_conventions_padr\u00e3o_de_anima\u00e7\u00e3o_de_entrada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "prd_files_conventions_padr\u00e3o_de_anima\u00e7\u00e3o_de_entrada",
+      "target": "prd_files_conventions_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "prd_files_conventions_sanity_cms",
+      "target": "prd_files_conventions_schemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/CONVENTIONS.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "prd_files_conventions_sanity_cms",
+      "target": "prd_files_conventions_nomenclatura_de_schemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_integrations_md",
+      "target": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_2_whatsapp_business_api_deep_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_3_redes_sociais_links_est\u00e1ticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_4_e_mail_mailto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_5_google_fonts_cdn_externo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "prd_files_integrations_integra\u00e7\u00f5es_lekinhostur",
+      "target": "prd_files_integrations_integra\u00e7\u00f5es_ausentes_potenciais_futuras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "target": "prd_files_integrations_tipo_de_integra\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "target": "prd_files_integrations_configura\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "target": "prd_files_integrations_schemas_gerenciados_4_tipos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "target": "prd_files_integrations_padr\u00e3o_de_fetching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "prd_files_integrations_1_sanity_cms_headless_cms",
+      "target": "prd_files_integrations_queries_groq_utilizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "prd_files_integrations_padr\u00e3o_de_fetching",
+      "target": "prd_files_integrations_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "prd_files_integrations_2_whatsapp_business_api_deep_links",
+      "target": "prd_files_integrations_tipo_de_integra\u00e7\u00e3o_56",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "prd_files_integrations_2_whatsapp_business_api_deep_links",
+      "target": "prd_files_integrations_configura\u00e7\u00e3o_59",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/INTEGRATIONS.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "prd_files_integrations_2_whatsapp_business_api_deep_links",
+      "target": "prd_files_integrations_pontos_de_entrada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_project_md",
+      "target": "prd_files_project_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_o_que_\u00e9_este_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_valor_central",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_requisitos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_restri\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "prd_files_project_lekinhostur",
+      "target": "prd_files_project_decis\u00f5es_chave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "prd_files_project_requisitos",
+      "target": "prd_files_project_validados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "prd_files_project_requisitos",
+      "target": "prd_files_project_ativos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/PROJECT.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "prd_files_project_requisitos",
+      "target": "prd_files_project_fora_de_escopo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_roadmap_md",
+      "target": "prd_files_roadmap_roadmap_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_roadmap_lekinhostur",
+      "target": "prd_files_roadmap_vis\u00e3o_geral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_roadmap_lekinhostur",
+      "target": "prd_files_roadmap_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_roadmap_lekinhostur",
+      "target": "prd_files_roadmap_detalhes_das_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_roadmap_lekinhostur",
+      "target": "prd_files_roadmap_progresso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_detalhes_das_fases",
+      "target": "prd_files_roadmap_fase_1_refatora\u00e7\u00e3o_d\u00edvida_t\u00e9cnica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_detalhes_das_fases",
+      "target": "prd_files_roadmap_fase_2_otimiza\u00e7\u00e3o_de_performance_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_detalhes_das_fases",
+      "target": "prd_files_roadmap_fase_de_estabiliza\u00e7\u00e3o_auditoria_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/ROADMAP.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "prd_files_roadmap_detalhes_das_fases",
+      "target": "prd_files_roadmap_fase_3_an\u00e1lise_base_de_seo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_stack_md",
+      "target": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "target": "prd_files_stack_resumo_executivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "target": "prd_files_stack_frontend_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "target": "prd_files_stack_cms_sanity_studio_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "target": "prd_files_stack_infraestrutura_e_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "prd_files_stack_stack_tecnol\u00f3gico_lekinhostur",
+      "target": "prd_files_stack_depend\u00eancias_cr\u00edticas_n\u00e3o_utilizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "prd_files_stack_frontend_app",
+      "target": "prd_files_stack_tipografia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "prd_files_stack_frontend_app",
+      "target": "prd_files_stack_paleta_de_cores_principal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STACK.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "prd_files_stack_cms_sanity_studio_lekinhostur",
+      "target": "prd_files_stack_credenciais_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_state_md",
+      "target": "prd_files_state_estado_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_refer\u00eancia_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_posi\u00e7\u00e3o_atual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_m\u00e9tricas_de_performance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_contexto_acumulado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_itens_adiados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "prd_files_state_estado_do_projeto",
+      "target": "prd_files_state_continuidade_da_sess\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "prd_files_state_contexto_acumulado",
+      "target": "prd_files_state_decis\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "prd_files_state_contexto_acumulado",
+      "target": "prd_files_state_pend\u00eancias_todos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STATE.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "prd_files_state_contexto_acumulado",
+      "target": "prd_files_state_impedimentos_preocupa\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_structure_md",
+      "target": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "target": "prd_files_structure_\u00e1rvore_principal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "target": "prd_files_structure_se\u00e7\u00f5es_src_sections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "target": "prd_files_structure_depend\u00eancias_entre_arquivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "prd_files_structure_estrutura_de_arquivos_lekinhostur",
+      "target": "prd_files_structure_m\u00e9tricas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "prd_files_structure_\u00e1rvore_principal",
+      "target": "prd_files_structure_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/STRUCTURE.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "prd_files_structure_depend\u00eancias_entre_arquivos",
+      "target": "prd_files_structure_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_testsprite_tests_tmp_prd_files_testing_md",
+      "target": "prd_files_testing_testes_lekinhostur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "prd_files_testing_testes_lekinhostur",
+      "target": "prd_files_testing_estado_atual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "prd_files_testing_testes_lekinhostur",
+      "target": "prd_files_testing_recomenda\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "prd_files_testing_testes_lekinhostur",
+      "target": "prd_files_testing_cobertura_estimada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "prd_files_testing_recomenda\u00e7\u00f5es",
+      "target": "prd_files_testing_prioridade_alta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "prd_files_testing_recomenda\u00e7\u00f5es",
+      "target": "prd_files_testing_prioridade_m\u00e9dia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/testsprite_tests/tmp/prd_files/TESTING.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "prd_files_testing_recomenda\u00e7\u00f5es",
+      "target": "prd_files_testing_prioridade_baixa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lekinhostur/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "lekinhostur_readme_md",
+      "target": "lekinhostur_readme_sanity_clean_content_studio",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "9aa2d965014f396ede6cc2b673ded4a070caa20a"
+}

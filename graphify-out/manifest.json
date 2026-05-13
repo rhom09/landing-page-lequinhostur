@@ -1,0 +1,346 @@
+{
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\translate_gsd.py": {
+    "mtime": 1778537249.258265,
+    "hash": "a2b1c678433aa15d53a6735a5df56cc8"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\eslint.config.js": {
+    "mtime": 1777995456.0,
+    "hash": "b8893da386a89dfd3672dad848f4ec7e"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\postcss.config.js": {
+    "mtime": 1777995456.0,
+    "hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\tailwind.config.js": {
+    "mtime": 1777995536.0,
+    "hash": "b2c7eda75f7b21af9cfb7ab3bf74f220"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\vite.config.ts": {
+    "mtime": 1778629324.8975089,
+    "hash": "627aeac71cb8df950ae77a9ada0af389"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\scripts\\optimize-images.py": {
+    "mtime": 1778629324.827373,
+    "hash": "59d3e674d7fc126b8cdd48375b02a7da"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\App.tsx": {
+    "mtime": 1778629324.827373,
+    "hash": "900c032c528392318365e6cbcf1628d8"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\main.tsx": {
+    "mtime": 1777995456.0,
+    "hash": "fe4645d74fe6034b2e637fa8b1958087"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\components\\FloatingWhatsApp.tsx": {
+    "mtime": 1778629324.827373,
+    "hash": "6f1de58556ffa56d04f143805f5ffc3c"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\components\\GaleriaLightbox.tsx": {
+    "mtime": 1778104283.4059434,
+    "hash": "3b6c5033275a69c4901f6a2a65269c66"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\components\\common\\OptimizedImage.tsx": {
+    "mtime": 1778629324.827373,
+    "hash": "5b1200e91c860c21dcf67df71158ac13"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\constants\\contacts.ts": {
+    "mtime": 1778629324.827373,
+    "hash": "602cf38bbd5cd9c5ba9668676d24e307"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\hooks\\use-mobile.ts": {
+    "mtime": 1777995456.0,
+    "hash": "209b5193af16624cdd89d3591480dd48"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\hooks\\useScrollReveal.ts": {
+    "mtime": 1778629324.827373,
+    "hash": "dda42c05a46edad1520d325f9a48e907"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\lib\\sanity.ts": {
+    "mtime": 1778629324.8358817,
+    "hash": "e5782f32a7565ed0fa61bb33862716d5"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\BottomNav.tsx": {
+    "mtime": 1778629324.8358817,
+    "hash": "29fa9bbcdaa71b753ad3bebf7c7d7c9d"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\CalendarioExcursoes.tsx": {
+    "mtime": 1778629324.8358817,
+    "hash": "84a0a729d08b2ab399392368e7a5495a"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\CategoriasAventura.tsx": {
+    "mtime": 1778094682.5562322,
+    "hash": "bcbebae8681f9c989b920f4e6923c415"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\Footer.tsx": {
+    "mtime": 1778629324.8406343,
+    "hash": "cd2ad44ab0c9df10f9ddb863b8c13d81"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\GridViagens.tsx": {
+    "mtime": 1778629324.8406343,
+    "hash": "fce6f270496cf3ea46d838e00ecebae7"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\HeroSection.tsx": {
+    "mtime": 1778629324.8406343,
+    "hash": "24d4eb848bf26efc6bbbbd61d69ebea0"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\LeadCapture.tsx": {
+    "mtime": 1778629324.8500082,
+    "hash": "48b7637c2615dcb4598e64d77511eb54"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\Navbar.tsx": {
+    "mtime": 1778631053.952084,
+    "hash": "b1acf05c8a5026a8bbbd369aeac6fdf8"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\QuemSomos.tsx": {
+    "mtime": 1778629324.8534558,
+    "hash": "a63f4826cdf32b1c3e2b3fc19cbec2aa"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\sections\\SocialProof.tsx": {
+    "mtime": 1778629324.8534558,
+    "hash": "0c078c8a7f5534fe5015c131e2e7c9ac"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\src\\types\\sanity.ts": {
+    "mtime": 1778629324.8534558,
+    "hash": "1cbbc88515da2c8a6b3b4475d0ecec2e"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC001_Use_the_floating_WhatsApp_button_from_the_landing_page.py": {
+    "mtime": 1778629324.864222,
+    "hash": "7cb5f6fa9d115a068a089322dcab7e1c"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC003_Reserve_an_excursion_directly_from_the_calendar_list.py": {
+    "mtime": 1778629324.864741,
+    "hash": "b43e04c3c1f62b23b002ce44834130aa"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC004_Browse_the_gallery_and_view_a_photo_in_the_lightbox.py": {
+    "mtime": 1778629324.8673024,
+    "hash": "329b1379fcd0c6597f463045df8d718c"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC005_Show_fallback_excursions_when_CMS_content_is_unavailable.py": {
+    "mtime": 1778629324.8673024,
+    "hash": "444a5fadbd3c315126e0f20057478e50"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC006_Open_an_excursions_details_from_the_calendar.py": {
+    "mtime": 1778629324.8693285,
+    "hash": "d1a7e5c42bb3110ffed6199325fa6a0c"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC007_Open_WhatsApp_from_the_contact_section.py": {
+    "mtime": 1778629324.8708515,
+    "hash": "54aad4fa624dda3da7da5833f37f5524"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC008_Keep_gallery_interaction_usable_while_browsing_images.py": {
+    "mtime": 1778629324.8719501,
+    "hash": "f14d6c7e35729e5bde34694e98952f20"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC009_Reach_the_main_sections_in_the_expected_page_order.py": {
+    "mtime": 1778629324.8733633,
+    "hash": "444a5fadbd3c315126e0f20057478e50"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\TC010_Keep_the_reservation_action_available_with_long_excursion_text.py": {
+    "mtime": 1778629324.875379,
+    "hash": "ee2e6ac4bb1250f66802925e63ebcda4"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\lekinhostur\\eslint.config.mjs": {
+    "mtime": 1778014945.7220075,
+    "hash": "4ffae5752140b5b99964e2317024940a"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\lekinhostur\\sanity.cli.js": {
+    "mtime": 1778014945.7210085,
+    "hash": "ed19752a06dbb70bb550bc8f2d8a3647"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\lekinhostur\\sanity.config.js": {
+    "mtime": 1778014945.7220075,
+    "hash": "c56bd86e00a033d0c401db9fcfaf816b"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\lekinhostur\\schemaTypes\\index.js": {
+    "mtime": 1778104280.4061623,
+    "hash": "06c8019abf88475fa8515a34745499ad"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\index.html": {
+    "mtime": 1778631053.952084,
+    "hash": "3632e24cea9b8099e3b746a4b7d16eec"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\info.md": {
+    "mtime": 1778629324.790473,
+    "hash": "7c98cab988917d5eb8a7520dcb6278a5"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\README.md": {
+    "mtime": 1778629324.7874293,
+    "hash": "183db2613e48194920b7fa7346342a54"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\stats.html": {
+    "mtime": 1778631053.952084,
+    "hash": "25092b51c228b1de0365b0cb39f630bc"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\robots.txt": {
+    "mtime": 1778631053.952084,
+    "hash": "d1e5339a99bfc1c7290c26cb75924644"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\code_summary.yaml": {
+    "mtime": 1778629324.8767855,
+    "hash": "ebb73c1c4dd122ba51b9047695bdd0da"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\raw_report.md": {
+    "mtime": 1778629324.8944864,
+    "hash": "34d8ce40a981717f6edddf30fbe473ca"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\ARCHITECTURE.md": {
+    "mtime": 1778629324.8767855,
+    "hash": "9d4bebac7a817b1daee124fc4334f2c3"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\CONCERNS.md": {
+    "mtime": 1778629324.886034,
+    "hash": "e34ed3da5eea1dd6d175f31ce9b35339"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\CONVENTIONS.md": {
+    "mtime": 1778629324.886034,
+    "hash": "472223e172ff802e45d898ecc346c7a2"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\INTEGRATIONS.md": {
+    "mtime": 1778629324.886034,
+    "hash": "7439804ffa5eb448aee43edc91d38bd0"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\PROJECT.md": {
+    "mtime": 1778629324.889059,
+    "hash": "1b3e369628096c6d9932032c0ba3f8f6"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\ROADMAP.md": {
+    "mtime": 1778629324.8899474,
+    "hash": "0cd51bd92318ddee576ac82983dc5189"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\STACK.md": {
+    "mtime": 1778629324.891093,
+    "hash": "ccf6d691fcb586ede37e68568b773921"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\STATE.md": {
+    "mtime": 1778629324.8924582,
+    "hash": "dd4f0844b405ff876a2ddf0bd1147ac9"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\STRUCTURE.md": {
+    "mtime": 1778629324.8924582,
+    "hash": "c807fdd1b66c30d88c34598f49e264d5"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\testsprite_tests\\tmp\\prd_files\\TESTING.md": {
+    "mtime": 1778629324.8944864,
+    "hash": "60a2d165ad2e1ef3f250a43fdc645daa"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\lekinhostur\\README.md": {
+    "mtime": 1778014756.0635762,
+    "hash": "5deb9c59ccfc3d5452c68082b03348e0"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-aparecida.jpg": {
+    "mtime": 1777995420.0,
+    "hash": "735ab89c32dcba34f07ab31a9f0cf5be"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-aparecida.webp": {
+    "mtime": 1778629324.7980464,
+    "hash": "06caa613fb54fcc90941989c3846ab28"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-beto-carrero.jpg": {
+    "mtime": 1777995446.0,
+    "hash": "2c1ec91cf3cd76c80c40815a7105c59d"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-beto-carrero.webp": {
+    "mtime": 1778629324.7980464,
+    "hash": "2b26003bf6c30c6c8827b42dbff36dfc"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-campos-do-jordao.jpg": {
+    "mtime": 1777995419.0,
+    "hash": "7bc6e2c32349bacb0afab68544209fc6"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-campos-do-jordao.webp": {
+    "mtime": 1778629324.8020563,
+    "hash": "f4f074357b6444161c2e09fa53111393"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-gramado.jpg": {
+    "mtime": 1777995445.0,
+    "hash": "1e3fa9f10a785a64b29762dd27fc6ffa"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-gramado.webp": {
+    "mtime": 1778629324.8136172,
+    "hash": "612a16d84adbb8dd56ca45a7a3bdcca6"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-natal.jpg": {
+    "mtime": 1777995448.0,
+    "hash": "42537013125e05eaba7d1e96f28b73dd"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-natal.webp": {
+    "mtime": 1778629324.8141358,
+    "hash": "2d7529e64063f07349c98376e1ddc6e8"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-porto-de-galinhas.jpg": {
+    "mtime": 1777995420.0,
+    "hash": "e869b05cebd13b42785c521efc7c6c98"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-porto-de-galinhas.webp": {
+    "mtime": 1778629324.8141358,
+    "hash": "d42f2f322f3031047be37b2aca50a3bc"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-serra-gaucha.jpg": {
+    "mtime": 1777995446.0,
+    "hash": "052ddacdab2265271c61dd21bfb61243"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\destino-serra-gaucha.webp": {
+    "mtime": 1778629324.8141358,
+    "hash": "868666a56ac3cf49629d90ba28790eb3"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\favicon-32.png": {
+    "mtime": 1778629324.8141358,
+    "hash": "bf6df735993c53d2b0e0516a8347fe89"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\favicon.png": {
+    "mtime": 1778080586.7309527,
+    "hash": "0f6fb072a7c589c1b8c51041b43223b3"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\favicon.webp": {
+    "mtime": 1778629324.8141358,
+    "hash": "262b2f2d6fa8dea35a80a26ccaf053d1"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\hero-bus.jpg": {
+    "mtime": 1777995418.0,
+    "hash": "f585ebd51d9921a32d44b10a873d9d4c"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\hero-bus.webp": {
+    "mtime": 1778629324.8141358,
+    "hash": "db0a9afaa479f7113491298fb9b86d50"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-footer.png": {
+    "mtime": 1778081698.6046288,
+    "hash": "9dd27e21559e04fbfa0fee469b2a448a"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-footer.webp": {
+    "mtime": 1778629324.8232803,
+    "hash": "91a135e7645a9136d42f8a7821247630"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-mobile.png": {
+    "mtime": 1778089936.3974085,
+    "hash": "b5299ecf4a17a8719466817263d2b9fa"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-mobile.webp": {
+    "mtime": 1778629324.8247175,
+    "hash": "f27e0a6fb66c689c75828a2c3a528688"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-nav.png": {
+    "mtime": 1778081654.8641555,
+    "hash": "be834aa7216b713518fd79d3702d2d90"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo-nav.webp": {
+    "mtime": 1778629324.8252265,
+    "hash": "b58f0a12ee28c9363879ee6782afddfd"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo.png": {
+    "mtime": 1778080377.4692643,
+    "hash": "3ba42888d838d9219ba8e10cad760cd0"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\logo.webp": {
+    "mtime": 1778629324.827373,
+    "hash": "e79e441d145392e24956f4c89f14bcd9"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\onibus-frota.jpg": {
+    "mtime": 1777995446.0,
+    "hash": "051e9a430ddeff63c290927cfd5a13ce"
+  },
+  "C:\\Users\\Usuario\\Downloads\\lequinhostur\\Landing Page LekinhosTUR\\app\\public\\onibus-frota.webp": {
+    "mtime": 1778629324.827373,
+    "hash": "fbab2ba84dc4e714cc0f15b0bc03f537"
+  }
+}
