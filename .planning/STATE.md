@@ -5,18 +5,19 @@
 Veja: .planning/PROJECT.md (atualizado em 11/05/2026)
 
 **Valor central:** Conectar rapidamente clientes interessados em excursões ao atendimento personalizado via WhatsApp de forma confiável.
-**Foco atual:** Fase 2 (Otimização de Performance & Assets)
+**Foco atual:** Fase 4 (Expansão de Conteúdo & Conversão)
 
 ## Posição Atual
 
-Fase: Concluída (Fase 3: Análise & Base de SEO)
-Plano: 03-01-PLAN.md
-Status: Concluído
-Última atividade: 13/05/2026 — Fase 3 de SEO concluída, merge para `main` realizado e deploy em produção efetuado.
+Fase: Planejamento (Fase 4: Expansão de Conteúdo & Conversão)
+Plano: Nenhum (Em brainstorming)
+Status: Em andamento
+Última atividade: 13/05/2026 — Roadmap atualizado com a Fase 4 para migração de conteúdo estático para Sanity e melhoria na conversão via WhatsApp.
 
 Progresso: [██████████] 100% (Fase 1)
 Progresso: [██████████] 100% (Fase 2)
 Progresso: [██████████] 100% (Fase 3)
+Progresso: [░░░░░░░░░░] 0% (Fase 4)
 
 ## Métricas de Performance
 
@@ -66,6 +67,6 @@ Nenhuma por enquanto.
 
 ## Continuidade da Sessão
 
-Última sessão: 12/05/2026 20:53
-Parou em: Conclusão da Fase 3 de SEO.
-Arquivo de retomada: Nenhum
+Última sessão: 13/05/2026 17:53
+Parou em: Início do planejamento da Fase 4.
+Arquivo de retomada: .planning/ROADMAP.md

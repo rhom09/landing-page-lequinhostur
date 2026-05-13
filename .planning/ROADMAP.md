@@ -42,19 +42,18 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
   3. Hook `useScrollReveal` suportando múltiplos tipos de elementos HTML.
 **Planos**: Concluído
 
-### Fase 3: Análise & Base de SEO
-**Objetivo**: Construir uma base amigável para motores de busca.
-**Depende de**: Fase 2
-**Requisitos**: REQ-04
-**Critérios de Sucesso** (o que deve ser VERDADE):
-  1. Meta tags otimizadas e implementadas diretamente no `index.html`.
-  2. Relatório de decisão gerado sobre manter SPA ou migrar para SSR/SSG (Next.js) - Decidido manter SPA e focar em JSON-LD + Sitemap.
-**Planos**: Concluído (03-01-PLAN.md)
+### Fase 4: Expansão de Conteúdo & Conversão (Upgrade)
+**Objetivo**: Tornar o site 100% gerenciável e focar em ferramentas de venda.
+**Depende de**: Fase 3
+**Critérios de Sucesso**:
+  1. Seção "Quem Somos" migrada para o Sanity (texto e imagens).
+  2. Sistema de Depoimentos (Social Proof) dinâmico via Sanity.
+  3. Integração de WhatsApp com mensagens pré-definidas baseadas no contexto.
 
 ## Progresso
 
 **Ordem de Execução:**
-As fases executam em ordem numérica: 1 → 2 → 3
+As fases executam em ordem numérica: 1 → 2 → 3 → 4
 
 | Fase | Planos Concluídos | Status | Concluído em |
 |-------|----------------|--------|-----------|
@@ -62,3 +61,4 @@ As fases executam em ordem numérica: 1 → 2 → 3
 | 2. Otimização | 1/1 | Concluído | 11/05/2026 |
 | Auditoria TS | 1/1 | Concluído | 12/05/2026 |
 | 3. Base de SEO | 1/1 | Concluído | 12/05/2026 |
+| 4. Upgrade de Conteúdo | 0/1 | Em Planejamento | - |
