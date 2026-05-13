@@ -46,5 +46,6 @@ export interface Destino {
   badge_semana?: string;
   tag?: string;
   categoria?: string;
+  isUrgent?: boolean;
   order?: number;
 }

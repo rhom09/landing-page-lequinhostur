@@ -129,6 +129,13 @@ const destinoType = defineType({
       description: 'Ex: "22 FEV" ou "SOB DEMANDA"',
     }),
     defineField({
+      name: 'isUrgent',
+      title: 'Urgência (Efeito Pulsante)',
+      type: 'boolean',
+      description: 'Ativa o fundo vermelho e animação de pulso na etiqueta.',
+      initialValue: false,
+    }),
+    defineField({
       name: 'order',
       title: 'Ordem',
       type: 'number',

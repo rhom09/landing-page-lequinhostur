@@ -39,8 +39,8 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
         width={600}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
-      {/* Gradient overlay - mais alto para garantir leitura do texto */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0a1128]/90 via-[#0a1128]/30 to-transparent" />
+      {/* Gradient overlay - suavizado para não tampar a imagem */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0a1128]/60 via-[#0a1128]/20 to-transparent" />
 
       {/* Date badge (Top Left) */}
       {(destino.badge_mes || destino.badge_dia) && (
@@ -71,7 +71,7 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
 
       {/* Title & Info Container (Bottom - Glassmorphism) */}
       <div className="absolute bottom-3 left-3 right-3 z-10">
-        <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-2xl p-4 transform transition-all duration-300 group-hover:bg-black/50 group-hover:-translate-y-1">
+        <div className="bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl p-4 transform transition-all duration-300 group-hover:bg-black/30 group-hover:-translate-y-1">
           <div className="flex-1">
             {destino.categoria && (
               <div className="text-accent text-xs font-bold uppercase tracking-wider mb-1.5 drop-shadow-md">
