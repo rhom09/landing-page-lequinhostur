@@ -43,12 +43,13 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
 **Planos**: Concluído
 
 ### Fase 4: Expansão de Conteúdo & Conversão (Upgrade)
-**Objetivo**: Tornar o site 100% gerenciável e focar em ferramentas de venda.
+**Objetivo**: Tornar o site 100% gerenciável e focar em ferramentas de venda e refinamento visual premium.
 **Depende de**: Fase 3
 **Critérios de Sucesso**:
-  1. Seção "Quem Somos" migrada para o Sanity (texto e imagens).
-  2. Sistema de Depoimentos (Social Proof) dinâmico via Sanity.
-  3. Integração de WhatsApp com mensagens pré-definidas baseadas no contexto.
+  1. Seção "Quem Somos" e "Nossa Frota" migradas para o Sanity.
+  2. Sistema de Depoimentos (Social Proof) dinâmico com avatares.
+  3. Integração de WhatsApp com mensagens contextuais e botões flutuantes inteligentes.
+  4. Interface refinada com Glassmorphism, micro-interações e animações de scroll.
 
 ## Progresso
 
