@@ -58,11 +58,11 @@ export function HeroSection() {
 
         {/* Content */}
         <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center pt-[90px] lg:pt-[100px] pb-8 lg:pb-[140px]">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white text-shadow-lg leading-tight mb-6">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white text-shadow-lg leading-tight mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             Sua próxima viagem começa{' '}
             <span className="text-accent">aqui.</span>
           </h1>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150 fill-mode-both">
             <a
               href="#excursões"
               className="flex items-center gap-2 bg-accent text-lekinhos-gray-dark px-8 py-3.5 rounded-full font-semibold text-sm hover:bg-accent-hover transition-all duration-200 shadow-lg"
@@ -83,8 +83,8 @@ export function HeroSection() {
         </div>
 
         {/* Floating Banner — Desktop only (absolute) */}
-        <div className="hidden lg:block absolute bottom-8 left-1/2 -translate-x-1/2 z-20 w-[calc(100%-48px)] max-w-[900px]">
-          <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6">
+        <div className="hidden lg:block absolute bottom-8 left-1/2 -translate-x-1/2 z-20 w-[calc(100%-48px)] max-w-[900px] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+          <div className="bg-white/80 backdrop-blur-md border border-white/40 rounded-3xl shadow-2xl p-4 sm:p-6">
             <div className="flex items-center gap-2 mb-4">
               <span className="bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1 rounded-lg">
                 PRÓXIMAS SAÍDAS CONFIRMADAS
@@ -122,8 +122,8 @@ export function HeroSection() {
       </div>
 
       {/* Mobile Banner — normal flow, below the hero image */}
-      <div className="lg:hidden relative z-20 -mt-10 mx-4 mb-4">
-        <div className="bg-white rounded-2xl shadow-lg p-4">
+      <div className="lg:hidden relative z-20 -mt-10 mx-4 mb-4 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+        <div className="bg-white/85 backdrop-blur-md border border-white/50 rounded-3xl shadow-xl p-4">
           <div className="flex items-center gap-2 mb-3">
             <span className="bg-accent text-lekinhos-gray-dark text-xs font-bold px-3 py-1 rounded-lg">
               PRÓXIMAS SAÍDAS CONFIRMADAS

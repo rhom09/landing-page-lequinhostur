@@ -5,8 +5,8 @@ import { client } from '@/lib/sanity';
 import type { Destino } from '@/types/sanity';
 
 const DESTINOS = [
-  { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.webp', data: '15 JAN', badge_mes: 'JAN', badge_dia: '15', badge_semana: 'SEG' },
-  { nome: 'Campos do Jordão', img: '/destino-campos-do-jordao.webp', data: '22 FEV', badge_mes: 'FEV', badge_dia: '22', badge_semana: 'QUI' },
+  { nome: 'Porto de Galinhas', img: '/destino-porto-de-galinhas.webp', data: '15 JAN', badge_mes: 'JAN', badge_dia: '15', badge_semana: 'SEG', tag: '🔥 ÚLTIMAS VAGAS', isUrgent: true },
+  { nome: 'Campos do Jordão', img: '/destino-campos-do-jordao.webp', data: '22 FEV', badge_mes: 'FEV', badge_dia: '22', badge_semana: 'QUI', tag: '🚌 SAÍDA CONFIRMADA' },
   { nome: 'Aparecida do Norte', img: '/destino-aparecida.webp', data: '08 MAR', badge_mes: 'MAR', badge_dia: '08', badge_semana: 'DOM' },
   { nome: 'Serra Gaúcha', img: '/destino-serra-gaucha.webp', data: '05 ABR', badge_mes: 'ABR', badge_dia: '05', badge_semana: 'DOM' },
   { nome: 'Beto Carrero', img: '/destino-beto-carrero.webp', data: '12 MAI', badge_mes: 'MAI', badge_dia: '12', badge_semana: 'TER' },
@@ -61,25 +61,30 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
 
       {/* Optional Tag (Top Right) */}
       {destino.tag && (
-        <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-md z-10 transition-transform duration-300 group-hover:-translate-y-1">
+        <div className={`absolute top-4 right-4 text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-lg z-10 transition-all duration-300 group-hover:-translate-y-1 group-hover:scale-105 ${
+          destino.isUrgent || destino.tag.includes('ÚLTIMAS') ? 'bg-[#EF4444] text-white animate-pulse' : 
+          destino.tag.includes('CONFIRMADA') ? 'bg-[#10B981] text-white' : 'bg-accent text-lekinhos-gray-dark'
+        }`}>
           {destino.tag}
         </div>
       )}
 
-      {/* Title & Info Container (Bottom) */}
-      <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between z-10">
-        <div className="flex-1 pr-4">
-          {destino.categoria && (
-            <div className="text-yellow-400 text-xs font-bold uppercase tracking-wider mb-1.5 drop-shadow-md">
-              {destino.categoria}
+      {/* Title & Info Container (Bottom - Glassmorphism) */}
+      <div className="absolute bottom-3 left-3 right-3 z-10">
+        <div className="bg-black/40 backdrop-blur-md border border-white/10 rounded-2xl p-4 transform transition-all duration-300 group-hover:bg-black/50 group-hover:-translate-y-1">
+          <div className="flex-1">
+            {destino.categoria && (
+              <div className="text-accent text-xs font-bold uppercase tracking-wider mb-1.5 drop-shadow-md">
+                {destino.categoria}
+              </div>
+            )}
+            <h3 className="font-display text-2xl sm:text-[26px] text-white text-shadow-lg leading-tight mb-2.5 transition-colors duration-300 group-hover:text-accent">
+              {nome}
+            </h3>
+            <div className="flex items-center text-gray-200 text-sm font-medium">
+              <CalendarDays className="w-4 h-4 mr-1.5 opacity-90" />
+              <span>{duracao}</span>
             </div>
-          )}
-          <h3 className="font-serif text-2xl sm:text-[28px] text-white text-shadow-lg leading-tight mb-2.5">
-            {nome}
-          </h3>
-          <div className="flex items-center text-gray-200 text-sm font-medium">
-            <CalendarDays className="w-4 h-4 mr-1.5 opacity-90" />
-            <span>{duracao}</span>
           </div>
         </div>
       </div>
@@ -107,7 +112,7 @@ export function GridViagens() {
   }, []);
 
   return (
-    <section id="destinos" className="py-20 bg-gray-50">
+    <section id="destinos" className="py-20 bg-slate-50">
       <div className="max-w-[1200px] mx-auto px-6">
         <div
           ref={headerRef}
