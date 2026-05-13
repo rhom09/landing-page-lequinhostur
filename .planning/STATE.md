@@ -12,7 +12,7 @@ Veja: .planning/PROJECT.md (atualizado em 11/05/2026)
 Fase: Concluída (Fase 3: Análise & Base de SEO)
 Plano: 03-01-PLAN.md
 Status: Concluído
-Última atividade: 12/05/2026 — Fase 3 de SEO concluída com a implementação de Meta Tags, JSON-LD, sitemap e robots.txt.
+Última atividade: 13/05/2026 — Fase 3 de SEO concluída, merge para `main` realizado e deploy em produção efetuado.
 
 Progresso: [██████████] 100% (Fase 1)
 Progresso: [██████████] 100% (Fase 2)
