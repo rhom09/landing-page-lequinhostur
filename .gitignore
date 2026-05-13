@@ -23,6 +23,8 @@ app/dist-ssr/
 # Tooling
 .temp_ag_kit/
 .agent/
+.opencode/
+
 
 # Editor directories and files
 .vscode/*
