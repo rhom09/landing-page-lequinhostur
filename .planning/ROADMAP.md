@@ -66,7 +66,7 @@ Este roadmap reflete a iniciativa de estruturar o projeto existente (brownfield)
 8. Categorias clicáveis que filtram ou navegam para seções relevantes.
 9. Skeleton loading que espelha a estrutura real dos componentes.
 10. Código DRY — NAV_LINKS e handleNavClick extraídos para shared constants/hook.
-**Planos**: Pendente (05-01-PLAN.md)
+**Planos**: 05-01-PLAN.md (criado, aguardando execução)
 
 ---
 

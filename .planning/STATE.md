@@ -65,7 +65,7 @@ Progresso: [░░░░░░░░░░] 0% (Fase 5)
 - [ ] Fase 5 Onda 1: UI-04 — Unificar hardcoded #1D55B5 → lekinhos-blue (#4A67AB)
 - [ ] Fase 5 Onda 2: UI-05 a UI-11 — 7 itens de prioridade alta (reduced-motion, focus-visible, floating navbar, hero height, scroll progress, clickable categories, active BottomNav)
 - [ ] Fase 5 Onda 3: UI-12 a UI-20 — 9 itens médio/baixo (skeleton, avatars, DRY NAV_LINKS, DRY handleNavClick, filters, dead links, bg pattern, .webp fallbacks, JSON-LD)
-- [ ] Criar plano Fase 5 (05-01-PLAN.md) antes de executar
+- [x] Criar plano Fase 5 (05-01-PLAN.md) antes de executar
 - [ ] Executar Onda 1 (crítico) primeiro
 - [ ] Adicionar `https://*.vercel.app` ao CORS do Sanity para preview da branch dev
 
