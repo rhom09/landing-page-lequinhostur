@@ -25,6 +25,7 @@ Conectar rapidamente clientes interessados em excursões ao atendimento personal
 - [x] REQ-03: Limpeza de Bundle e Dívida Técnica (remover dependências de shadcn-ui não utilizadas e tipagens explicitas do Sanity).
 - [x] REQ-04: Estratégia de Branches e Homologação (Criação da branch `dev`).
 - [/] REQ-05: Estruturação para melhorias de SEO (Iniciando fase de análise).
+- [ ] REQ-06: Auditoria UI/UX Design — 20 melhorias priorizadas em 3 ondas (4 críticas, 7 altas, 9 médias/baixas). Inclui: remoção de animações infinitas decorativas, hamburger menu mobile, unificação de cores do design system, navbar flutuante, acessibilidade (reduced-motion, focus-visible), skeleton loading, DRY de NAV_LINKS/handleNavClick, JSON-LD TravelAgency.
 
 ### Fora de Escopo
 
