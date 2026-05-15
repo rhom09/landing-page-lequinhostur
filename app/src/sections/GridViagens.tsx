@@ -39,8 +39,8 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
         width={600}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
-      {/* Gradient overlay - suavizado para não tampar a imagem */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0a1128]/60 via-[#0a1128]/20 to-transparent" />
+      {/* Gradient overlay - Extremamente sutil apenas para base */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
 
       {/* Date badge (Top Left) */}
       {(destino.badge_mes || destino.badge_dia) && (
@@ -69,21 +69,21 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
         </div>
       )}
 
-      {/* Title & Info Container (Bottom - Glassmorphism) */}
-      <div className="absolute bottom-3 left-3 right-3 z-10">
-        <div className="bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl p-4 transform transition-all duration-300 group-hover:bg-black/30 group-hover:-translate-y-1">
-          <div className="flex-1">
+      {/* Title & Info Container (Bottom - White Glassmorphism) */}
+      <div className="absolute bottom-2.5 left-2.5 right-2.5 z-10">
+        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-3.5 h-[130px] flex flex-col justify-center transform transition-all duration-300 group-hover:bg-white/20 group-hover:-translate-y-1 shadow-2xl">
+          <div className="w-full">
             {destino.categoria && (
-              <div className="text-accent text-xs font-bold uppercase tracking-wider mb-1.5 drop-shadow-md">
+              <div className="text-accent text-[10px] font-bold uppercase tracking-[0.1em] mb-1 drop-shadow-sm">
                 {destino.categoria}
               </div>
             )}
-            <h3 className="font-display text-2xl sm:text-[26px] text-white text-shadow-lg leading-tight mb-2.5 transition-colors duration-300 group-hover:text-accent">
+            <h3 className="font-display text-lg sm:text-xl text-white text-shadow-md leading-tight mb-2 transition-colors duration-300 group-hover:text-accent line-clamp-2">
               {nome}
             </h3>
-            <div className="flex items-center text-gray-200 text-sm font-medium">
-              <CalendarDays className="w-4 h-4 mr-1.5 opacity-90" />
-              <span>{duracao}</span>
+            <div className="flex items-center text-white/90 text-xs font-medium">
+              <CalendarDays className="w-3.5 h-3.5 mr-1.5 opacity-80" />
+              <span className="truncate">{duracao}</span>
             </div>
           </div>
         </div>
