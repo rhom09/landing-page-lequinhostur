@@ -61,11 +61,12 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
 
       {/* Optional Tag (Top Right) */}
       {destino.tag && (
-        <div className={`absolute top-4 right-4 text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-lg z-10 transition-all duration-300 group-hover:-translate-y-1 group-hover:scale-105 ${
-          destino.isUrgent || destino.tag.includes('ÚLTIMAS') ? 'bg-[#EF4444] text-white animate-pulse' : 
+        <div className={`absolute top-4 right-4 text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-lg z-10 transition-all duration-300 group-hover:-translate-y-1 group-hover:scale-105 flex items-center gap-1 ${
+          destino.isUrgent || destino.tag.includes('ÚLTIMAS') ? 'bg-[#EF4444] text-white animate-pulse-slow' : 
           destino.tag.includes('CONFIRMADA') ? 'bg-[#10B981] text-white' : 'bg-accent text-lekinhos-gray-dark'
         }`}>
-          {destino.tag}
+          {(destino.isUrgent || destino.tag.includes('ÚLTIMAS')) && <span className="text-xs">🔥</span>}
+          <span>{destino.tag.replace(/🔥\s*/, '')}</span>
         </div>
       )}
 
