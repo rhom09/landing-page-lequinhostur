@@ -39,8 +39,8 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
         width={600}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
-      {/* Gradient overlay - Extremamente sutil apenas para base */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
+      {/* Gradient overlay - Removido para transparência máxima, mantido apenas um leve toque na base */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-40" />
 
       {/* Date badge (Top Left) */}
       {(destino.badge_mes || destino.badge_dia) && (
@@ -69,9 +69,9 @@ function ViagemCard({ destino, index }: { destino: Destino; index: number }) {
         </div>
       )}
 
-      {/* Title & Info Container (Bottom - White Glassmorphism) */}
+      {/* Title & Info Container (Bottom - Ultra-Light Glassmorphism) */}
       <div className="absolute bottom-2.5 left-2.5 right-2.5 z-10">
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-3.5 h-[130px] flex flex-col justify-center transform transition-all duration-300 group-hover:bg-white/20 group-hover:-translate-y-1 shadow-2xl">
+        <div className="bg-white/5 backdrop-blur-md border border-white/15 rounded-2xl py-3 px-4 h-[105px] flex flex-col justify-center transform transition-all duration-300 group-hover:bg-white/10 group-hover:-translate-y-1 shadow-xl">
           <div className="w-full">
             {destino.categoria && (
               <div className="text-accent text-[10px] font-bold uppercase tracking-[0.1em] mb-1 drop-shadow-sm">
