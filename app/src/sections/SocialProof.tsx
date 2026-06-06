@@ -33,6 +33,14 @@ const ESTATISTICAS_FALLBACK = [
   { icone: 'check-circle', valor: '100%', label: 'viagens realizadas' },
 ];
 
+interface Depoimento {
+  _id: string;
+  texto: string;
+  autor: string;
+  destino: string;
+  avatar: any;
+}
+
 const getIconComponent = (name: string) => {
   switch (name) {
     case 'users': return Users;
@@ -43,7 +51,7 @@ const getIconComponent = (name: string) => {
   }
 };
 
-function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[0]; index: number }) {
+function DepoimentoCard({ depoimento, index }: { depoimento: any; index: number }) {
   const { ref, isVisible } = useScrollReveal(0.1);
 
   return (
@@ -62,7 +70,7 @@ function DepoimentoCard({ depoimento, index }: { depoimento: typeof DEPOIMENTOS[
       </p>
       <div className="flex items-center gap-3">
         <OptimizedImage
-          src={depoimento.avatar}
+          src={depoimento.avatar || depoimento.avatar_fallback}
           alt={depoimento.autor}
           width={48}
           height={48}
@@ -81,48 +89,7 @@ export function SocialProof() {
   const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
   const { ref: statsRef, isVisible: statsVisible } = useScrollReveal(0.1);
   const [estatisticas, setEstatisticas] = useState<Estatistica[]>(ESTATISTICAS_FALLBACK);
-
-  useEffect(() => {
-    async function fetchEstatisticas() {
-      try {
-        const query = '*[_type == "estatistica"] | order(order asc)[0...4]';
-        const data = await client.fetch(query);
-        if (data && data.length > 0) {
-          setEstatisticas(data);
-        }
-      } catch (error) {
-        console.error("Erro ao buscar estatísticas no Sanity, usando fallback:", error);
-      }
-    }
-    fetchEstatisticas();
-  }, []);
-
-  return (
-    <section className="py-20 bg-lekinhos-blue">
-      <div className="max-w-[1200px] mx-auto px-6">
-        <div
-          ref={headerRef}
-          className={`text-center mb-12 ${headerVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
-        >
-          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-4">
-            O que nossos passageiros dizem
-          </h2>
-        </div>
-
-interface Depoimento {
-  _id: string;
-  texto: string;
-  autor: string;
-  destino: string;
-  avatar: any;
-}
-
-// ... (dentro da função SocialProof)
-export function SocialProof() {
-  const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
-  const { ref: statsRef, isVisible: statsVisible } = useScrollReveal(0.1);
-  const [estatisticas, setEstatisticas] = useState<Estatistica[]>(ESTATISTICAS_FALLBACK);
-  const [depoimentos, setDepoimentos] = useState<Depoimento[]>([]);
+  const [depoimentos, setDepoimentos] = useState<any[]>([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -144,6 +111,10 @@ export function SocialProof() {
     fetchData();
   }, []);
 
+  const renderedDepoimentos = depoimentos.length > 0
+    ? depoimentos.map(d => ({ ...d, avatar_fallback: d.avatar }))
+    : DEPOIMENTOS.map(d => ({ ...d, avatar_fallback: d.avatar }));
+
   return (
     <section className="py-20 bg-lekinhos-blue">
       <div className="max-w-[1200px] mx-auto px-6">
@@ -157,7 +128,7 @@ export function SocialProof() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          {(depoimentos.length > 0 ? depoimentos : DEPOIMENTOS).map((depoimento: any, index: number) => (
+          {renderedDepoimentos.map((depoimento, index) => (
             <DepoimentoCard
               key={depoimento._id || depoimento.autor}
               depoimento={depoimento}
@@ -165,26 +136,6 @@ export function SocialProof() {
             />
           ))}
         </div>
-
-        <div
-          ref={statsRef}
-          className={`grid grid-cols-2 sm:grid-cols-4 gap-6 border-t border-white/20 pt-12 ${statsVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
-        >
-          {estatisticas.map((stat, index) => {
-            const Icon = getIconComponent(stat.icone);
-            return (
-              <div key={index} className="text-center">
-                <Icon className="w-6 h-6 text-accent mx-auto mb-2" />
-                <p className="font-display text-2xl sm:text-3xl text-accent mb-1">{stat.valor}</p>
-                <p className="text-white/80 text-xs sm:text-sm">{stat.rotulo || stat.label}</p>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
 
         <div
           ref={statsRef}
