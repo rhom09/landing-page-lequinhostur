@@ -118,27 +118,44 @@ interface Depoimento {
 }
 
 // ... (dentro da função SocialProof)
+export function SocialProof() {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollReveal(0.1);
+  const { ref: statsRef, isVisible: statsVisible } = useScrollReveal(0.1);
+  const [estatisticas, setEstatisticas] = useState<Estatistica[]>(ESTATISTICAS_FALLBACK);
   const [depoimentos, setDepoimentos] = useState<Depoimento[]>([]);
 
   useEffect(() => {
-    async function fetchDepoimentos() {
+    async function fetchData() {
       try {
-        const query = '*[_type == "depoimento"] | order(order asc)[0...3] { _id, texto, autor, destino, "avatar": avatar.asset->url }';
-        const data = await client.fetch(query);
-        if (data && data.length > 0) {
-          setDepoimentos(data);
-        } else {
-          setDepoimentos([]);
-        }
+        const queryEst = '*[_type == "estatistica"] | order(order asc)[0...4]';
+        const queryDep = '*[_type == "depoimento"] | order(order asc)[0...3] { _id, texto, autor, destino, "avatar": avatar.asset->url }';
+
+        const [dataEst, dataDep] = await Promise.all([
+          client.fetch(queryEst),
+          client.fetch(queryDep)
+        ]);
+
+        if (dataEst && dataEst.length > 0) setEstatisticas(dataEst);
+        if (dataDep && dataDep.length > 0) setDepoimentos(dataDep);
       } catch (error) {
-        console.error("Erro ao buscar depoimentos, usando fallback:", error);
-        setDepoimentos([]);
+        console.error("Erro ao buscar dados do Sanity:", error);
       }
     }
-    fetchDepoimentos();
+    fetchData();
   }, []);
 
-// ... (no render)
+  return (
+    <section className="py-20 bg-lekinhos-blue">
+      <div className="max-w-[1200px] mx-auto px-6">
+        <div
+          ref={headerRef}
+          className={`text-center mb-12 ${headerVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+        >
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-4">
+            O que nossos passageiros dizem
+          </h2>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {(depoimentos.length > 0 ? depoimentos : DEPOIMENTOS).map((depoimento: any, index: number) => (
             <DepoimentoCard
@@ -148,6 +165,26 @@ interface Depoimento {
             />
           ))}
         </div>
+
+        <div
+          ref={statsRef}
+          className={`grid grid-cols-2 sm:grid-cols-4 gap-6 border-t border-white/20 pt-12 ${statsVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+        >
+          {estatisticas.map((stat, index) => {
+            const Icon = getIconComponent(stat.icone);
+            return (
+              <div key={index} className="text-center">
+                <Icon className="w-6 h-6 text-accent mx-auto mb-2" />
+                <p className="font-display text-2xl sm:text-3xl text-accent mb-1">{stat.valor}</p>
+                <p className="text-white/80 text-xs sm:text-sm">{stat.rotulo || stat.label}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
 
         <div
           ref={statsRef}
