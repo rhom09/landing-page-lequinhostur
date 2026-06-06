@@ -109,9 +109,43 @@ export function SocialProof() {
           </h2>
         </div>
 
+interface Depoimento {
+  _id: string;
+  texto: string;
+  autor: string;
+  destino: string;
+  avatar: any;
+}
+
+// ... (dentro da função SocialProof)
+  const [depoimentos, setDepoimentos] = useState<Depoimento[]>([]);
+
+  useEffect(() => {
+    async function fetchDepoimentos() {
+      try {
+        const query = '*[_type == "depoimento"] | order(order asc)[0...3] { _id, texto, autor, destino, "avatar": avatar.asset->url }';
+        const data = await client.fetch(query);
+        if (data && data.length > 0) {
+          setDepoimentos(data);
+        } else {
+          setDepoimentos([]);
+        }
+      } catch (error) {
+        console.error("Erro ao buscar depoimentos, usando fallback:", error);
+        setDepoimentos([]);
+      }
+    }
+    fetchDepoimentos();
+  }, []);
+
+// ... (no render)
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          {DEPOIMENTOS.map((depoimento, index) => (
-            <DepoimentoCard key={depoimento.autor} depoimento={depoimento} index={index} />
+          {(depoimentos.length > 0 ? depoimentos : DEPOIMENTOS).map((depoimento: any, index: number) => (
+            <DepoimentoCard
+              key={depoimento._id || depoimento.autor}
+              depoimento={depoimento}
+              index={index}
+            />
           ))}
         </div>
 

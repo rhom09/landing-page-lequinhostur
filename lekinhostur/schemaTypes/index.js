@@ -209,4 +209,40 @@ const estatisticaType = defineType({
   ],
 });
 
-export const schemaTypes = [excursaoType, destinoType, proximaSaidaType, estatisticaType]
+const depoimentoType = defineType({
+  name: 'depoimento',
+  title: 'Depoimentos (Social Proof)',
+  type: 'document',
+  fields: [
+    defineField({
+      name: 'texto',
+      title: 'Texto do Depoimento',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'autor',
+      title: 'Nome do Autor',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'destino',
+      title: 'Destino Visitado',
+      type: 'string',
+    }),
+    defineField({
+      name: 'avatar',
+      title: 'Foto do Autor',
+      type: 'image',
+    }),
+    defineField({
+      name: 'order',
+      title: 'Ordem',
+      type: 'number',
+      initialValue: 0,
+    }),
+  ],
+});
+
+export const schemaTypes = [excursaoType, destinoType, proximaSaidaType, estatisticaType, depoimentoType]
