@@ -33,7 +33,10 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   if (typeof src === 'string') {
     // Se for um link estático e estivermos em produção/build,
     // podemos assumir que o .webp existe (graças ao optimize-images.py)
-    if ((src.endsWith('.png') || src.endsWith('.jpg') || src.endsWith('.jpeg')) && !src.includes('HeroLekinhosTUR')) {
+    if ((src.endsWith('.png') || src.endsWith('.jpg') || src.endsWith('.jpeg')) &&
+        !src.includes('HeroLekinhosTUR') &&
+        !src.includes('Hero-Mobile-Desktop') &&
+        !src.includes('QuemSomos-Landscape')) {
       finalSrc = src.replace(/\.(png|jpg|jpeg)$/, '.webp');
     } else {
       finalSrc = src;
