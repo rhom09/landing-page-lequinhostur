@@ -48,7 +48,7 @@ export function HeroSection() {
       <div className="relative min-h-[70vh] lg:min-h-[100vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <OptimizedImage
-            src="/hero-bus.webp"
+            src="/HeroLekinhosTUR.jpeg"
             alt="Ônibus de turismo em estrada cênica"
             className="w-full h-full object-cover"
             priority={true}

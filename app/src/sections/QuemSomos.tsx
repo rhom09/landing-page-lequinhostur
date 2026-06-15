@@ -15,7 +15,7 @@ export function QuemSomos() {
           {/* Image */}
           <div className="relative">
             <OptimizedImage
-              src="/onibus-frota.jpg"
+              src="/HeroLekinhosTUR.jpeg"
               alt="Ônibus da frota Lekinhos TUR"
               className="w-full rounded-2xl shadow-lg object-cover aspect-video"
             />
