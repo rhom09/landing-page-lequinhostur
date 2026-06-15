@@ -17,7 +17,7 @@ export function QuemSomos() {
             <OptimizedImage
               src="/HeroLekinhosTUR.jpeg"
               alt="Ônibus da frota Lekinhos TUR"
-              className="w-full rounded-2xl shadow-lg object-cover aspect-video"
+              className="w-full rounded-2xl shadow-lg object-cover object-center aspect-video"
             />
           </div>
 

@@ -50,7 +50,7 @@ export function HeroSection() {
           <OptimizedImage
             src="/HeroLekinhosTUR.jpeg"
             alt="Ônibus de turismo em estrada cênica"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
             priority={true}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
